@@ -79,6 +79,7 @@
 			/obj/item/storage/holster/blade/machete/full_harvester = -1,
 			/obj/item/weapon/twohanded/spear/tactical = -1,
 			/obj/item/weapon/twohanded/glaive/harvester = -1,
+			/obj/item/weapon/twohanded/spear/candycane = -1,
 			/obj/item/weapon/powerfist = -1,
 			/obj/item/weapon/shield/riot/marine = 6,
 			/obj/item/weapon/shield/riot/marine/deployable = 6,
@@ -286,6 +287,7 @@
 			/obj/item/ammo_magazine/standard_mmg = -1,
 		),
 		"Melee" = list(
+			/obj/item/weapon/twohanded/spear/candycane = -1,
 			/obj/item/weapon/combat_knife = -1,
 			/obj/item/attachable/bayonetknife = -1,
 			/obj/item/stack/throwing_knife = -1,
@@ -484,6 +486,7 @@
 			/obj/item/ammo_magazine/standard_mmg = -1,
 		),
 		"Melee" = list(
+			/obj/item/weapon/twohanded/spear/candycane = -1,
 			/obj/item/weapon/combat_knife = -1,
 			/obj/item/attachable/bayonetknife = -1,
 			/obj/item/stack/throwing_knife = -1,
@@ -854,9 +857,15 @@
 		/obj/item/reagent_containers/food/snacks/mre_pack/meal4 = -1,
 		/obj/item/reagent_containers/food/snacks/mre_pack/meal5 = -1,
 		/obj/item/reagent_containers/food/snacks/mre_pack/meal6 = -1,
+		/obj/item/reagent_containers/food/snacks/mre_pack/xmas1 = 25,
+		/obj/item/reagent_containers/food/snacks/mre_pack/xmas2 = 25,
+		/obj/item/reagent_containers/food/snacks/mre_pack/xmas3 = 25,
 		/obj/item/storage/box/MRE = -1,
 		/obj/item/reagent_containers/food/drinks/flask/marine = -1,
 	)
+	vend_delay = 15
+	//product_slogans = "Standard Issue Marine food!;It's good for you, and not the worst thing in the world.;Just fucking eat it.;"
+	product_ads = "Try the cornbread.;Try the pizza.;Try the pasta.;Try the tofu, wimp.;Try the pork.; 9 Flavors of Protein!; You'll never guess the mystery flavor!"
 //Christmas inventory
 /*
 					/obj/item/reagent_containers/food/snacks/mre_pack/xmas1 = 25,
@@ -1263,6 +1272,8 @@
 			/obj/item/storage/pouch/protein_pack = -1,
 		),
 		"Headwear" = list(
+			/obj/item/clothing/head/helmet/space/elf/regular = -1,
+			/obj/item/clothing/head/helmet/space/santahat = -1,
 			/obj/item/clothing/head/modular/style/beret = -1,
 			/obj/item/clothing/head/modular/style/classic_beret = -1,
 			/obj/item/clothing/head/modular/style/boonie = -1,
@@ -1292,6 +1303,7 @@
 			/obj/item/clothing/mask/gas = -1,
 			/obj/item/clothing/mask/gas/tactical = -1,
 			/obj/item/clothing/mask/gas/tactical/coif = -1,
+			/obj/item/clothing/mask/gas/tactical/coif/beard = -1,
 		),
 		"Backpacks" = list(
 			/obj/item/storage/backpack/marine/standard = -1,
@@ -1462,6 +1474,7 @@
 			/obj/item/ammo_magazine/m412l1_hpr = -1,
 			/obj/item/weapon/gun/rifle/famas = -1,
 			/obj/item/ammo_magazine/rifle/famas = -1,
+			/obj/item/weapon/twohanded/spear/candycane = -1,
 		),
 		"Mounted" = list(
 			/obj/item/weapon/gun/standard_auto_cannon = -1,

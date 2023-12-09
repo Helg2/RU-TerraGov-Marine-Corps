@@ -270,6 +270,7 @@
 	hitsound = 'sound/weapons/slash.ogg'
 	attack_verb = list("slashed", "stabbed", "sliced", "torn", "ripped", "diced", "cut")
 	flags_equip_slot = ITEM_SLOT_POCKET
+	var/iscoal = FALSE
 
 	max_amount = 5
 	amount = 5
@@ -348,14 +349,21 @@
 		living_user.temporarilyRemoveItemFromInventory(src)
 		forceMove(get_turf(src))
 		throw_at(current_target, throw_range, throw_speed, living_user, TRUE)
-		current_target = null
-	else
+	if(!iscoal)
 		var/obj/item/stack/throwing_knife/knife_to_throw = new type(get_turf(src))
 		knife_to_throw.amount = 1
 		knife_to_throw.update_icon()
 		knife_to_throw.throw_at(current_target, throw_range, throw_speed, living_user, TRUE)
 		amount--
 		thrown_thing = knife_to_throw
+	else
+		var/obj/item/stack/throwing_knife/coal/coal_to_throw = new(get_turf(src))
+		coal_to_throw.amount = 1
+		coal_to_throw.update_icon()
+		coal_to_throw.throw_at(current_target, throw_range, throw_speed, living_user, TRUE)
+		amount--
+		thrown_thing = coal_to_throw
+
 	playsound(src, 'sound/effects/throw.ogg', 30, 1)
 	visible_message(span_warning("[living_user] expertly throws [thrown_thing]."), null, null, 5)
 	update_icon()
@@ -373,6 +381,21 @@
 		if(!merge(knife))
 			continue
 		break
+
+/obj/item/stack/throwing_knife/coal
+	name = "\improper weighted coal"
+	icon = 'icons/obj/mining.dmi'
+	icon_state = "Coal ore"
+	desc = "Rumor has it that Santa beans naughty children in the head with coal if they spot him delivering presents. Tightly packed and with a core consisting of discarded fruitcake, Santa's coal packs a surprisingly mean punch when thrown."
+	force = 25
+	throwforce = 40 //less than throwing knife
+	sharp = IS_NOT_SHARP_ITEM
+	stack_name = "stack"
+	singular_name = "coal"
+	throw_speed = 7 //twice as fast though
+	hitsound = 'sound/weapons/punch4.ogg'
+	attack_verb = list("bruised", "smashed", "cracked", "whomped", "walloped", "battered", "smacked")
+	iscoal = TRUE
 
 ///Sets the current target and registers for qdel to prevent hardels
 /obj/item/stack/throwing_knife/proc/set_target(atom/object)
