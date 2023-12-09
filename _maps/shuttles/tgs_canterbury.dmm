@@ -3,10 +3,12 @@
 /turf/template_noop,
 /area/template_noop)
 "ab" = (
+/obj/structure/prop/holidays/string_lights/corner,
 /turf/closed/wall/mainship/outer/canterbury,
 /area/shuttle/canterbury/cic)
 "ac" = (
 /obj/structure/window/framed/mainship/hull/canterbury,
+/obj/structure/prop/holidays/string_lights,
 /turf/open/floor/plating,
 /area/shuttle/canterbury/cic)
 "ad" = (
@@ -86,6 +88,9 @@
 	name = "General Listening Channel";
 	pixel_y = -28
 	},
+/obj/structure/prop/holidays/string_lights{
+	dir = 1
+	},
 /turf/open/floor/mainship/blue{
 	dir = 10
 	},
@@ -93,6 +98,9 @@
 "aq" = (
 /obj/machinery/telecomms/relay/preset/telecomms,
 /obj/machinery/air_alarm{
+	dir = 1
+	},
+/obj/structure/prop/holidays/string_lights{
 	dir = 1
 	},
 /turf/open/floor/mainship/blue,
@@ -107,6 +115,9 @@
 	},
 /obj/structure/cable,
 /obj/machinery/marine_selector/clothes/commander,
+/obj/structure/prop/holidays/string_lights{
+	dir = 1
+	},
 /turf/open/floor/mainship/blue,
 /area/shuttle/canterbury/cic)
 "at" = (
@@ -114,6 +125,9 @@
 	dir = 4
 	},
 /obj/machinery/marine_selector/gear/commander,
+/obj/structure/prop/holidays/string_lights{
+	dir = 1
+	},
 /turf/open/floor/mainship/blue{
 	dir = 6
 	},
@@ -157,6 +171,11 @@
 	name = "\improper Command Cockpit"
 	},
 /obj/structure/cable,
+/obj/machinery/door/poddoor/mainship{
+	dir = 2;
+	id = "Interior_Emergency_umbilical";
+	name = "\improper Umbillical Airlock"
+	},
 /turf/open/floor/mainship/mono,
 /area/shuttle/canterbury/cic)
 "ax" = (
@@ -190,6 +209,13 @@
 /area/shuttle/canterbury)
 "aC" = (
 /obj/machinery/computer/body_scanconsole,
+/obj/structure/prop/holidays/stocking{
+	pixel_x = 11;
+	pixel_y = 26
+	},
+/obj/structure/prop/holidays/stocking{
+	pixel_y = 26
+	},
 /turf/open/floor/mainship/sterile,
 /area/shuttle/canterbury/medical)
 "aD" = (
@@ -250,6 +276,10 @@
 /area/shuttle/canterbury)
 "aT" = (
 /obj/structure/reagent_dispensers/fueltank,
+/obj/effect/spawner/random/misc/present,
+/obj/item/prop/mainship/candle{
+	pixel_y = 7
+	},
 /turf/open/floor/mainship/orange/full,
 /area/shuttle/canterbury)
 "aV" = (
@@ -384,6 +414,13 @@
 	dir = 1
 	},
 /obj/machinery/robotic_cradle,
+/obj/structure/prop/holidays/stocking{
+	pixel_x = -10;
+	pixel_y = 26
+	},
+/obj/structure/prop/holidays/stocking{
+	pixel_y = 26
+	},
 /turf/open/floor/mainship/sterile,
 /area/shuttle/canterbury/medical)
 "bz" = (
@@ -401,6 +438,10 @@
 /obj/item/reagent_containers/spray/cleaner,
 /obj/item/reagent_containers/glass/beaker/cryomix,
 /obj/machinery/vending/nanomed,
+/obj/structure/prop/holidays/stocking{
+	pixel_x = -19;
+	pixel_y = 26
+	},
 /turf/open/floor/mainship/sterile,
 /area/shuttle/canterbury/medical)
 "bA" = (
@@ -442,14 +483,23 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
+/obj/structure/prop/holidays/string_lights{
+	dir = 1
+	},
 /turf/open/floor/mainship/red/full,
 /area/shuttle/canterbury)
 "bG" = (
 /obj/machinery/autodoc,
+/obj/structure/prop/holidays/string_lights{
+	dir = 1
+	},
 /turf/open/floor/mainship/sterile,
 /area/shuttle/canterbury/medical)
 "bH" = (
 /obj/machinery/computer/autodoc_console,
+/obj/structure/prop/holidays/string_lights{
+	dir = 1
+	},
 /turf/open/floor/mainship/sterile,
 /area/shuttle/canterbury/medical)
 "bI" = (
@@ -461,6 +511,7 @@
 /area/shuttle/canterbury)
 "bK" = (
 /obj/structure/window/framed/mainship/white/canterbury,
+/obj/structure/prop/holidays/string_lights,
 /turf/open/floor/plating,
 /area/shuttle/canterbury/medical)
 "bO" = (
@@ -485,6 +536,9 @@
 	},
 /obj/structure/cable,
 /obj/effect/landmark/start/job/crash/medicalofficer,
+/obj/structure/prop/holidays/string_lights{
+	dir = 5
+	},
 /turf/open/floor/mainship/sterile,
 /area/shuttle/canterbury/medical)
 "bU" = (
@@ -509,6 +563,7 @@
 /obj/machinery/optable,
 /obj/item/tank/anesthetic,
 /obj/item/clothing/mask/breath/medical,
+/obj/effect/spawner/random/misc/present,
 /turf/open/floor/mainship/sterile/dark,
 /area/shuttle/canterbury/medical)
 "ca" = (
@@ -618,6 +673,9 @@
 /area/shuttle/canterbury)
 "cw" = (
 /obj/machinery/marine_selector/gear/medic,
+/obj/structure/prop/holidays/string_lights{
+	dir = 1
+	},
 /turf/open/floor/mainship/red/full,
 /area/shuttle/canterbury)
 "cy" = (
@@ -640,10 +698,16 @@
 /area/shuttle/canterbury)
 "cA" = (
 /obj/machinery/marine_selector/clothes/medic,
+/obj/structure/prop/holidays/string_lights{
+	dir = 1
+	},
 /turf/open/floor/mainship/red/full,
 /area/shuttle/canterbury)
 "cE" = (
 /obj/machinery/marine_selector/gear/smartgun,
+/obj/structure/prop/holidays/string_lights{
+	dir = 1
+	},
 /turf/open/floor/mainship/red/full,
 /area/shuttle/canterbury)
 "cF" = (
@@ -656,6 +720,12 @@
 /turf/open/floor/mainship/mono,
 /area/shuttle/canterbury)
 "cI" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 4
+	},
+/obj/structure/prop/holidays/string_lights/corner{
+	dir = 1
+	},
 /turf/closed/wall/mainship/white/canterbury,
 /area/shuttle/canterbury/medical)
 "cJ" = (
@@ -766,15 +836,118 @@
 	},
 /turf/open/floor/mainship/red,
 /area/shuttle/canterbury)
+"hc" = (
+/obj/structure/window/framed/mainship/hull/canterbury,
+/obj/structure/prop/holidays/string_lights{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/shuttle/canterbury/cic)
+"hg" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 4
+	},
+/turf/closed/wall/mainship/outer/canterbury,
+/area/shuttle/canterbury)
+"hO" = (
+/obj/structure/window/framed/mainship/hull/canterbury,
+/obj/structure/prop/holidays/string_lights{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/shuttle/canterbury/cic)
+"lq" = (
+/obj/structure/prop/holidays/string_lights,
+/obj/structure/prop/holidays/wreath{
+	dir = 10
+	},
+/turf/closed/wall/mainship/outer/canterbury,
+/area/shuttle/canterbury/cic)
+"pr" = (
+/obj/structure/prop/holidays/string_lights/corner{
+	dir = 1
+	},
+/turf/closed/wall/mainship/outer/canterbury,
+/area/shuttle/canterbury)
 "pY" = (
 /obj/machinery/door/airlock/mainship/marine/canterbury{
 	dir = 8
 	},
 /turf/open/floor/mainship/mono,
 /area/shuttle/canterbury)
+"sS" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 8
+	},
+/turf/closed/wall/mainship/outer/canterbury,
+/area/shuttle/canterbury)
+"sZ" = (
+/obj/structure/prop/holidays/string_lights/corner,
+/obj/structure/prop/holidays/string_lights/corner{
+	dir = 8
+	},
+/turf/closed/wall/mainship/outer/canterbury,
+/area/shuttle/canterbury/cic)
+"tx" = (
+/obj/effect/spawner/random/food_or_drink/christmas_food,
+/obj/effect/spawner/random/misc/present{
+	pixel_x = -10;
+	pixel_y = -6
+	},
+/obj/effect/spawner/random/misc/present{
+	pixel_y = -3
+	},
+/obj/effect/spawner/random/misc/present{
+	pixel_x = -3;
+	pixel_y = 9
+	},
+/turf/open/floor/mainship/mono,
+/area/shuttle/canterbury)
+"uL" = (
+/obj/structure/prop/holidays/string_lights/corner{
+	dir = 1
+	},
+/turf/closed/wall/mainship/outer/canterbury,
+/area/shuttle/canterbury/cic)
+"vK" = (
+/obj/structure/window/framed/mainship/white/canterbury,
+/obj/structure/prop/holidays/string_lights{
+	dir = 4
+	},
+/obj/structure/prop/holidays/string_lights{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/shuttle/canterbury/medical)
 "vY" = (
 /obj/machinery/vending/tool,
 /turf/open/floor/mainship/orange/full,
+/area/shuttle/canterbury)
+"yL" = (
+/obj/structure/cable,
+/obj/effect/spawner/random/food_or_drink/christmas_food{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/obj/effect/spawner/random/food_or_drink/christmas_food{
+	pixel_y = -3
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/shuttle/canterbury)
+"zs" = (
+/obj/structure/prop/holidays/string_lights/corner{
+	dir = 1
+	},
+/obj/structure/prop/holidays/string_lights/corner{
+	dir = 4
+	},
+/turf/closed/wall/mainship/outer/canterbury,
+/area/shuttle/canterbury/cic)
+"zx" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 10
+	},
+/turf/closed/wall/mainship/outer/canterbury,
 /area/shuttle/canterbury)
 "zE" = (
 /obj/structure/window/framed/mainship/canterbury,
@@ -804,6 +977,10 @@
 /obj/machinery/vending/cigarette,
 /turf/open/floor/mainship/mono,
 /area/shuttle/canterbury)
+"Fb" = (
+/obj/structure/prop/holidays/string_lights,
+/turf/closed/wall/mainship/outer/canterbury,
+/area/shuttle/canterbury/cic)
 "Hv" = (
 /obj/structure/window/reinforced/toughened{
 	dir = 4
@@ -811,19 +988,91 @@
 /obj/machinery/loadout_vendor/crash,
 /turf/open/floor/mainship/cargo,
 /area/shuttle/canterbury)
+"Ie" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 10
+	},
+/turf/closed/wall/mainship/outer/canterbury,
+/area/shuttle/canterbury/cic)
+"Jf" = (
+/obj/structure/prop/holidays/string_lights,
+/turf/closed/wall/mainship/outer/canterbury,
+/area/shuttle/canterbury)
 "KE" = (
 /obj/effect/landmark/start/job/crash/squadmarine,
 /turf/open/floor/mainship/mono,
 /area/shuttle/canterbury)
+"Od" = (
+/obj/structure/prop/holidays/string_lights/corner{
+	dir = 8
+	},
+/turf/closed/wall/mainship/outer/canterbury,
+/area/shuttle/canterbury)
+"PQ" = (
+/obj/structure/prop/holidays/string_lights/corner,
+/turf/closed/wall/mainship/outer/canterbury,
+/area/shuttle/canterbury)
+"Qd" = (
+/obj/machinery/marine_selector/clothes,
+/obj/structure/prop/holidays/string_lights{
+	dir = 1
+	},
+/turf/open/floor/mainship/red/full,
+/area/shuttle/canterbury)
 "RS" = (
 /obj/structure/cable,
 /obj/effect/attach_point/crew_weapon/dropship1,
+/obj/effect/spawner/random/misc/present{
+	pixel_x = -6;
+	pixel_y = -6
+	},
+/obj/structure/flora/tree/pine/xmas/presents,
 /turf/open/floor/plating/plating_catwalk,
 /area/shuttle/canterbury)
 "UG" = (
 /obj/machinery/marine_selector/clothes/synth,
 /turf/open/floor/mainship/cargo,
 /area/shuttle/canterbury)
+"VU" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 1
+	},
+/turf/open/floor/mainship/sterile,
+/area/shuttle/canterbury/medical)
+"Xz" = (
+/obj/effect/spawner/random/food_or_drink/christmas_food{
+	pixel_x = -3;
+	pixel_y = -4
+	},
+/obj/effect/spawner/random/food_or_drink/christmas_food{
+	pixel_x = 1;
+	pixel_y = 1
+	},
+/obj/effect/spawner/random/food_or_drink/christmas_food{
+	pixel_x = -3
+	},
+/obj/effect/spawner/random/misc/present{
+	pixel_y = 8
+	},
+/obj/effect/spawner/random/misc/present{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/effect/spawner/random/misc/present{
+	pixel_x = 9;
+	pixel_y = -3
+	},
+/obj/effect/spawner/random/misc/present{
+	pixel_y = -3
+	},
+/turf/open/floor/mainship/mono,
+/area/shuttle/canterbury)
+"Yn" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 6
+	},
+/turf/closed/wall/mainship/outer/canterbury,
+/area/shuttle/canterbury/cic)
 "YI" = (
 /obj/machinery/iv_drip,
 /turf/open/floor/mainship/sterile/dark,
@@ -856,8 +1105,8 @@ an
 aa
 aa
 aa
-an
-an
+PQ
+hg
 aH
 aH
 aH
@@ -879,7 +1128,7 @@ cl
 aa
 aa
 aa
-an
+Jf
 au
 aA
 aA
@@ -902,7 +1151,7 @@ cm
 aa
 aa
 aa
-an
+Jf
 av
 aB
 aJ
@@ -923,10 +1172,10 @@ cm
 "}
 (5,1,1) = {"
 ab
-ac
-ac
-ab
-ab
+hc
+hc
+zs
+Ie
 cV
 aJ
 aD
@@ -936,7 +1185,7 @@ cv
 aT
 bo
 bz
-bI
+VU
 bK
 bU
 cb
@@ -949,7 +1198,7 @@ ac
 ad
 ai
 ap
-ab
+Fb
 cF
 aJ
 cR
@@ -961,9 +1210,9 @@ bo
 bA
 bT
 cI
-bK
-bK
-bK
+vK
+vK
+vK
 bo
 an
 "}
@@ -972,10 +1221,10 @@ ac
 ae
 aj
 aq
-ab
+lq
 cN
 aJ
-aD
+Xz
 aD
 aD
 bO
@@ -999,7 +1248,7 @@ aw
 bO
 bO
 RS
-bO
+yL
 ao
 bO
 bO
@@ -1018,10 +1267,10 @@ ac
 ag
 aj
 as
-ab
+lq
 aL
 bO
-aD
+tx
 aD
 be
 aD
@@ -1041,7 +1290,7 @@ ac
 ah
 am
 at
-ab
+Fb
 cP
 bO
 cS
@@ -1060,11 +1309,11 @@ an
 an
 "}
 (11,1,1) = {"
-ab
-ac
-ac
-ab
-ab
+uL
+hO
+hO
+sZ
+Yn
 cQ
 bO
 cT
@@ -1086,7 +1335,7 @@ cl
 aa
 aa
 aa
-an
+Jf
 ax
 ci
 bO
@@ -1096,12 +1345,12 @@ aW
 bk
 pY
 aR
-an
+zx
 cK
 aJ
 aJ
 aJ
-cK
+Qd
 an
 cm
 "}
@@ -1109,7 +1358,7 @@ cm
 aa
 aa
 aa
-an
+Jf
 ay
 aF
 aF
@@ -1119,7 +1368,7 @@ bp
 bq
 bq
 aD
-an
+Jf
 bu
 cy
 cz
@@ -1132,8 +1381,8 @@ cm
 aa
 aa
 aa
-an
-an
+pr
+sS
 aK
 aK
 aK
@@ -1142,7 +1391,7 @@ bn
 bn
 bn
 bv
-an
+Jf
 bB
 cO
 bQ
@@ -1165,12 +1414,12 @@ an
 an
 an
 an
-an
-an
-an
-an
-an
-an
+pr
+sS
+sS
+sS
+sS
+Od
 an
 an
 "}
