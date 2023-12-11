@@ -124,7 +124,7 @@
 		receiving_xeno.salve_healing()
 		if(receiving_xeno == drainer)
 			receiving_xeno.evolution_stored = receiving_xeno.xeno_caste.evolution_threshold
-			receiving_xeno.upgrade_stored += 1000
+			receiving_xeno.upgrade = XENO_UPGRADE_PRIMO
 	for(var/mob/living/carbon/xenomorph/xeno_sound_reciever in GLOB.alive_xeno_list_hive[XENO_HIVE_NORMAL])
 		SEND_SOUND(xeno_sound_reciever, sound(get_sfx("queen"), channel = CHANNEL_ANNOUNCEMENTS, volume = 50))
 	addtimer(CALLBACK(src, PROC_REF(remove_blessing)), 4 MINUTES)
