@@ -4,16 +4,25 @@
 /turf/template_noop,
 /area/shuttle/dropship/normandy)
 "aD" = (
+/obj/structure/prop/holidays/string_lights/corner{
+	dir = 4
+	},
 /turf/closed/shuttle/dropship2/engine_sidealt{
 	dir = 4
 	},
 /area/shuttle/dropship/normandy)
 "bc" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 8
+	},
 /turf/closed/shuttle/dropship2/finright{
 	dir = 1
 	},
 /area/shuttle/dropship/normandy)
 "bg" = (
+/obj/structure/prop/holidays/string_lights/corner{
+	dir = 8
+	},
 /turf/closed/shuttle/dropship2/engine_sidealt{
 	dir = 8
 	},
@@ -28,6 +37,12 @@
 /turf/open/shuttle/dropship/floor,
 /area/shuttle/dropship/normandy)
 "cE" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 4
+	},
+/obj/structure/prop/holidays/string_lights{
+	dir = 8
+	},
 /turf/closed/shuttle/dropship2/aisle{
 	dir = 4
 	},
@@ -36,6 +51,9 @@
 /turf/template_noop,
 /area/template_noop)
 "cX" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 8
+	},
 /turf/closed/shuttle/dropship2/engine_sidealt{
 	dir = 1
 	},
@@ -48,9 +66,15 @@
 /turf/open/shuttle/dropship/floor,
 /area/shuttle/dropship/normandy)
 "ex" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 8
+	},
 /turf/closed/shuttle/dropship2/edge/alt,
 /area/shuttle/dropship/normandy)
 "eZ" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 4
+	},
 /turf/closed/shuttle/dropship2/finleft{
 	dir = 1
 	},
@@ -64,6 +88,15 @@
 /obj/structure/dropship_piece/two/corner/middleleft,
 /turf/template_noop,
 /area/shuttle/dropship/normandy)
+"fm" = (
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 4
+	},
+/obj/structure/prop/holidays/string_lights{
+	dir = 5
+	},
+/turf/open/shuttle/dropship/floor,
+/area/shuttle/dropship/normandy)
 "fr" = (
 /obj/machinery/door/poddoor/shutters/transit{
 	dir = 1
@@ -71,6 +104,7 @@
 /turf/open/shuttle/dropship/floor,
 /area/shuttle/dropship/normandy)
 "fP" = (
+/obj/structure/prop/holidays/string_lights,
 /turf/closed/shuttle/dropship2/window,
 /area/shuttle/dropship/normandy)
 "gt" = (
@@ -87,6 +121,12 @@
 "hV" = (
 /obj/structure/dropship_piece/two/engine/righttop,
 /turf/template_noop,
+/area/shuttle/dropship/normandy)
+"iw" = (
+/obj/structure/prop/holidays/string_lights/cap{
+	dir = 1
+	},
+/turf/open/shuttle/dropship/five,
 /area/shuttle/dropship/normandy)
 "jc" = (
 /obj/item/phone{
@@ -114,14 +154,32 @@
 /area/shuttle/dropship/normandy)
 "kh" = (
 /obj/docking_port/mobile/marine_dropship/two,
+/obj/structure/prop/holidays/string_lights{
+	dir = 4
+	},
+/obj/structure/prop/holidays/string_lights{
+	dir = 8
+	},
 /turf/closed/shuttle/dropship2/aisle{
 	dir = 4
 	},
 /area/shuttle/dropship/normandy)
 "kD" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 4
+	},
 /turf/closed/shuttle/dropship2/edge/alt{
 	dir = 1
 	},
+/area/shuttle/dropship/normandy)
+"kR" = (
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 8
+	},
+/obj/structure/prop/holidays/string_lights{
+	dir = 9
+	},
+/turf/open/shuttle/dropship/floor,
 /area/shuttle/dropship/normandy)
 "kZ" = (
 /obj/structure/bed/chair/dropship/passenger{
@@ -166,6 +224,12 @@
 /area/shuttle/dropship/normandy)
 "oF" = (
 /obj/machinery/telecomms/relay/preset/telecomms/onboard,
+/obj/structure/prop/holidays/string_lights{
+	dir = 4
+	},
+/obj/structure/prop/holidays/string_lights{
+	dir = 8
+	},
 /turf/closed/shuttle/dropship2/aisle{
 	dir = 4
 	},
@@ -177,6 +241,9 @@
 	},
 /area/shuttle/dropship/normandy)
 "pH" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 4
+	},
 /turf/closed/shuttle/dropship2/finleft,
 /area/shuttle/dropship/normandy)
 "pO" = (
@@ -193,6 +260,9 @@
 /turf/open/shuttle/dropship/floor,
 /area/shuttle/dropship/normandy)
 "rJ" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 4
+	},
 /turf/closed/shuttle/dropship2/cornersalt,
 /area/shuttle/dropship/normandy)
 "rL" = (
@@ -216,6 +286,9 @@
 /turf/template_noop,
 /area/shuttle/dropship/normandy)
 "tE" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 4
+	},
 /turf/closed/shuttle/dropship2/glassthree,
 /area/shuttle/dropship/normandy)
 "ur" = (
@@ -234,6 +307,9 @@
 	},
 /area/shuttle/dropship/normandy)
 "uU" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 8
+	},
 /turf/closed/shuttle/dropship2/cornersalt{
 	dir = 1
 	},
@@ -246,11 +322,20 @@
 /turf/template_noop,
 /area/shuttle/dropship/normandy)
 "wt" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 8
+	},
 /turf/closed/shuttle/dropship2/edge{
 	dir = 8
 	},
 /area/shuttle/dropship/normandy)
 "yt" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 4
+	},
+/obj/structure/prop/holidays/string_lights{
+	dir = 8
+	},
 /turf/closed/shuttle/dropship2/aisle,
 /area/shuttle/dropship/normandy)
 "zl" = (
@@ -259,6 +344,9 @@
 	},
 /area/shuttle/dropship/normandy)
 "zF" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 8
+	},
 /turf/closed/shuttle/dropship2/finright,
 /area/shuttle/dropship/normandy)
 "Ag" = (
@@ -273,9 +361,15 @@
 /obj/structure/dropship_piece/two/cockpit/right{
 	dir = 1
 	},
+/obj/structure/prop/holidays/string_lights/corner{
+	dir = 1
+	},
 /turf/template_noop,
 /area/shuttle/dropship/normandy)
 "Br" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 4
+	},
 /turf/closed/shuttle/dropship2/edge{
 	dir = 4
 	},
@@ -284,11 +378,16 @@
 /turf/open/shuttle/dropship/three,
 /area/shuttle/dropship/normandy)
 "Dw" = (
+/obj/structure/prop/holidays/string_lights/cap,
 /turf/closed/shuttle/dropship2/aisle{
 	dir = 8
 	},
 /area/shuttle/dropship/normandy)
 "EF" = (
+/obj/structure/prop/holidays/wreath{
+	dir = 8
+	},
+/obj/structure/prop/holidays/string_lights,
 /turf/closed/shuttle/dropship2/interiormisc{
 	dir = 8
 	},
@@ -297,11 +396,15 @@
 /turf/closed/shuttle/dropship2/enginetwo,
 /area/shuttle/dropship/normandy)
 "ET" = (
+/obj/structure/prop/holidays/string_lights,
 /turf/closed/shuttle/dropship2/window{
 	dir = 8
 	},
 /area/shuttle/dropship/normandy)
 "EW" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 4
+	},
 /turf/closed/shuttle/dropship2/engine_sidealt,
 /area/shuttle/dropship/normandy)
 "FA" = (
@@ -342,6 +445,20 @@
 /area/shuttle/dropship/normandy)
 "HY" = (
 /turf/open/shuttle/dropship/four,
+/area/shuttle/dropship/normandy)
+"Iv" = (
+/obj/structure/prop/holidays/string_lights/corner{
+	dir = 4
+	},
+/turf/closed/shuttle/dropship2/edge/alt{
+	dir = 1
+	},
+/area/shuttle/dropship/normandy)
+"Ix" = (
+/obj/structure/prop/holidays/string_lights/corner{
+	dir = 8
+	},
+/turf/closed/shuttle/dropship2/edge/alt,
 /area/shuttle/dropship/normandy)
 "IC" = (
 /obj/structure/bed/chair/dropship/passenger{
@@ -394,14 +511,21 @@
 /turf/open/shuttle/dropship/floor,
 /area/shuttle/dropship/normandy)
 "NN" = (
+/obj/structure/prop/holidays/string_lights/corner{
+	dir = 8
+	},
 /turf/closed/shuttle/dropship2/interiorwindow{
 	dir = 8
 	},
 /area/shuttle/dropship/normandy)
 "Od" = (
+/obj/structure/prop/holidays/string_lights,
 /turf/closed/shuttle/dropship2/edge,
 /area/shuttle/dropship/normandy)
 "Pc" = (
+/obj/structure/prop/holidays/string_lights/corner{
+	dir = 1
+	},
 /turf/closed/shuttle/dropship2/cornersalt2{
 	dir = 1
 	},
@@ -445,9 +569,13 @@
 /turf/open/shuttle/dropship/floor,
 /area/shuttle/dropship/normandy)
 "QY" = (
+/obj/structure/prop/holidays/string_lights/corner,
 /turf/closed/shuttle/dropship2/cornersalt2,
 /area/shuttle/dropship/normandy)
 "RG" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 8
+	},
 /turf/closed/shuttle/dropship2/glassfour,
 /area/shuttle/dropship/normandy)
 "RK" = (
@@ -456,6 +584,9 @@
 	},
 /area/shuttle/dropship/normandy)
 "RP" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 8
+	},
 /turf/closed/shuttle/dropship2/finright{
 	dir = 4
 	},
@@ -483,6 +614,9 @@
 	dir = 1
 	},
 /obj/machinery/light,
+/obj/structure/prop/holidays/string_lights{
+	dir = 1
+	},
 /turf/open/shuttle/dropship/floor,
 /area/shuttle/dropship/normandy)
 "VE" = (
@@ -498,6 +632,9 @@
 	dir = 1
 	},
 /obj/machinery/camera/autoname/mainship/dropship_two,
+/obj/structure/prop/holidays/string_lights{
+	dir = 1
+	},
 /turf/open/shuttle/dropship/floor,
 /area/shuttle/dropship/normandy)
 "WQ" = (
@@ -510,6 +647,7 @@
 /turf/template_noop,
 /area/shuttle/dropship/normandy)
 "XA" = (
+/obj/structure/prop/holidays/string_lights,
 /turf/closed/shuttle/dropship2/window{
 	dir = 4
 	},
@@ -521,9 +659,16 @@
 /turf/open/shuttle/dropship/floor,
 /area/shuttle/dropship/normandy)
 "XN" = (
+/obj/structure/prop/holidays/string_lights/corner{
+	dir = 4
+	},
 /turf/closed/shuttle/dropship2/interiorwindow,
 /area/shuttle/dropship/normandy)
 "Yi" = (
+/obj/structure/prop/holidays/wreath{
+	dir = 8
+	},
+/obj/structure/prop/holidays/string_lights,
 /turf/closed/shuttle/dropship2/interiormisc{
 	dir = 4
 	},
@@ -532,6 +677,9 @@
 /turf/open/shuttle/dropship/ten,
 /area/shuttle/dropship/normandy)
 "Zh" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 4
+	},
 /turf/closed/shuttle/dropship2/finleft{
 	dir = 4
 	},
@@ -540,6 +688,7 @@
 /obj/structure/dropship_piece/two/cockpit/left{
 	dir = 1
 	},
+/obj/structure/prop/holidays/string_lights/corner,
 /turf/template_noop,
 /area/shuttle/dropship/normandy)
 "ZE" = (
@@ -582,7 +731,7 @@ ns
 ns
 kD
 Br
-kD
+Iv
 fh
 hV
 fa
@@ -605,7 +754,7 @@ ZE
 ZE
 GC
 GC
-GC
+fm
 rJ
 kD
 kD
@@ -633,7 +782,7 @@ GC
 QV
 IC
 rC
-GC
+fm
 VE
 lp
 HU
@@ -667,7 +816,7 @@ XA
 pm
 ev
 QD
-FO
+iw
 yt
 oF
 cE
@@ -725,7 +874,7 @@ XL
 KQ
 Ns
 bq
-XL
+kR
 VE
 jY
 Te
@@ -743,7 +892,7 @@ ZE
 ZE
 XL
 XL
-XL
+kR
 uU
 ex
 ex
@@ -766,7 +915,7 @@ Wd
 Wd
 ex
 wt
-ex
+Ix
 ax
 HR
 my
