@@ -295,6 +295,7 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 	gift_type_list += subtypesof(/obj/item/mortal_shell)
 	gift_type_list += subtypesof(/obj/item/ore)
 	gift_type_list += subtypesof(/obj/item/storage/backpack)
+	gift_type_list += subtypesof(/obj/item/toy/plush)
 	var/gift_type = pick(gift_type_list)
 
 	return gift_type
