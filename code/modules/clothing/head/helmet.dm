@@ -486,6 +486,7 @@
 	soft_armor = list(MELEE = 15, BULLET = 15, LASER = 15, ENERGY = 15, BOMB = 10, BIO = 10, FIRE = 10, ACID = 10)
 	flags_item_map_variant = NONE
 	flags_armor_features = ARMOR_NO_DECAP
+	species_exception = list(/datum/species/robot)
 
 /obj/item/clothing/head/helmet/space/elf
 	name = "elf hat"
@@ -493,6 +494,7 @@
 	icon_state = "elfhat"
 	soft_armor = list(MELEE = 20, BULLET = 25, LASER = 25, ENERGY = 20, BOMB = 85, BIO = 15, FIRE = 15, ACID = 15)
 	flags_armor_features = ARMOR_NO_DECAP
+	species_exception = list(/datum/species/robot)
 
 /obj/item/clothing/head/helmet/space/elf/regular
 	soft_armor = list(MELEE = 15, BULLET = 10, LASER = 10, ENERGY = 15, BOMB = 15, BIO = 15, FIRE = 10, ACID = 10)

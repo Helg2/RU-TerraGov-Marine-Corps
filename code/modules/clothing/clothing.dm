@@ -333,6 +333,7 @@
 	item_state = "santa"
 	slowdown = 0
 	allowed = list(/obj/item) //for stuffing exta special presents
+	species_exception = list(/datum/species/robot)
 
 /obj/item/clothing/suit/space/santa/special //for ERT, when santa has to give presents to REALLY naughty children
 	desc = "That's not red dye. That's red blood."
