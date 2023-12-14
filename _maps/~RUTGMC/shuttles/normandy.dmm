@@ -58,13 +58,6 @@
 	dir = 1
 	},
 /area/shuttle/dropship/normandy)
-"ev" = (
-/obj/item/radio/intercom/dropship{
-	pixel_x = 21;
-	pixel_y = 16
-	},
-/turf/open/shuttle/dropship/floor,
-/area/shuttle/dropship/normandy)
 "ex" = (
 /obj/structure/prop/holidays/string_lights{
 	dir = 8
@@ -153,13 +146,15 @@
 /turf/template_noop,
 /area/shuttle/dropship/normandy)
 "kh" = (
-/obj/docking_port/mobile/marine_dropship/two,
+
+/obj/docking_port/mobile/marine_dropship/one,
 /obj/structure/prop/holidays/string_lights{
 	dir = 4
 	},
 /obj/structure/prop/holidays/string_lights{
 	dir = 8
 	},
+
 /turf/closed/shuttle/dropship2/aisle{
 	dir = 4
 	},
@@ -814,7 +809,7 @@ cN
 hk
 XA
 pm
-ev
+ZE
 QD
 iw
 yt
