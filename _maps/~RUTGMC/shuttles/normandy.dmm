@@ -146,7 +146,6 @@
 /turf/template_noop,
 /area/shuttle/dropship/normandy)
 "kh" = (
-
 /obj/docking_port/mobile/marine_dropship/one,
 /obj/structure/prop/holidays/string_lights{
 	dir = 4
@@ -154,7 +153,6 @@
 /obj/structure/prop/holidays/string_lights{
 	dir = 8
 	},
-
 /turf/closed/shuttle/dropship2/aisle{
 	dir = 4
 	},
