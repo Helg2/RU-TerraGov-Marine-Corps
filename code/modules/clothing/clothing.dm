@@ -362,8 +362,8 @@
 	desc = "Festive!"
 	icon_state = "elfcostume"
 	item_state = "elfcostume"
-	soft_armor = list(MELEE = 45, BULLET = 45, LASER = 15, ENERGY = 15, BOMB = 100, BIO = 30, FIRE = 80, ACID = 10)
-	slowdown = 0.5
+	soft_armor = list(MELEE = 40, BULLET = 45, LASER = 15, ENERGY = 15, BOMB = 100, BIO = 30, FIRE = 80, ACID = 10)
+	slowdown = 0.6
 	allowed = list(/obj/item/weapon/twohanded/spear/candycane/elf)
 
 /obj/item/clothing/suit/space/elf/nodrop
