@@ -225,7 +225,12 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 		/obj/item/tool/multitool,
 		/obj/item/lightreplacer,
 		/obj/item/stack/sheet/plasteel/small_stack,
-		/obj/item/ore/coal)
+		/obj/item/ore/coal,
+		/obj/item/loot_box/marine,
+		/obj/item/loot_box/supply_drop,
+		/obj/item/loot_box/supply_drop/som,
+		/obj/item/loot_box/tgmclootbox,
+		)
 
 	gift_type_list += subtypesof(/obj/item/clothing/head/collectable)
 	gift_type_list += subtypesof(/obj/item/toy)
