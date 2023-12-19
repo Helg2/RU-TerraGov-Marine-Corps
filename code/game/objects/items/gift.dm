@@ -239,6 +239,7 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 		/obj/item/loot_box/supply_drop,
 		/obj/item/loot_box/supply_drop/som,
 		/obj/item/loot_box/tgmclootbox,
+		/obj/item/clothing/suit/storage/marine/boomvest/ob_vest,
 		)
 
 	gift_type_list += subtypesof(/obj/item/clothing/head/collectable)
