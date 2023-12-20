@@ -235,9 +235,11 @@
 	var/mob/living/carbon/human/selectedsanta = pick(santalist)
 	elfmob.forceMove(get_turf(selectedsanta))
 
+/*
 /datum/action/innate/santa_illusion
 	name = "Create Doppelganger"
 	action_icon_state = "santa_doppelganger"
 
 /datum/action/innate/santa_illusion/Activate()
 	var/mob/living/carbon/human/santamob = usr
+*/
