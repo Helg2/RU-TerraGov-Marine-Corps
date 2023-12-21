@@ -235,13 +235,10 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 		/obj/item/lightreplacer,
 		/obj/item/stack/sheet/plasteel/small_stack,
 		/obj/item/ore/coal,
-		/obj/item/loot_box/marine,
-		/obj/item/loot_box/supply_drop,
-		/obj/item/loot_box/supply_drop/som,
-		/obj/item/loot_box/tgmclootbox,
 		/obj/item/clothing/suit/storage/marine/boomvest/ob_vest,
 		)
 
+	gift_type_list += subtypesof(/obj/item/loot_box)
 	gift_type_list += subtypesof(/obj/item/clothing/head/collectable)
 	gift_type_list += subtypesof(/obj/item/toy)
 	gift_type_list += subtypesof(/obj/item/cell)
@@ -258,15 +255,10 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 	gift_type_list += subtypesof(/obj/item/stack/pipe_cleaner_coil)
 	gift_type_list += subtypesof(/obj/item/stack/sheet/animalhide)
 	gift_type_list += subtypesof(/obj/item/stack/sheet/mineral)
-	gift_type_list += subtypesof(/obj/item/robot_parts)
-	gift_type_list += subtypesof(/obj/item/seeds)
-	gift_type_list += subtypesof(/obj/item/stock_parts)
-	gift_type_list += subtypesof(/obj/item/storage/pill_bottle) - /obj/item/reagent_containers/pill/adminordrazine - /obj/item/reagent_containers/pill/russian_red
+	gift_type_list += subtypesof(/obj/item/storage/pill_bottle)
 	gift_type_list += subtypesof(/obj/item/storage/toolbox)
 	gift_type_list += subtypesof(/obj/item/reagent_containers/glass)
 	gift_type_list += subtypesof(/obj/item/reagent_containers/pill)
-	gift_type_list += subtypesof(/obj/item/tank)
-	gift_type_list += subtypesof(/obj/item/trash)
 	gift_type_list += subtypesof(/obj/item/instrument)
 	gift_type_list += subtypesof(/obj/item/paper)
 	gift_type_list += subtypesof(/obj/item/weapon/gun/flamer)
@@ -274,19 +266,16 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 	gift_type_list += subtypesof(/obj/item/storage/fancy)
 	gift_type_list += subtypesof(/obj/item/storage/holster)
 	gift_type_list += subtypesof(/obj/item/storage/syringe_case)
-	gift_type_list += subtypesof(/obj/item/shard)
 	gift_type_list += subtypesof(/obj/item/minerupgrade)
 	gift_type_list += subtypesof(/obj/item/weapon/shield)
 	gift_type_list += subtypesof(/obj/item/weapon/claymore)
 	gift_type_list += subtypesof(/obj/item/bedsheet)
-	gift_type_list += subtypesof(/obj/item/assembly)
 	gift_type_list += subtypesof(/obj/item/book)
 	gift_type_list += subtypesof(/obj/item/cell)
 	gift_type_list += subtypesof(/obj/item/ammo_magazine)
 	gift_type_list += subtypesof(/obj/item/weapon/twohanded)
-	gift_type_list += subtypesof(/obj/item/circuitboard)
 	gift_type_list += subtypesof(/obj/item/armor_module/module)
-	gift_type_list += subtypesof(/obj/item/armor_module/storage)
+	gift_type_list += subtypesof(/obj/item/armor_module/storage) - /obj/item/armor_module/storage/boot/som_knife - /obj/item/armor_module/storage/boot/full - /obj/item/armor_module/storage/boot
 	gift_type_list += subtypesof(/obj/item/clothing/mask/cigarette)
 	gift_type_list += subtypesof(/obj/item/clothing/head/wizard)
 	gift_type_list += subtypesof(/obj/item/clothing/head/hardhat)
@@ -299,17 +288,14 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 	gift_type_list += subtypesof(/obj/item/clothing/head/bio_hood)
 	gift_type_list += subtypesof(/obj/item/clothing/glasses/sunglasses) - /obj/item/clothing/glasses/sunglasses/sa - /obj/item/clothing/glasses/sunglasses/sa/nodrop
 	gift_type_list += subtypesof(/obj/item/clothing/under) - /obj/item/clothing/under/acj - /obj/item/clothing/under/spec_operative
-	gift_type_list += subtypesof(/obj/item/circuitboard/computer)
 	gift_type_list += subtypesof(/obj/item/attachable)
 	gift_type_list += subtypesof(/obj/item/bodybag)
 	gift_type_list += subtypesof(/obj/item/encryptionkey)
 	gift_type_list += subtypesof(/obj/item/flashlight)
-	gift_type_list += subtypesof(/obj/item/frame)
 	gift_type_list += subtypesof(/obj/item/implant)
 	gift_type_list += subtypesof(/obj/item/implanter)
 	gift_type_list += subtypesof(/obj/item/mortal_shell)
-	gift_type_list += subtypesof(/obj/item/ore)
-	gift_type_list += subtypesof(/obj/item/storage/backpack)
+	gift_type_list += subtypesof(/obj/item/storage/backpack) - /obj/item/storage/backpack/santabag
 	gift_type_list += subtypesof(/obj/item/toy/plush)
 	var/gift_type = pick(gift_type_list)
 
