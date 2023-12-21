@@ -365,8 +365,4 @@
 	spawn_nothing_percentage = 50
 	option_list = list(
 		list(/obj/item/clothing/head/helmet/space/santahat, /obj/item/clothing/suit/space/santa,),
-		list(/obj/item/clothing/head/helmet/space/pirate, /obj/item/clothing/suit/space/pirate),
-		list(/obj/item/clothing/head/snowman, /obj/item/clothing/suit/costume/snowman),
-		list(/obj/item/clothing/head/helmet/space/compression, /obj/item/clothing/suit/space/compression),
-		list(/obj/item/clothing/head/helmet/space/chronos, /obj/item/clothing/suit/space/chronos), // what can go wrong
 	)
