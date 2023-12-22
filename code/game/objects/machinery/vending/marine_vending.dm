@@ -861,13 +861,7 @@
 		/obj/item/reagent_containers/food/drinks/flask/marine = -1,
 	)
 	vend_delay = 15
-	//product_slogans = "Standard Issue Marine food!;It's good for you, and not the worst thing in the world.;Just fucking eat it.;"
 	product_ads = "Try the cornbread.;Try the pizza.;Try the pasta.;Try the tofu, wimp.;Try the pork.; 9 Flavors of Protein!; You'll never guess the mystery flavor!"
-//Christmas inventory
-/*
-					/obj/item/reagent_containers/food/snacks/mre_pack/xmas1 = 25,
-					/obj/item/reagent_containers/food/snacks/mre_pack/xmas2 = 25,
-					/obj/item/reagent_containers/food/snacks/mre_pack/xmas3 = 25)*/
 
 /obj/machinery/vending/marineFood/valhalla
 	resistance_flags = INDESTRUCTIBLE
