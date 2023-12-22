@@ -51,6 +51,7 @@
 	name = "Tactical coifed Santa beard"
 	desc = "A cheap imitation of the real thing, the dense hairs still filter harmful gases out of the air via Christmas magic."
 	icon_state = "s_beard"
+	flags_inv_hide = HIDEFACE
 	breathy = FALSE
 
 /obj/item/clothing/mask/gas/PMC
