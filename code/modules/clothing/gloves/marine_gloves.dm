@@ -107,11 +107,6 @@
 	name = "\improper reindeer gloves"
 	desc = "A pair of wooly insulated gloves worn exclusively by Santa Claus."
 	icon = 'icons/obj/clothing/gloves.dmi'
-	item_icons = list(
-		slot_gloves_str = 'icons/mob/clothing/hands.dmi'
-		slot_l_hand_str = 'icons/mob/inhands/clothing/gloves_left.dmi',
-		slot_r_hand_str = 'icons/mob/inhands/clothing/gloves_right.dmi',
-	)
 	icon_state = "christmas"
 	item_state = "greengloves"
 	soft_armor = list(MELEE = 35, BULLET = 75, LASER = 75, ENERGY = 75, BOMB = 80, BIO = 20, FIRE = 20, ACID = 25)
