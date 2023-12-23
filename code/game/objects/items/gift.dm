@@ -157,7 +157,7 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 		M.put_in_hands(I)
 
 /obj/item/a_gift/proc/get_gift_type()
-	var/gift_type_list = list(/obj/item/weapon/claymore/mercsword/commissar_sword,
+	var/gift_type_list = list(
 		/obj/item/weapon/claymore,
 		/obj/item/toy/dice/d20,
 		/obj/item/toy/plush/rouny,
@@ -220,19 +220,19 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 	gift_type_list += subtypesof(/obj/item/storage/toolbox)
 	gift_type_list += subtypesof(/obj/item/reagent_containers/glass)
 	gift_type_list += subtypesof(/obj/item/reagent_containers/pill)
-	gift_type_list += subtypesof(/obj/item/instrument)
+	gift_type_list += subtypesof(/obj/item/instrument) - /obj/item/instrument/violin - /obj/item/instrument/piano_synth - /obj/item/instrument/banjo - /obj/item/instrument/guitar - /obj/item/instrument/glockenspiel - /obj/item/instrument/accordion - /obj/item/instrument/trumpet - /obj/item/instrument/saxophone - /obj/item/instrument/trombone - /obj/item/instrument/recorder - /obj/item/instrument/harmonica
 	gift_type_list += subtypesof(/obj/item/paper)
 	gift_type_list += subtypesof(/obj/item/weapon/gun/flamer)
 	gift_type_list += subtypesof(/obj/item/portable_vendor)
 	gift_type_list += subtypesof(/obj/item/storage/fancy)
-	gift_type_list += subtypesof(/obj/item/storage/holster)
+	gift_type_list += subtypesof(/obj/item/storage/holster) - /obj/item/storage/holster/belt/ts34/full - /obj/item/storage/holster/belt/pistol/standard_pistol - /obj/item/storage/holster/belt/revolver/standard_revolver - /obj/item/storage/holster/t19 - /obj/item/storage/holster/blade/machete/full - /obj/item/storage/holster/blade/machete/full_harvester - /obj/item/storage/holster/blade/machete/full - /obj/item/storage/holster/blade/machete/full_harvester - /obj/item/storage/holster/flarepouch/full
 	gift_type_list += subtypesof(/obj/item/storage/syringe_case)
 	gift_type_list += subtypesof(/obj/item/minerupgrade)
 	gift_type_list += subtypesof(/obj/item/weapon/shield)
 	gift_type_list += subtypesof(/obj/item/weapon/claymore)
 	gift_type_list += subtypesof(/obj/item/bedsheet)
 	gift_type_list += subtypesof(/obj/item/cell)
-	gift_type_list += subtypesof(/obj/item/weapon/twohanded) - /obj/item/weapon/twohanded/offhand
+	gift_type_list += subtypesof(/obj/item/weapon/twohanded) - /obj/item/weapon/twohanded/offhand - /obj/item/weapon/twohanded/spear/tactical - /obj/item/weapon/twohanded/glaive/harvester
 	gift_type_list += subtypesof(/obj/item/armor_module/module)
 	gift_type_list += subtypesof(/obj/item/armor_module/storage) - /obj/item/armor_module/storage/boot/som_knife - /obj/item/armor_module/storage/boot/full - /obj/item/armor_module/storage/boot
 	gift_type_list += subtypesof(/obj/item/clothing/mask/cigarette/cigar)
@@ -243,7 +243,7 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 	gift_type_list += subtypesof(/obj/item/clothing/head/helmet/space) - /obj/item/clothing/head/helmet/space/santahat/special - /obj/item/clothing/head/helmet/space/elf/special
 	gift_type_list += subtypesof(/obj/item/clothing/head/collectable)
 	gift_type_list += subtypesof(/obj/item/clothing/glasses/sunglasses) - /obj/item/clothing/glasses/sunglasses/sa - /obj/item/clothing/glasses/sunglasses/sa/nodrop - /obj/item/clothing/glasses/night/sectoid - /obj/item/clothing/glasses/welding/elf - /obj/item/clothing/glasses/regular - /obj/item/clothing/glasses/eyepatch - /obj/item/clothing/glasses/sunglasses/fake/big - /obj/item/clothing/glasses/sunglasses/fake/big/prescription - /obj/item/clothing/glasses/sunglasses/fake - /obj/item/clothing/glasses/sunglasses/fake/prescription - /obj/item/clothing/glasses/mgoggles - /obj/item/clothing/glasses/mgoggles/prescription
-	gift_type_list += subtypesof(/obj/item/bodybag)
+	gift_type_list += subtypesof(/obj/item/bodybag) - /obj/item/bodybag/cryobag
 	gift_type_list += subtypesof(/obj/item/implanter) - /obj/item/implanter/chem - /obj/item/implanter/neurostim
 	gift_type_list += subtypesof(/obj/item/mortal_shell)
 	gift_type_list += subtypesof(/obj/item/storage/backpack) - /obj/item/storage/backpack/santabag - /obj/item/storage/backpack/marine/standard - /obj/item/storage/backpack/marine/satchel - /obj/item/storage/backpack/marine/satchel/green - /obj/item/storage/backpack/marine/standard/molle - /obj/item/storage/backpack/marine/satchel/molle
