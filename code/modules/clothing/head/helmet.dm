@@ -480,8 +480,11 @@
 	name = "Santa's hat"
 	desc = "Ho ho ho. Merrry X-mas!"
 	icon_state = "santahat2"
+	item_icons = list(
+		slot_head_str = 'icons/mob/clothing/headwear/head_0.dmi',
+	)
 	flags_inventory = NOPRESSUREDMAGE|BLOCKSHARPOBJ
-	flags_inv_hide = HIDEEYES
+	flags_inv_hide = HIDEEYES|HIDETOPHAIR
 	flags_armor_protection = HEAD
 	soft_armor = list(MELEE = 15, BULLET = 15, LASER = 15, ENERGY = 15, BOMB = 10, BIO = 10, FIRE = 10, ACID = 10)
 	flags_item_map_variant = NONE

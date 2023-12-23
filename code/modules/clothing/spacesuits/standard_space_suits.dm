@@ -36,15 +36,6 @@
 	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
 	siemens_coefficient = 0.7
 
-//space santa
-/obj/item/clothing/head/helmet/space/santahat
-	name = "Santa's hat"
-	desc = "Ho ho ho. Merrry X-mas!"
-	icon_state = "santahat"
-	flags_inventory = NOPRESSUREDMAGE|BLOCKSHARPOBJ
-	flags_inv_hide = HIDEEYES
-	flags_armor_protection = HEAD
-
 /obj/item/clothing/suit/space/santa
 	name = "Santa's suit"
 	desc = "Festive!"
