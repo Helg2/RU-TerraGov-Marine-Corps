@@ -158,81 +158,44 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 
 /obj/item/a_gift/proc/get_gift_type()
 	var/gift_type_list = list(/obj/item/weapon/claymore/mercsword/commissar_sword,
-		/obj/item/weapon/holo/esword,
-		/obj/item/toy/sword,
 		/obj/item/weapon/claymore,
 		/obj/item/toy/dice/d20,
 		/obj/item/toy/plush/rouny,
 		/obj/item/toy/spinningtoy,
 		/obj/item/toy/syndicateballoon,
-		/obj/item/storage/wallet,
-		/obj/item/storage/wallet/random,
 		/obj/item/megaphone,
 		/obj/item/storage/box/snappops,
 		/obj/item/storage/fancy/crayons,
-		/obj/item/storage/backpack/holding,
 		/obj/item/storage/belt/champion,
 		/obj/item/tool/soap/deluxe,
-		/obj/item/tool/pickaxe/diamond,
-		/obj/item/tool/pen/invisible,
 		/obj/item/explosive/grenade/smokebomb,
-		/obj/item/corncob,
-		/obj/item/spacecash/c500,
-		/obj/item/spacecash/c100,
-		/obj/item/coin/diamond,
-		/obj/item/ashtray,
-		/obj/item/clothing/head/boonie,
-		/obj/item/clothing/head/beaverhat,
-		/obj/item/clothing/head/cakehat,
-		/obj/item/clothing/head/cardborg,
-		/obj/item/clothing/head/chicken,
-		/obj/item/clothing/head/cat,
-		/obj/item/clothing/head/powdered_wig,
-		/obj/item/clothing/head/xenos,
+		list(/obj/item/clothing/head/boonie,
+		/obj/item/clothing/head/beaverhat, /obj/item/clothing/head/cakehat, /obj/item/clothing/head/cardborg, /obj/item/clothing/head/chicken, /obj/item/clothing/head/powdered_wig),
+		list(/obj/item/clothing/head/xenos, /obj/item/clothing/suit/xenos),
 		/obj/item/clothing/mask/cigarette/pipe/cobpipe,
 		/obj/item/book/manual/chef_recipes,
-		/obj/item/clothing/head/helmet/space/santahat,
 		/obj/item/toy/beach_ball,
 		/obj/item/toy/beach_ball/holoball,
 		/obj/item/weapon/banhammer,
-		/obj/item/card/id/syndicate_command,
-		/obj/item/clothing/head/helmet/space/syndicate/black/red,
-		/obj/item/clothing/suit/space/syndicate/black/red,
-		/obj/item/clothing/suit/xenos,
+		list(/obj/item/card/id/syndicate_command, /obj/item/clothing/head/helmet/space/syndicate/black/red, /obj/item/clothing/suit/space/syndicate/black/red),
 		/obj/item/reagent_containers/food/snacks/grown/ambrosiadeus,
 		/obj/item/reagent_containers/food/snacks/grown/ambrosiavulgaris,
-		/obj/item/tool/shovel/etool,
 		/obj/item/stack/barbed_wire/small_stack,
 		/obj/item/storage/toolbox/syndicate,
-		/obj/item/storage/belt/utility/full,
 		/obj/item/clothing/mask/facehugger/lamarr,
 		/obj/item/clothing/tie/horrible,
-		/obj/item/card/emag_broken,
-		/obj/item/tweezers,
-		/obj/item/taperecorder,
+		/obj/item/tweezers_advanced,
 		/obj/item/tool/pickaxe/plasmacutter,
-		/obj/item/clothing/suit/poncho,
-		/obj/item/clothing/suit/poncho/green,
-		/obj/item/clothing/suit/poncho/red,
-		/obj/item/toy/crossbow,
-		/obj/item/weapon/nullrod,
+		list(/obj/item/clothing/suit/poncho, /obj/item/clothing/suit/poncho/green, /obj/item/clothing/suit/poncho/red),
 		/obj/item/pinpointer,
-		/obj/item/blueprints,
 		/obj/item/a_gift/anything,
 		/obj/item/toy/prize/durand,
 		/obj/item/stack/sheet/mineral/phoron/small_stack,
 		/obj/item/stack/sheet/metal/small_stack,
 		/obj/item/jetpack_marine,
 		/obj/item/phone,
-		/obj/item/binoculars,
+		/obj/item/binoculars/tactical,
 		/obj/item/clock,
-		/obj/item/bananapeel,
-		/obj/item/staff,
-		/obj/item/staff/broom,
-		/obj/item/skub,
-		/obj/item/ectoplasm,
-		/obj/item/tool/multitool,
-		/obj/item/lightreplacer,
 		/obj/item/stack/sheet/plasteel/small_stack,
 		/obj/item/ore/coal,
 		/obj/item/clothing/suit/storage/marine/boomvest/ob_vest,
@@ -243,8 +206,8 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 	gift_type_list += subtypesof(/obj/item/toy)
 	gift_type_list += subtypesof(/obj/item/cell)
 	gift_type_list += subtypesof(/obj/item/explosive/grenade)
-	gift_type_list += subtypesof(/obj/item/clothing/gloves)
-	gift_type_list += subtypesof(/obj/item/clothing/mask)
+	gift_type_list += subtypesof(/obj/item/clothing/gloves) - /obj/item/clothing/gloves/marine/veteran/pmc/commando/santa - /obj/item/clothing/gloves/sectoid
+	gift_type_list += subtypesof(/obj/item/clothing/mask) - /obj/item/clothing/mask/gas/swat/santa
 	gift_type_list += subtypesof(/obj/item/reagent_containers/food)
 	gift_type_list += subtypesof(/obj/item/reagent_containers/spray)
 	gift_type_list += subtypesof(/obj/item/reagent_containers/blood)
@@ -282,12 +245,12 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 	gift_type_list += subtypesof(/obj/item/clothing/head/soft)
 	gift_type_list += subtypesof(/obj/item/clothing/head/surgery)
 	gift_type_list += subtypesof(/obj/item/clothing/head/tgmcberet)
-	gift_type_list += subtypesof(/obj/item/clothing/head/helmet/space)
+	gift_type_list += subtypesof(/obj/item/clothing/head/helmet/space) - /obj/item/clothing/head/helmet/space/santahat/special - /obj/item/clothing/head/helmet/space/elf/special
 	gift_type_list += subtypesof(/obj/item/clothing/head/collectable)
 	gift_type_list += subtypesof(/obj/item/clothing/head/beret)
 	gift_type_list += subtypesof(/obj/item/clothing/head/bio_hood)
-	gift_type_list += subtypesof(/obj/item/clothing/glasses/sunglasses) - /obj/item/clothing/glasses/sunglasses/sa - /obj/item/clothing/glasses/sunglasses/sa/nodrop
-	gift_type_list += subtypesof(/obj/item/clothing/under) - /obj/item/clothing/under/acj - /obj/item/clothing/under/spec_operative
+	gift_type_list += subtypesof(/obj/item/clothing/glasses/sunglasses) - /obj/item/clothing/glasses/sunglasses/sa - /obj/item/clothing/glasses/sunglasses/sa/nodrop - /obj/item/clothing/glasses/night/sectoid - /obj/item/clothing/glasses/welding/elf
+	gift_type_list += subtypesof(/obj/item/clothing/under) - /obj/item/clothing/under/acj - /obj/item/clothing/under/spec_operative - /obj/item/clothing/under/sectoid
 	gift_type_list += subtypesof(/obj/item/attachable)
 	gift_type_list += subtypesof(/obj/item/bodybag)
 	gift_type_list += subtypesof(/obj/item/encryptionkey)
