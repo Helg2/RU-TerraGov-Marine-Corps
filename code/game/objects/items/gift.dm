@@ -244,7 +244,7 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 	gift_type_list += subtypesof(/obj/item/clothing/head/helmet/space) - /obj/item/clothing/head/helmet/space/santahat/special - /obj/item/clothing/head/helmet/space/elf/special
 	gift_type_list += subtypesof(/obj/item/clothing/head/collectable)
 	gift_type_list += subtypesof(/obj/item/clothing/head/beret)
-	gift_type_list += subtypesof(/obj/item/clothing/glasses/sunglasses) - /obj/item/clothing/glasses/sunglasses/sa - /obj/item/clothing/glasses/sunglasses/sa/nodrop - /obj/item/clothing/glasses/night/sectoid - /obj/item/clothing/glasses/welding/elf
+	gift_type_list += subtypesof(/obj/item/clothing/glasses/sunglasses) - /obj/item/clothing/glasses/sunglasses/sa - /obj/item/clothing/glasses/sunglasses/sa/nodrop - /obj/item/clothing/glasses/night/sectoid - /obj/item/clothing/glasses/welding/elf - /obj/item/clothing/glasses/regular, - /obj/item/clothing/glasses/eyepatch, - /obj/item/clothing/glasses/sunglasses/fake/big, - /obj/item/clothing/glasses/sunglasses/fake/big/prescription, - /obj/item/clothing/glasses/sunglasses/fake, - /obj/item/clothing/glasses/sunglasses/fake/prescription, - /obj/item/clothing/glasses/mgoggles, - /obj/item/clothing/glasses/mgoggles/prescription,
 	gift_type_list += subtypesof(/obj/item/bodybag)
 	gift_type_list += subtypesof(/obj/item/implanter) - /obj/item/implanter/chem - /obj/item/implanter/neurostim
 	gift_type_list += subtypesof(/obj/item/mortal_shell)
