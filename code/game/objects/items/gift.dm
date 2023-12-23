@@ -211,7 +211,7 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 	gift_type_list += subtypesof(/obj/item/reagent_containers/food)
 	gift_type_list += subtypesof(/obj/item/reagent_containers/spray)
 	gift_type_list += subtypesof(/obj/item/reagent_containers/blood) - /obj/item/reagent_containers/blood/empty
-	gift_type_list += subtypesof(/obj/item/tool) - /obj/item/tool/weedkiller - /obj/item/tool/weedkiller/D24 - /obj/item/tool/weedkiller/lindane - /obj/item/tool/weedkiller/triclopyr - /obj/item/tool/taperoll - /obj/item/tool/taperoll/engineering - /obj/item/tool/taperoll/police
+	gift_type_list += subtypesof(/obj/item/tool) - /obj/item/tool/weedkiller - /obj/item/tool/weedkiller/D24 - /obj/item/tool/weedkiller/lindane - /obj/item/tool/weedkiller/triclopyr - /obj/item/tool/taperoll - /obj/item/tool/taperoll/engineering - /obj/item/tool/taperoll/police - /obj/item/tool/weldpack/marinestandard
 	gift_type_list += subtypesof(/obj/item/research_resource)
 	gift_type_list += subtypesof(/obj/item/research_product)
 	gift_type_list += subtypesof(/obj/item/stack/sheet/animalhide)
@@ -248,7 +248,7 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 	gift_type_list += subtypesof(/obj/item/bodybag)
 	gift_type_list += subtypesof(/obj/item/implanter) - /obj/item/implanter/chem - /obj/item/implanter/neurostim
 	gift_type_list += subtypesof(/obj/item/mortal_shell)
-	gift_type_list += subtypesof(/obj/item/storage/backpack) - /obj/item/storage/backpack/santabag
+	gift_type_list += subtypesof(/obj/item/storage/backpack) - /obj/item/storage/backpack/santabag - /obj/item/storage/backpack/marine/standard, - /obj/item/storage/backpack/marine/satchel, - /obj/item/storage/backpack/marine/satchel/green, - /obj/item/storage/backpack/marine/standard/molle,- /obj/item/storage/backpack/marine/satchel/molle
 	gift_type_list += subtypesof(/obj/item/toy/plush)
 	var/gift_type = pick(gift_type_list)
 
