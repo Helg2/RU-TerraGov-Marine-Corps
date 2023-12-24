@@ -200,7 +200,7 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 		/obj/item/attachable/shoulder_mount,
 		/obj/item/attachable/burstfire_assembly,
 		list(/obj/item/clothing/gloves/techpriest, /obj/item/clothing/head/techpriest, /obj/item/clothing/shoes/techpriest, /obj/item/clothing/suit/techpriest, /obj/item/clothing/under/techpriest,),
-        /obj/item/paper/santacontract,
+		/obj/item/paper/santacontract,
 		)
 
 	gift_type_list += subtypesof(/obj/item/loot_box)
