@@ -200,6 +200,7 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 		/obj/item/attachable/shoulder_mount,
 		/obj/item/attachable/burstfire_assembly,
 		list(/obj/item/clothing/gloves/techpriest, /obj/item/clothing/head/techpriest, /obj/item/clothing/shoes/techpriest, /obj/item/clothing/suit/techpriest, /obj/item/clothing/under/techpriest,),
+        /obj/item/paper/santacontract,
 		)
 
 	gift_type_list += subtypesof(/obj/item/loot_box)
@@ -221,7 +222,6 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 	gift_type_list += subtypesof(/obj/item/reagent_containers/glass)
 	gift_type_list += subtypesof(/obj/item/reagent_containers/pill)
 	gift_type_list += subtypesof(/obj/item/instrument) - /obj/item/instrument/violin - /obj/item/instrument/piano_synth - /obj/item/instrument/banjo - /obj/item/instrument/guitar - /obj/item/instrument/glockenspiel - /obj/item/instrument/accordion - /obj/item/instrument/trumpet - /obj/item/instrument/saxophone - /obj/item/instrument/trombone - /obj/item/instrument/recorder - /obj/item/instrument/harmonica
-	gift_type_list += subtypesof(/obj/item/paper)
 	gift_type_list += subtypesof(/obj/item/weapon/gun/flamer)
 	gift_type_list += subtypesof(/obj/item/portable_vendor)
 	gift_type_list += subtypesof(/obj/item/storage/fancy)
