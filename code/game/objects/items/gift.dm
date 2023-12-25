@@ -233,8 +233,8 @@ GLOBAL_LIST_EMPTY(possible_gifts)
 	gift_type_list += subtypesof(/obj/item/bedsheet)
 	gift_type_list += subtypesof(/obj/item/cell)
 	gift_type_list += subtypesof(/obj/item/weapon/twohanded) - /obj/item/weapon/twohanded/offhand - /obj/item/weapon/twohanded/spear/tactical - /obj/item/weapon/twohanded/glaive/harvester
-	gift_type_list += subtypesof(/obj/item/armor_module/module)
-	gift_type_list += subtypesof(/obj/item/armor_module/storage) - /obj/item/armor_module/storage/boot/som_knife - /obj/item/armor_module/storage/boot/full - /obj/item/armor_module/storage/boot
+	gift_type_list += subtypesof(/obj/item/armor_module/module) - /obj/item/armor_module/module/welding - /obj/item/armor_module/module/binoculars - /obj/item/armor_module/module/artemis - /obj/item/armor_module/module/tyr_head - /obj/item/armor_module/module/antenna - /obj/item/armor_module/module/mimir_environment_protection/mark1 - /obj/item/armor_module/module/mimir_environment_protection/mimir_helmet/mark1 - /obj/item/armor_module/module/tyr_extra_armor/mark1 - /obj/item/armor_module/module/ballistic_armor - /obj/item/armor_module/module/hod_head - /obj/item/armor_module/module/better_shoulder_lamp - /obj/item/armor_module/module/chemsystem - /obj/item/armor_module/module/eshield
+	gift_type_list += subtypesof(/obj/item/armor_module/storage) - /obj/item/armor_module/storage/boot/som_knife - /obj/item/armor_module/storage/boot/full - /obj/item/armor_module/storage/boot - /obj/item/armor_module/storage/general - /obj/item/armor_module/storage/engineering - /obj/item/armor_module/storage/medical - /obj/item/armor_module/storage/injector - /obj/item/armor_module/storage/grenade
 	gift_type_list += subtypesof(/obj/item/clothing/mask/cigarette/cigar)
 	gift_type_list += subtypesof(/obj/item/clothing/mask/cigarette/pipe)
 	gift_type_list += subtypesof(/obj/item/clothing/head/wizard)
