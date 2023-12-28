@@ -230,6 +230,7 @@
 	name = "apple cake"
 	desc = "A cake centred with Apple."
 	icon_state = "applecake"
+	icon = 'icons/obj/items/food/piecake.dmi'
 	slice_path = /obj/item/reagent_containers/food/snacks/pastries/applecakeslice
 	list_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/consumable/nutriment/vitamin = 10)
 	tastes = list("cake" = 5, "sweetness" = 1, "apple" = 1)
@@ -238,6 +239,7 @@
 	name = "apple cake slice"
 	desc = "A slice of an Apple cake."
 	icon_state = "applecakeslice"
+	icon = 'icons/obj/items/food/piecake.dmi'
 	list_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/consumable/nutriment/vitamin = 10)
 	tastes = list("cake" = 5, "sweetness" = 1, "apple" = 1)
 
@@ -413,6 +415,7 @@
 	name = "english fruitcake"
 	desc = "A proper good cake, innit?"
 	icon_state = "fruitcake"
+	icon = 'icons/obj/items/food/piecake.dmi'
 	slice_path = /obj/item/reagent_containers/food/snacks/pastries/cakeslicefruit
 	list_reagents = list(/datum/reagent/consumable/nutriment = 15, /datum/reagent/consumable/sugar = 10, /datum/reagent/consumable/cherryjelly = 5, )
 	tastes = list("dried fruit" = 5, "treacle" = 2, "christmas" = 2)
@@ -421,6 +424,7 @@
 	name = "english fruitcake"
 	desc = "A proper good cake, innit?"
 	icon_state = "fruitcake"
+	icon = 'icons/obj/items/food/piecake.dmi'
 	slice_path = /obj/item/reagent_containers/food/snacks/pastries/cakeslicefruit
 	list_reagents = list(/datum/reagent/consumable/nutriment = 15, /datum/reagent/consumable/sugar = 10, /datum/reagent/consumable/cherryjelly = 5, )
 	tastes = list("dried fruit" = 5, "treacle" = 2, "christmas" = 2)
@@ -434,6 +438,7 @@
 	desc = "A proper good slice, innit?"
 	icon_state = "fruitcake_slice1"
 	base_icon_state = "fruitcake_slice"
+	icon = 'icons/obj/items/food/piecake.dmi'
 	tastes = list("dried fruit" = 5, "treacle" = 2, "christmas" = 2)
 
 /obj/item/reagent_containers/food/snacks/sliceable/pastries/dulcedebatata
@@ -485,6 +490,7 @@
 	name = "Apple Pie"
 	desc = "A pie containing sweet sweet love... or apple."
 	icon_state = "applepie"
+	icon = 'icons/obj/items/food/piecake.dmi'
 	filling_color = "#E0EDC5"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 4)
 	bitesize = 3
@@ -616,6 +622,7 @@
 	name = "Apple Cake"
 	desc = "A cake centred with Apple"
 	icon_state = "applecake"
+	icon = 'icons/obj/items/food/piecake.dmi'
 	slice_path = /obj/item/reagent_containers/food/snacks/pastries/applecakeslice
 	list_reagents = list(/datum/reagent/consumable/nutriment = 15)
 	filling_color = "#EBF5B8"
@@ -625,6 +632,7 @@
 	name = "Apple Cake slice"
 	desc = "A slice of heavenly cake."
 	icon_state = "applecakeslice"
+	icon = 'icons/obj/items/food/piecake.dmi'
 	trash = /obj/item/trash/plate
 	filling_color = "#EBF5B8"
 	bitesize = 2
@@ -634,6 +642,7 @@
 	name = "Pumpkin Pie"
 	desc = "A delicious treat for the autumn months."
 	icon_state = "pumpkinpie"
+	icon = 'icons/obj/items/food/piecake.dmi'
 	slice_path = /obj/item/reagent_containers/food/snacks/pastries/pumpkinpieslice
 	list_reagents = list(/datum/reagent/consumable/nutriment = 15)
 	filling_color = "#F5B951"
@@ -643,6 +652,7 @@
 	name = "Pumpkin Pie slice"
 	desc = "A slice of pumpkin pie, with whipped cream on top. Perfection."
 	icon_state = "pumpkinpieslice"
+	icon = 'icons/obj/items/food/piecake.dmi'
 	trash = /obj/item/trash/plate
 	filling_color = "#F5B951"
 	bitesize = 2
