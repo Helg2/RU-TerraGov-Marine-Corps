@@ -429,10 +429,6 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 15, /datum/reagent/consumable/sugar = 10, /datum/reagent/consumable/cherryjelly = 5, )
 	tastes = list("dried fruit" = 5, "treacle" = 2, "christmas" = 2)
 
-/obj/item/reagent_containers/food/snacks/pastries/fruitcake/Initialize(mapload)
-	. = ..()
-	icon_state = "[base_icon_state][rand(1,3)]"
-
 /obj/item/reagent_containers/food/snacks/pastries/cakeslicefruit
 	name = "english fruitcake slice"
 	desc = "A proper good slice, innit?"
