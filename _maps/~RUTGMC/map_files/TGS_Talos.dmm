@@ -2214,7 +2214,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/warning_stripes/rus/square,
-/obj/structure/dropship_equipment/weapon/minirocket_pod,
+/obj/structure/dropship_equipment/cas/weapon/minirocket_pod,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
 "bli" = (
@@ -3579,7 +3579,7 @@
 /area/mainship/command/cic)
 "bWB" = (
 /obj/effect/decal/cleanable/liquid_fuel,
-/obj/structure/ship_ammo/minirocket,
+/obj/structure/ship_ammo/cas/minirocket,
 /obj/effect/turf_decal/warning_stripes/rus/square,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
@@ -6518,7 +6518,7 @@
 /area/mainship/squads/bravo)
 "dFg" = (
 /obj/effect/turf_decal/warning_stripes/rus/square,
-/obj/structure/dropship_equipment/weapon/minirocket_pod,
+/obj/structure/dropship_equipment/cas/weapon/minirocket_pod,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
 "dFh" = (
@@ -7818,7 +7818,7 @@
 /turf/open/floor/wood,
 /area/mainship/medical/surgery_hallway)
 "esn" = (
-/obj/machinery/cloning_console/vats,
+/obj/machinery/computer/cloning_console/vats,
 /obj/machinery/light/mainship{
 	dir = 1
 	},
@@ -9371,7 +9371,7 @@
 /area/mainship/command/telecomms)
 "fiv" = (
 /obj/structure/rack,
-/obj/item/storage/bible/koran/basic,
+/obj/item/storage/bible/koran,
 /turf/open/floor/plating,
 /area/mainship/living/numbertwobunks)
 "fiM" = (
@@ -15295,7 +15295,7 @@
 	},
 /area/mainship/living/basketball)
 "jhk" = (
-/obj/structure/ship_ammo/minirocket,
+/obj/structure/ship_ammo/cas/minirocket,
 /obj/effect/turf_decal/warning_stripes/rus/square,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
@@ -16352,7 +16352,7 @@
 /obj/machinery/camera/alt/autoname{
 	dir = 8
 	},
-/obj/structure/ship_ammo/minirocket,
+/obj/structure/ship_ammo/cas/minirocket,
 /obj/effect/turf_decal/warning_stripes/rus/square,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
@@ -23707,7 +23707,7 @@
 /obj/item/clothing/suit/apron/overalls,
 /obj/item/storage/bag/plants,
 /obj/item/reagent_containers/food/condiment/enzyme,
-/obj/item/analyzer/plant_analyzer,
+/obj/item/tool/analyzer/plant_analyzer,
 /obj/item/tool/plantspray/pests,
 /obj/item/disk/botany,
 /obj/item/disk/botany,
@@ -24487,7 +24487,7 @@
 	},
 /area/space)
 "oqy" = (
-/obj/item/storage/bible/koran/basic,
+/obj/item/storage/bible/koran,
 /turf/open/floor/plating,
 /area/mainship/living/numbertwobunks)
 "orG" = (
@@ -25070,7 +25070,7 @@
 /area/mainship/command/corporateliaison)
 "oLL" = (
 /obj/structure/rack,
-/obj/item/multitool,
+/obj/item/tool/multitool,
 /obj/structure/barricade/metal{
 	dir = 8
 	},
@@ -34711,7 +34711,7 @@
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/hallways/bow_hallway)
 "uHE" = (
-/obj/machinery/roomba,
+/obj/machinery/bot/roomba,
 /obj/effect/ai_node,
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/shipboard/ex_firing_range)
@@ -39725,7 +39725,7 @@
 /area/mainship/squads/delta)
 "xNR" = (
 /obj/effect/turf_decal/warning_stripes/rus/square,
-/obj/structure/ship_ammo/minirocket/illumination,
+/obj/structure/ship_ammo/cas/minirocket/illumination,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
 "xOs" = (
