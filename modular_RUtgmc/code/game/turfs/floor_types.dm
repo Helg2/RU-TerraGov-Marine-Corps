@@ -21,10 +21,6 @@
 /turf/open/floor/mainship/floor/metal/white
 	icon_state = "white"
 
-//RUBBER LINO
-/turf/open/floor/mainship/floor/metal/rubber
-	icon_state = "rub_carpet"
-
 /turf/open/floor/mainship/floor/metal/rubber
 	icon_state = "rub_carpet"
 
