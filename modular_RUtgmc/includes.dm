@@ -109,6 +109,7 @@
 #include "code\game\turfs\closed.dm"
 #include "code\game\turfs\floor_types.dm"
 #include "code\game\turfs\liquid_turfs.dm"
+#include "code\game\turfs\markings.dm"
 #include "code\game\turfs\snow.dm"
 #include "code\game\turfs\wall_types.dm"
 #include "code\game\turfs\walls\resin.dm"
