@@ -2326,7 +2326,7 @@
 /turf/open/floor/mainship,
 /area/mainship/command/telecomms)
 "bot" = (
-/obj/structure/dropship_equipment/flare_launcher,
+/obj/structure/dropship_equipment/shuttle/flare_launcher,
 /obj/effect/turf_decal/warning_stripes/rus/square,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
@@ -2793,7 +2793,7 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/port_hallway)
 "bAZ" = (
-/obj/structure/dropship_equipment/flare_launcher,
+/obj/structure/dropship_equipment/shuttle/flare_launcher,
 /obj/machinery/door_control/mainship/mech{
 	dir = 8
 	},
@@ -4382,7 +4382,7 @@
 /area/mainship/engineering/port_atmos)
 "ctj" = (
 /obj/structure/rack,
-/obj/item/storage/box/sentry,
+/obj/item/storage/box/crate/sentry,
 /obj/item/storage/toolbox/mechanical,
 /obj/effect/turf_decal/warning_stripes/rus/square,
 /obj/machinery/landinglight/ds2/delaytwo{
@@ -4619,7 +4619,7 @@
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/squads/bravo)
 "cBB" = (
-/obj/structure/dropprop,
+/obj/structure/drop_pod_launcher,
 /obj/structure/droppod,
 /obj/machinery/camera/alt/autoname,
 /turf/open/floor/prison/cleanmarked,
@@ -4792,7 +4792,7 @@
 /turf/open/floor/mainship/alt/orange/full,
 /area/mainship/hallways/hangar)
 "cGi" = (
-/obj/structure/dropprop,
+/obj/structure/drop_pod_launcher,
 /obj/structure/droppod,
 /obj/machinery/light/mainship{
 	dir = 8
@@ -6582,7 +6582,7 @@
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/hallways/bow_hallway)
 "dHB" = (
-/obj/structure/dropprop,
+/obj/structure/drop_pod_launcher,
 /obj/structure/droppod,
 /obj/machinery/camera/alt/autoname{
 	dir = 8
@@ -6795,7 +6795,7 @@
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/medical/upper_medical)
 "dOo" = (
-/obj/structure/dropprop,
+/obj/structure/drop_pod_launcher,
 /obj/structure/droppod,
 /obj/machinery/light/mainship{
 	dir = 4
@@ -7073,7 +7073,7 @@
 	},
 /area/mainship/shipboard/brig)
 "dXx" = (
-/obj/structure/dropprop,
+/obj/structure/drop_pod_launcher,
 /obj/structure/droppod,
 /obj/machinery/camera/alt/autoname{
 	dir = 4
@@ -8422,7 +8422,7 @@
 /obj/item/weapon/telebaton,
 /obj/item/book/codebook,
 /obj/item/weapon/chainofcommand,
-/obj/item/cane,
+/obj/item/weapon/cane,
 /turf/open/floor/wood,
 /area/mainship/living/commandbunks)
 "eKW" = (
@@ -9855,7 +9855,7 @@
 /area/mainship/squads/charlie)
 "fxL" = (
 /obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/rock/pile/alt2,
+/obj/structure/rock/basalt/pile/alt2,
 /turf/open/floor/grass,
 /area/mainship/living/starboard_garden)
 "fxT" = (
@@ -11456,7 +11456,7 @@
 /turf/open/floor/plating,
 /area/mainship/hull/port_hull)
 "gJq" = (
-/obj/structure/dropprop,
+/obj/structure/drop_pod_launcher,
 /obj/structure/droppod,
 /obj/machinery/light/mainship{
 	dir = 1
@@ -12999,7 +12999,7 @@
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/shipboard/ex_firing_range)
 "hMf" = (
-/obj/structure/dropprop,
+/obj/structure/drop_pod_launcher,
 /obj/structure/droppod,
 /obj/machinery/light/mainship{
 	dir = 1
@@ -13896,7 +13896,7 @@
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/hallways/hangar/droppod)
 "iqD" = (
-/obj/structure/flora/rock,
+/obj/structure/rock/basalt,
 /turf/open/floor/grass,
 /area/mainship/living/starboard_garden)
 "irn" = (
@@ -17148,7 +17148,7 @@
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/living/numbertwobunks)
 "kmC" = (
-/obj/machinery/autodoc_console,
+/obj/machinery/computer/autodoc_console,
 /turf/open/floor/mainship/floor/metal/white{
 	color = "#E2E0DC"
 	},
@@ -17911,7 +17911,7 @@
 /turf/open/floor/mainship/stripesquare,
 /area/mainship/hallways/hangar/droppod)
 "kJE" = (
-/obj/structure/flora/rock/pile/alt2,
+/obj/structure/rock/basalt/pile/alt2,
 /turf/open/floor/grass,
 /area/mainship/living/starboard_garden)
 "kJP" = (
@@ -21986,7 +21986,7 @@
 	},
 /area/mainship/command/cic)
 "mTR" = (
-/obj/structure/dropship_equipment/sentry_holder,
+/obj/structure/dropship_equipment/shuttle/sentry_holder,
 /obj/effect/turf_decal/warning_stripes/rus/square,
 /obj/machinery/light/mainship{
 	dir = 1
@@ -29954,7 +29954,7 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/squads/bravo)
 "rGF" = (
-/obj/structure/flora/rock/alt,
+/obj/structure/rock/basalt/alt,
 /turf/open/floor/grass,
 /area/mainship/living/starboard_garden)
 "rGK" = (
@@ -30364,7 +30364,7 @@
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/shipboard/ex_firing_range)
 "rTw" = (
-/obj/structure/flora/rock/pile/alt,
+/obj/structure/rock/basalt/pile/alt,
 /obj/structure/flora/tree/jungle,
 /turf/open/floor/grass,
 /area/mainship/living/starboard_garden)
@@ -34572,7 +34572,7 @@
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/squads/charlie)
 "uBZ" = (
-/obj/structure/dropprop,
+/obj/structure/drop_pod_launcher,
 /obj/structure/droppod,
 /turf/open/floor/prison/cleanmarked,
 /area/mainship/hallways/hangar/droppod)
@@ -37743,7 +37743,7 @@
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/squads/bravo)
 "wEg" = (
-/obj/structure/flora/rock/pile/alt2,
+/obj/structure/rock/basalt/pile/alt2,
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/tree/jungle/small,
 /turf/open/floor/grass,
@@ -37933,7 +37933,7 @@
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/squads/delta)
 "wLH" = (
-/obj/structure/dropship_equipment/sentry_holder,
+/obj/structure/dropship_equipment/shuttle/sentry_holder,
 /obj/effect/turf_decal/warning_stripes/rus/square,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
@@ -38768,7 +38768,7 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/bow_hallway)
 "xmM" = (
-/obj/structure/dropprop,
+/obj/structure/drop_pod_launcher,
 /obj/structure/droppod,
 /obj/structure/sign/alt/safety/maint{
 	pixel_x = 8;
