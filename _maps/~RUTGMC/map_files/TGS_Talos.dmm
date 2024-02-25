@@ -1195,7 +1195,7 @@
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/hallways/hangar)
 "aAM" = (
-/obj/structure/ship_ammo/rocket/widowmaker,
+/obj/structure/ship_ammo/cas/rocket/widowmaker,
 /obj/effect/turf_decal/warning_stripes/rus/square,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
@@ -1763,7 +1763,7 @@
 "aUU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small,
-/obj/machinery/autolathe,
+/obj/machinery/prop/autolathe,
 /obj/effect/turf_decal/siding/metal,
 /turf/open/floor/mainship/floor/metal/full{
 	icon_state = "dark"
@@ -2120,7 +2120,7 @@
 /area/mainship/living/pilotbunks)
 "bhQ" = (
 /obj/effect/turf_decal/warning_stripes/rus/square,
-/obj/structure/ship_ammo/rocket/banshee,
+/obj/structure/ship_ammo/cas/rocket/banshee,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
 "bii" = (
@@ -5585,7 +5585,7 @@
 /area/mainship/hallways/bow_hallway)
 "ddy" = (
 /obj/effect/turf_decal/warning_stripes/rus/square,
-/obj/structure/ship_ammo/rocket/widowmaker,
+/obj/structure/ship_ammo/cas/rocket/widowmaker,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
 "ddP" = (
@@ -12803,7 +12803,7 @@
 /area/mainship/hallways/bow_hallway)
 "hFk" = (
 /obj/effect/turf_decal/warning_stripes/rus/square,
-/obj/structure/ship_ammo/rocket/keeper,
+/obj/structure/ship_ammo/cas/rocket/keeper,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
 "hFv" = (
@@ -19329,12 +19329,12 @@
 /area/mainship/living/pilotbunks)
 "lvG" = (
 /obj/structure/rack,
-/obj/item/fuelCell/full,
-/obj/item/fuelCell/full,
-/obj/item/fuelCell/full,
-/obj/item/fuelCell/full,
-/obj/item/fuelCell/full,
-/obj/item/fuelCell/full,
+/obj/item/fuel_cell/full,
+/obj/item/fuel_cell/full,
+/obj/item/fuel_cell/full,
+/obj/item/fuel_cell/full,
+/obj/item/fuel_cell/full,
+/obj/item/fuel_cell/full,
 /obj/item/storage/toolbox/mechanical,
 /obj/machinery/light/mainship{
 	dir = 1
@@ -22597,7 +22597,7 @@
 	},
 /area/mainship/hallways/hangar)
 "nlI" = (
-/obj/machinery/autolathe,
+/obj/machinery/prop/autolathe,
 /turf/open/floor/prison,
 /area/mainship/squads/req)
 "nme" = (
@@ -22945,12 +22945,12 @@
 /area/mainship/squads/delta)
 "nvn" = (
 /obj/structure/rack,
-/obj/item/fuelCell/full,
-/obj/item/fuelCell/full,
-/obj/item/fuelCell/full,
-/obj/item/fuelCell/full,
-/obj/item/fuelCell/full,
-/obj/item/fuelCell/full,
+/obj/item/fuel_cell/full,
+/obj/item/fuel_cell/full,
+/obj/item/fuel_cell/full,
+/obj/item/fuel_cell/full,
+/obj/item/fuel_cell/full,
+/obj/item/fuel_cell/full,
 /obj/item/storage/toolbox/mechanical,
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/engineering/engine_core)
@@ -29146,12 +29146,12 @@
 /area/mainship/living/commandbunks)
 "rfx" = (
 /obj/structure/rack,
-/obj/item/fuelCell/full,
-/obj/item/fuelCell/full,
-/obj/item/fuelCell/full,
-/obj/item/fuelCell/full,
-/obj/item/fuelCell/full,
-/obj/item/fuelCell/full,
+/obj/item/fuel_cell/full,
+/obj/item/fuel_cell/full,
+/obj/item/fuel_cell/full,
+/obj/item/fuel_cell/full,
+/obj/item/fuel_cell/full,
+/obj/item/fuel_cell/full,
 /obj/item/storage/toolbox/mechanical,
 /obj/machinery/light/mainship,
 /turf/open/floor/prison/plate,
@@ -31104,7 +31104,7 @@
 	},
 /area/mainship/squads/bravo)
 "sqw" = (
-/obj/machinery/autolathe,
+/obj/machinery/prop/autolathe,
 /obj/machinery/camera/alt/autoname{
 	dir = 8
 	},
