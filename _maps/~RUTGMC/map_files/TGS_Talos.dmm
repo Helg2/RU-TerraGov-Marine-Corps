@@ -2151,19 +2151,19 @@
 /area/mainship/medical/upper_medical)
 "biG" = (
 /obj/structure/closet/secure_closet/freezer,
-/obj/item/reagent_containers/food/snacks/sandwich,
-/obj/item/reagent_containers/food/snacks/sandwich,
-/obj/item/reagent_containers/food/snacks/sandwich,
-/obj/item/reagent_containers/food/snacks/sandwich,
+/obj/effect/spawner/random/food_or_drink/bread,
+/obj/effect/spawner/random/food_or_drink/bread,
+/obj/effect/spawner/random/food_or_drink/bread,
+/obj/effect/spawner/random/food_or_drink/bread,
 /obj/item/reagent_containers/food/drinks/bottle/sake,
 /obj/item/reagent_containers/food/drinks/bottle/sake,
 /obj/item/reagent_containers/food/drinks/bottle/wine,
 /obj/item/reagent_containers/food/drinks/bottle/wine,
-/obj/item/reagent_containers/food/snacks/sandwich,
-/obj/item/reagent_containers/food/snacks/sandwich,
+/obj/effect/spawner/random/food_or_drink/bread,
+/obj/effect/spawner/random/food_or_drink/bread,
 /obj/item/reagent_containers/food/drinks/bottle/wine,
-/obj/item/reagent_containers/food/snacks/sandwich,
-/obj/item/reagent_containers/food/snacks/sandwich,
+/obj/effect/spawner/random/food_or_drink/bread,
+/obj/effect/spawner/random/food_or_drink/bread,
 /obj/item/reagent_containers/food/drinks/bottle/wine,
 /obj/effect/turf_decal/woodsiding{
 	dir = 5
@@ -14147,11 +14147,6 @@
 /obj/effect/turf_decal/warning_stripes/rus/fulltile,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/squads/delta)
-"iBk" = (
-/obj/machinery/portable_atmospherics/canister/empty,
-/obj/effect/turf_decal/warning_stripes/rus/square,
-/turf/open/floor/mainship/floor/metal/full,
-/area/mainship/engineering/port_atmos)
 "iBl" = (
 /obj/structure/table/mainship,
 /obj/item/weapon/gun/rifle/standard_carbine,
@@ -28824,15 +28819,15 @@
 /area/mainship/living/pilotbunks)
 "qTE" = (
 /obj/structure/rack,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
 /turf/open/floor/plating,
 /area/mainship/hull/starboard_hull)
 "qTV" = (
@@ -34106,15 +34101,15 @@
 /area/mainship/command/self_destruct)
 "uni" = (
 /obj/structure/rack,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
 /turf/open/floor/plating,
 /area/mainship/hull/port_hull)
 "unE" = (
@@ -34628,15 +34623,15 @@
 /area/mainship/medical/medical_science)
 "uDL" = (
 /obj/structure/rack,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
-/obj/effect/spawner/random/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
+/obj/effect/spawner/random/food_or_drink/beer,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/mainship/hull/starboard_hull)
@@ -38303,7 +38298,7 @@
 /turf/open/floor/mainship/floor/metal/lino,
 /area/mainship/living/cafeteria)
 "wXn" = (
-/obj/machinery/portable_atmospherics/canister/empty,
+/obj/machinery/portable_atmospherics/canister/air,
 /turf/open/floor/plating/alt,
 /area/mainship/engineering/port_atmos)
 "wXz" = (
@@ -39210,7 +39205,7 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
 "xzv" = (
-/obj/machinery/portable_atmospherics/canister/empty,
+/obj/machinery/portable_atmospherics/canister/air,
 /obj/machinery/light/small,
 /obj/effect/turf_decal/warning_stripes/rus/square,
 /turf/open/floor/mainship/floor/metal/full,
@@ -89080,7 +89075,7 @@ opF
 nRB
 hAs
 jCB
-iBk
+sNb
 xzv
 opF
 mek
