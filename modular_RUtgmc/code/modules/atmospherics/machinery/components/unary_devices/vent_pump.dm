@@ -12,3 +12,6 @@
 	pipe_vision_img = image(src, loc, layer = ABOVE_HUD_LAYER, dir = dir)
 	pipe_vision_img.plane = ABOVE_HUD_PLANE
 	playsound(loc, 'sound/weapons/bladeslice.ogg', 100, 1)
+
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer1/alt
+	icon = 'modular_RUtgmc/icons/obj/atmospherics/components/unary_devices.dmi'

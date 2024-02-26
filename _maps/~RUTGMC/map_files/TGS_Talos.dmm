@@ -9715,7 +9715,7 @@
 /area/mainship/living/grunt_rnr)
 "frq" = (
 /obj/effect/ai_node,
-/obj/machinery/sleep_console/alt,
+/obj/machinery/computer/sleep_console/alt,
 /turf/open/floor/mainship/floor/metal/white{
 	color = "#E2E0DC"
 	},
@@ -15532,7 +15532,7 @@
 	},
 /area/mainship/command/cic)
 "jpN" = (
-/obj/machinery/sleep_console/alt,
+/obj/machinery/computer/sleep_console/alt,
 /turf/open/floor/mainship/floor/metal/white{
 	color = "#E2E0DC"
 	},
@@ -25840,7 +25840,7 @@
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/squads/bravo)
 "piC" = (
-/obj/machinery/sleep_console/alt{
+/obj/machinery/computer/sleep_console/alt{
 	dir = 8
 	},
 /turf/open/floor/mainship/floor/metal/white{
