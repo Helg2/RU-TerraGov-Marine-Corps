@@ -17928,7 +17928,7 @@
 	dir = 8
 	},
 /obj/structure/table/mainship,
-/obj/item/reagent_containers/food/snacks/cheeseburger,
+/obj/item/reagent_containers/food/snacks/burger/cheese,
 /turf/open/floor/mainship/floor/metal/lino,
 /area/mainship/living/cafeteria)
 "kKF" = (
