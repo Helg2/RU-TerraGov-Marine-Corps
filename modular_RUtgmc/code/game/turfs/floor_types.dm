@@ -74,7 +74,15 @@
 
 /turf/open/floor/plating/plating_catwalk/alt/white
 	icon_state = "plating_catwalk_light"
-	catwalk_icon = "catwalk_light"
+
+/turf/open/floor/plating/plating_catwalk/alt/white/update_turf_overlay()
+	var/image/I = image(icon, src, "catwalk_light", CATWALK_LAYER)
+	I.plane = FLOOR_PLANE
+	if(covered)
+		overlays += I
+	else
+		overlays -= I
+		qdel(I)
 
 //STAIRS
 /turf/open/floor/stairs/alt
