@@ -1,6 +1,6 @@
 //STRIPE
 /obj/effect/turf_decal/warning_stripes/rus
-	icon = 'RUtgmc/icons/turf/decals.dmi'
+	icon = 'modular_RUtgmc/icons/turf/decals.dmi'
 	icon_state = "warning"
 
 /obj/effect/turf_decal/warning_stripes/rus/corner
@@ -26,7 +26,7 @@
 
 //METAL DECAL
 /obj/effect/turf_decal/siding/metal
-	icon = 'RUtgmc/icons/turf/decals.dmi'
+	icon = 'modular_RUtgmc/icons/turf/decals.dmi'
 	icon_state = "borderfloor_black"
 
 /obj/effect/turf_decal/siding/metal/corner
@@ -42,7 +42,7 @@
 	icon_state = "borderfloorcee_black"
 
 /obj/effect/turf_decal/tile/metal
-	icon = 'RUtgmc/icons/turf/decals.dmi'
+	icon = 'modular_RUtgmc/icons/turf/decals.dmi'
 	icon_state = "edge"
 
 /obj/effect/turf_decal/tile/metal/corner
@@ -76,7 +76,7 @@
 
 //EMBLEM
 /obj/effect/turf_decal/siding/emblem
-	icon = 'RUtgmc/icons/turf/decals.dmi'
+	icon = 'modular_RUtgmc/icons/turf/decals.dmi'
 	icon_state = "logo_central"
 
 /obj/effect/turf_decal/siding/emblem/second
