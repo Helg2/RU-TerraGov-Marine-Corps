@@ -13,11 +13,6 @@
 
 /obj/machinery/camera/alt/Initialize(mapload, newDir)
 	. = ..()
-	icon_state = "camera"
-
-	if(newDir)
-		setDir(newDir)
-
 	switch(dir)
 		if(NORTH)
 			pixel_y = 0
@@ -29,17 +24,6 @@
 		if(WEST)
 			pixel_x = 9
 			pixel_y = -5
-
-	for(var/i in network)
-		network -= i
-		network += lowertext(i)
-
-	GLOB.cameranet.cameras += src
-	GLOB.cameranet.addCamera(src)
-
-	myarea = get_area(src)
-	if(myarea)
-		LAZYADD(myarea.cameras, src)
 
 	update_icon()
 
