@@ -85,6 +85,7 @@
 #include "code\game\objects\machinery\adv_med.dm"
 #include "code\game\objects\machinery\autodoc.dm"
 #include "code\game\objects\machinery\bioprinter.dm"
+#include "code\game\objects\machinery\iv_drip.dm"
 #include "code\game\objects\machinery\miner.dm"
 #include "code\game\objects\machinery\mortar.dm"
 #include "code\game\objects\machinery\OpTable.dm"
