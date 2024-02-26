@@ -34279,7 +34279,8 @@
 	},
 /obj/item/megaphone,
 /obj/item/clothing/tie/red,
-/obj/item/staff/gentcane{
+/obj/item/weapon/cane,
+{
 	pixel_x = 5
 	},
 /obj/item/storage/fancy/cigarettes/lady_finger{
