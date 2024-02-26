@@ -14547,7 +14547,7 @@
 /area/mainship/shipboard/brig)
 "iMf" = (
 /obj/structure/table/black,
-/obj/machinery/prop/mainship/computer{
+/obj/machinery/prop/computer{
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/metal{
@@ -17957,7 +17957,7 @@
 /area/mainship/squads/bravo)
 "kKT" = (
 /obj/structure/table/mainship,
-/obj/machinery/prop/mainship/computer,
+/obj/machinery/prop/computer,
 /turf/open/floor/mainship/red/alt{
 	dir = 4
 	},
@@ -30144,7 +30144,7 @@
 /area/mainship/medical/lounge)
 "rLz" = (
 /obj/structure/table/black,
-/obj/machinery/prop/mainship/computer,
+/obj/machinery/prop/computer,
 /obj/effect/turf_decal/siding/metal,
 /turf/open/floor/mainship/floor/metal/full{
 	icon_state = "dark"
