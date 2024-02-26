@@ -1249,7 +1249,7 @@
 	dir = 8
 	},
 /obj/structure/table/mainship,
-/obj/item/reagent_containers/food/snacks/grilledcheese,
+/obj/item/reagent_containers/food/snacks/sandwiches/grilled_cheese_sandwich,
 /turf/open/floor/mainship/floor/metal/lino,
 /area/mainship/living/cafeteria)
 "aBP" = (
@@ -1802,7 +1802,7 @@
 	},
 /area/mainship/squads/req)
 "aWo" = (
-/turf/open/ground/river/desertdam/clean/shallow_water_desert_coast/edge{
+/turf/open/liquid/water/river/desertdam/clean/shallow_water_desert_coast/edge{
 	dir = 8
 	},
 /area/mainship/living/starboard_garden)
@@ -2195,7 +2195,7 @@
 	},
 /area/mainship/engineering/port_atmos)
 "bjf" = (
-/turf/open/ground/river/desertdam/clean/shallow_water_desert_waterway/edge,
+/turf/open/liquid/water/river/desertdam/clean/shallow_water_desert_waterway/edge,
 /area/mainship/living/starboard_garden)
 "bkg" = (
 /turf/open/floor/plating/plating_catwalk/alt,
@@ -2552,7 +2552,7 @@
 	pixel_x = -15;
 	pixel_y = -7
 	},
-/turf/open/ground/river/desertdam/clean/shallow_water_desert_coast/edge{
+/turf/open/liquid/water/river/desertdam/clean/shallow_water_desert_coast/edge{
 	dir = 4
 	},
 /area/mainship/living/starboard_garden)
@@ -3115,7 +3115,7 @@
 /area/mainship/medical/surgery_hallway)
 "bLc" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/prop/r_n_d/server/core,
+/obj/machinery/prop/r_n_d/server/alt,
 /obj/structure/window/reinforced,
 /turf/open/floor/mainship/tcomms,
 /area/mainship/command/telecomms)
@@ -4260,7 +4260,7 @@
 /turf/open/floor/plating,
 /area/mainship/hull/starboard_hull)
 "coG" = (
-/obj/machinery/portable_atmospherics/hydroponics,
+/obj/machinery/hydroponics,
 /obj/machinery/light/mainship{
 	dir = 8
 	},
@@ -5266,7 +5266,7 @@
 	},
 /area/mainship/medical/lounge)
 "cUb" = (
-/turf/open/ground/river/desertdam/clean/shallow_water_desert_coast/edge{
+/turf/open/liquid/water/river/desertdam/clean/shallow_water_desert_coast/edge{
 	dir = 1
 	},
 /area/mainship/living/starboard_garden)
@@ -7785,7 +7785,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 8
 	},
-/obj/item/reagent_containers/food/snacks/superbiteburger{
+/obj/item/reagent_containers/food/snacks/burger/superbite{
 	name = "Big Carl Burger"
 	},
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer1{
@@ -8939,7 +8939,7 @@
 /turf/open/floor/mainship/red/alt/full,
 /area/mainship/shipboard/firing_range)
 "eWC" = (
-/turf/open/ground/river/desertdam/clean/shallow_water_desert_coast{
+/turf/open/liquid/water/river/desertdam/clean/shallow_water_desert_coast{
 	dir = 4
 	},
 /area/mainship/living/starboard_garden)
@@ -9986,7 +9986,7 @@
 	},
 /area/mainship/hallways/starboard_hallway)
 "fCr" = (
-/turf/open/ground/river/desertdam/clean/shallow_water_desert_waterway/edge{
+/turf/open/liquid/water/river/desertdam/clean/shallow_water_desert_waterway/edge{
 	dir = 8
 	},
 /area/mainship/living/starboard_garden)
@@ -14957,7 +14957,7 @@
 /turf/open/floor/plating,
 /area/mainship/command/self_destruct)
 "iXu" = (
-/turf/open/ground/river/desertdam/clean/shallow_water_desert_waterway/edge{
+/turf/open/liquid/water/river/desertdam/clean/shallow_water_desert_waterway/edge{
 	dir = 1
 	},
 /area/mainship/living/starboard_garden)
@@ -15109,7 +15109,7 @@
 /area/mainship/engineering/port_atmos)
 "jcp" = (
 /obj/structure/table/mainship,
-/obj/item/reagent_containers/food/snacks/cheeseburger,
+/obj/item/reagent_containers/food/snacks/burger/cheese,
 /turf/open/floor/mainship/floor/metal/lino,
 /area/mainship/living/cafeteria)
 "jcF" = (
@@ -20330,7 +20330,7 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/medical/lounge)
 "lXA" = (
-/obj/machinery/portable_atmospherics/hydroponics,
+/obj/machinery/hydroponics,
 /obj/machinery/light/mainship{
 	dir = 4
 	},
@@ -21549,7 +21549,7 @@
 /turf/open/floor/wood,
 /area/mainship/medical/lower_medical)
 "mIa" = (
-/turf/open/ground/river/desertdam/clean/shallow_water_desert_waterway{
+/turf/open/liquid/water/river/desertdam/clean/shallow_water_desert_waterway{
 	dir = 1
 	},
 /area/mainship/living/starboard_garden)
@@ -23310,7 +23310,7 @@
 /turf/open/floor/carpet,
 /area/mainship/squads/charlie)
 "nGZ" = (
-/turf/open/ground/river/desertdam/clean/shallow_water_desert_coast{
+/turf/open/liquid/water/river/desertdam/clean/shallow_water_desert_coast{
 	dir = 8
 	},
 /area/mainship/living/starboard_garden)
@@ -23908,7 +23908,7 @@
 /area/mainship/squads/alpha)
 "nWF" = (
 /obj/structure/rack,
-/obj/effect/spawner/random/toolbox,
+/obj/effect/spawner/random/engineering/toolbox,
 /turf/open/floor/plating,
 /area/mainship/hull/upper_hull)
 "nWW" = (
@@ -24890,7 +24890,7 @@
 /turf/open/floor/mainship/stripesquare,
 /area/mainship/hallways/bow_hallway)
 "oFM" = (
-/obj/effect/spawner/random/toolbox,
+/obj/effect/spawner/random/engineering/toolbox,
 /obj/effect/decal/cleanable/cobweb,
 /obj/machinery/light/mainship/small{
 	dir = 1
@@ -25563,7 +25563,7 @@
 /turf/open/floor/mainship/stripesquare,
 /area/mainship/shipboard/weapon_room)
 "paX" = (
-/turf/open/ground/river/desertdam/clean/shallow_water_desert_waterway{
+/turf/open/liquid/water/river/desertdam/clean/shallow_water_desert_waterway{
 	dir = 8
 	},
 /area/mainship/living/starboard_garden)
@@ -25999,7 +25999,7 @@
 /obj/effect/turf_decal/siding/metal{
 	dir = 8
 	},
-/obj/machinery/portable_atmospherics/hydroponics,
+/obj/machinery/hydroponics,
 /turf/open/floor/mainship/floor/metal/full{
 	icon_state = "dark"
 	},
@@ -26103,7 +26103,7 @@
 /turf/open/floor/plating,
 /area/mainship/hull/starboard_hull)
 "pre" = (
-/turf/open/ground/river/desertdam/clean/shallow_water_desert_waterway/edge{
+/turf/open/liquid/water/river/desertdam/clean/shallow_water_desert_waterway/edge{
 	dir = 4
 	},
 /area/mainship/living/starboard_garden)
@@ -29086,7 +29086,7 @@
 /obj/effect/turf_decal/siding/metal{
 	dir = 4
 	},
-/obj/machinery/portable_atmospherics/hydroponics,
+/obj/machinery/hydroponics,
 /turf/open/floor/mainship/floor/metal/full{
 	icon_state = "dark"
 	},
@@ -30965,7 +30965,7 @@
 /turf/open/floor/mainship/emerald/alt,
 /area/mainship/squads/charlie)
 "slY" = (
-/obj/machinery/portable_atmospherics/hydroponics,
+/obj/machinery/hydroponics,
 /obj/effect/turf_decal/siding/metal{
 	dir = 4
 	},
@@ -32436,7 +32436,7 @@
 /turf/open/floor/mainship/red/alt/full,
 /area/mainship/shipboard/ex_firing_range)
 "tiL" = (
-/obj/machinery/portable_atmospherics/hydroponics,
+/obj/machinery/hydroponics,
 /obj/effect/turf_decal/siding/metal{
 	dir = 8
 	},
@@ -32976,7 +32976,7 @@
 /turf/open/floor/carpet,
 /area/mainship/living/pilotbunks)
 "tBT" = (
-/turf/open/ground/river/desertdam/clean/shallow_water_desert_waterway{
+/turf/open/liquid/water/river/desertdam/clean/shallow_water_desert_waterway{
 	dir = 4
 	},
 /area/mainship/living/starboard_garden)
@@ -33155,7 +33155,7 @@
 /obj/machinery/light/mainship{
 	dir = 4
 	},
-/turf/open/ground/river/desertdam/clean/shallow_water_desert_waterway{
+/turf/open/liquid/water/river/desertdam/clean/shallow_water_desert_waterway{
 	dir = 8
 	},
 /area/mainship/living/starboard_garden)
@@ -33915,7 +33915,7 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/squads/bravo)
 "ujh" = (
-/turf/open/ground/river/desertdam/clean/shallow_water_desert_waterway,
+/turf/open/liquid/water/river/desertdam/clean/shallow_water_desert_waterway,
 /area/mainship/living/starboard_garden)
 "uji" = (
 /obj/structure/cable,
@@ -39755,7 +39755,7 @@
 	},
 /area/mainship/hallways/hangar)
 "xOU" = (
-/turf/open/ground/river/desertdam/clean/shallow_water_desert_coast/edge,
+/turf/open/liquid/water/river/desertdam/clean/shallow_water_desert_coast/edge,
 /area/mainship/living/starboard_garden)
 "xPw" = (
 /turf/closed/wall/mainship/alt,
