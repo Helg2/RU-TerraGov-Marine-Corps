@@ -547,7 +547,7 @@
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/squads/req)
 "aoh" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 8
 	},
 /obj/item/clothing/head/warning_cone,
@@ -1472,7 +1472,7 @@
 /turf/open/floor/plating/alt,
 /area/mainship/hallways/hangar)
 "aGI" = (
-/obj/machinery/landinglight/ds2/delaytwo,
+/obj/machinery/landinglight/lz2,
 /turf/open/floor/plating/alt,
 /area/mainship/hallways/hangar)
 "aGT" = (
@@ -2974,7 +2974,7 @@
 /obj/effect/turf_decal/warning_stripes/thin{
 	dir = 8
 	},
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 4
 	},
 /obj/effect/turf_decal/warning_stripes/thin{
@@ -3088,7 +3088,7 @@
 /obj/effect/turf_decal/warning_stripes/thin{
 	dir = 4
 	},
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 8
 	},
 /obj/effect/ai_node,
@@ -3400,7 +3400,7 @@
 	},
 /area/mainship/shipboard/brig)
 "bRX" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 4
 	},
 /obj/effect/turf_decal/warning_stripes/thin{
@@ -3458,7 +3458,7 @@
 /turf/open/floor/mainship/floor/metal/lino,
 /area/mainship/hallways/aft_hallway)
 "bSY" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 8
 	},
 /obj/effect/turf_decal/warning_stripes/thin{
@@ -4385,7 +4385,7 @@
 /obj/item/storage/box/crate/sentry,
 /obj/item/storage/toolbox/mechanical,
 /obj/effect/turf_decal/warning_stripes/rus/square,
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 8
 	},
 /turf/open/floor/mainship/floor/metal,
@@ -4410,7 +4410,7 @@
 	},
 /area/mainship/medical/surgery_hallway)
 "cuk" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 8
 	},
 /obj/effect/turf_decal/warning_stripes/thin{
@@ -5036,7 +5036,7 @@
 /turf/open/floor/grass,
 /area/mainship/living/starboard_garden)
 "cOG" = (
-/obj/machinery/floodlightcombat,
+/obj/machinery/deployable/floodlight,
 /turf/open/floor/mainship/tcomms,
 /area/mainship/command/self_destruct)
 "cOR" = (
@@ -5356,7 +5356,7 @@
 /turf/open/floor/plating,
 /area/mainship/hull/upper_hull)
 "cWW" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 8
 	},
 /obj/item/clothing/head/warning_cone,
@@ -6145,7 +6145,7 @@
 	},
 /area/mainship/squads/req)
 "dup" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 8
 	},
 /obj/effect/turf_decal/trimline/brown/warning{
@@ -8060,7 +8060,7 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/medical/chemistry)
 "eyW" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 8
 	},
 /obj/effect/turf_decal/warning_stripes/thin{
@@ -8524,7 +8524,7 @@
 /turf/open/floor/prison/plate,
 /area/mainship/command/self_destruct)
 "eMV" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 1
 	},
 /obj/effect/turf_decal/warning_stripes/thin,
@@ -8668,7 +8668,7 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/bow_hallway)
 "eQf" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 1
 	},
 /obj/machinery/light/mainship,
@@ -9643,7 +9643,7 @@
 /turf/open/floor/grass,
 /area/mainship/living/starboard_garden)
 "fqu" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 8
 	},
 /obj/effect/turf_decal/warning_stripes/thin{
@@ -10958,7 +10958,7 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
 "grG" = (
-/obj/machinery/floodlightcombat,
+/obj/machinery/deployable/floodlight,
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/hallways/hangar)
 "grR" = (
@@ -15512,7 +15512,7 @@
 /turf/open/floor/wood,
 /area/mainship/medical/lounge)
 "jnz" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 4
 	},
 /obj/effect/turf_decal/warning_stripes/thin{
@@ -17059,7 +17059,7 @@
 /area/mainship/engineering/ce_room)
 "kkU" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/floodlightcombat,
+/obj/machinery/deployable/floodlight,
 /obj/effect/turf_decal/warning_stripes/rus/square,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
@@ -18103,7 +18103,7 @@
 /turf/open/floor/grass,
 /area/mainship/living/starboard_garden)
 "kNR" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 1
 	},
 /obj/effect/turf_decal/warning_stripes/thin,
@@ -18188,7 +18188,7 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/medical/chemistry)
 "kQC" = (
-/obj/machinery/floodlightcombat,
+/obj/machinery/deployable/floodlight,
 /obj/effect/turf_decal/warning_stripes/rus/square,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
@@ -21991,7 +21991,7 @@
 /obj/machinery/light/mainship{
 	dir = 1
 	},
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 8
 	},
 /turf/open/floor/mainship/floor/metal,
@@ -23925,7 +23925,7 @@
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/hallways/aft_hallway)
 "nXi" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 8
 	},
 /obj/effect/turf_decal/warning_stripes/thin{
@@ -24541,7 +24541,7 @@
 /turf/open/floor/wood,
 /area/mainship/medical/upper_medical)
 "otK" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 4
 	},
 /obj/effect/turf_decal/warning_stripes/thin{
@@ -29411,7 +29411,7 @@
 /turf/open/floor/carpet,
 /area/mainship/hull/upper_hull)
 "roX" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 1
 	},
 /obj/effect/turf_decal/warning_stripes/thin,
@@ -29615,7 +29615,7 @@
 /turf/open/floor/carpet,
 /area/mainship/squads/req)
 "rwu" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 4
 	},
 /obj/effect/turf_decal/warning_stripes/thin{
@@ -29898,7 +29898,7 @@
 /obj/effect/turf_decal/siding/metal{
 	dir = 10
 	},
-/obj/machinery/floodlightcombat,
+/obj/machinery/deployable/floodlight,
 /turf/open/floor/mainship/floor/metal/full{
 	icon_state = "dark"
 	},
@@ -30551,7 +30551,7 @@
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/hallways/hangar)
 "sas" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 8
 	},
 /obj/effect/turf_decal/warning_stripes/thin{
@@ -31559,7 +31559,7 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/squads/charlie)
 "sFh" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 1
 	},
 /obj/effect/turf_decal/warning_stripes/thin,
@@ -32231,7 +32231,7 @@
 	},
 /area/mainship/squads/charlie)
 "tbc" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 1
 	},
 /obj/effect/turf_decal/warning_stripes/thin,
@@ -34062,7 +34062,7 @@
 /area/mainship/hull/port_hull)
 "umH" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/floodlightcombat,
+/obj/machinery/deployable/floodlight,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -34413,7 +34413,7 @@
 /turf/open/floor/plating,
 /area/mainship/hull/starboard_hull)
 "uzd" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 1
 	},
 /turf/open/floor/plating/alt,
@@ -38458,7 +38458,7 @@
 /turf/open/floor/mainship/red/alt,
 /area/mainship/squads/alpha)
 "xay" = (
-/obj/machinery/landinglight/ds2/delaytwo{
+/obj/machinery/landinglight/lz2{
 	dir = 1
 	},
 /obj/effect/turf_decal/warning_stripes/thin,
