@@ -6,6 +6,10 @@
 // SEMIOTIC STANDARD  //
 //===================//
 
+/obj/structure/sign/alt/Initialize(mapload)
+	. = ..()
+	icon = 'modular_RUtgmc/icons/obj/semiotic_standard.dmi'
+
 /obj/structure/sign/alt/safety
 	name = "sign"
 	icon = 'modular_RUtgmc/icons/obj/semiotic_standard.dmi'
