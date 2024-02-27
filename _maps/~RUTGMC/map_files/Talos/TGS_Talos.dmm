@@ -627,9 +627,6 @@
 	pixel_x = 8;
 	pixel_y = 24
 	},
-/obj/structure/sign/alt/safety/ladder{
-	pixel_x = 32
-	},
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/port_hallway)
 "aoK" = (
@@ -904,10 +901,6 @@
 "avb" = (
 /obj/machinery/vending/boozeomat,
 /obj/machinery/firealarm,
-/obj/structure/sign/alt/safety/fridge{
-	pixel_x = 8;
-	pixel_y = 24
-	},
 /turf/open/floor/wood,
 /area/mainship/living/pilotbunks)
 "avj" = (
@@ -978,6 +971,10 @@
 "awo" = (
 /obj/structure/bookcase/manuals,
 /obj/item/book/manual/ripley_build_and_repair,
+/obj/structure/sign/alt/safety/fridge{
+	pixel_x = 8;
+	pixel_y = 24
+	},
 /turf/open/floor/wood,
 /area/mainship/living/pilotbunks)
 "awx" = (
@@ -1328,6 +1325,14 @@
 /obj/machinery/air_alarm,
 /turf/open/floor/mainship/tcomms,
 /area/mainship/command/telecomms)
+"aDg" = (
+/obj/structure/drop_pod_launcher,
+/obj/structure/droppod,
+/obj/structure/sign/alt/safety/maint{
+	pixel_x = -17
+	},
+/turf/open/floor/prison/cleanmarked,
+/area/mainship/hallways/hangar/droppod)
 "aDj" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/fullgrass,
@@ -4986,6 +4991,9 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
+/obj/structure/sign/alt/safety/bathunisex{
+	pixel_x = -17
+	},
 /turf/open/floor/wood,
 /area/mainship/living/pilotbunks)
 "cMs" = (
@@ -5433,9 +5441,6 @@
 /obj/effect/turf_decal/warning_stripes/rus/fulltile,
 /obj/machinery/light/mainship{
 	dir = 8
-	},
-/obj/structure/sign/alt/safety/ladder{
-	pixel_x = -17
 	},
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/port_hallway)
@@ -7686,11 +7691,6 @@
 /obj/structure/table/black,
 /turf/open/floor/mainship/black/full,
 /area/mainship/command/cic)
-"epc" = (
-/obj/structure/table/mainship,
-/obj/machinery/camera/alt/autoname,
-/turf/open/floor/wood,
-/area/mainship/medical/surgery_hallway)
 "epe" = (
 /obj/effect/turf_decal/siding/metal{
 	dir = 1
@@ -7726,9 +7726,6 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
-/obj/structure/sign/alt/safety/bathunisex{
-	pixel_x = -17
-	},
 /turf/open/floor/wood,
 /area/mainship/living/pilotbunks)
 "eqM" = (
@@ -8341,9 +8338,6 @@
 	dir = 4
 	},
 /obj/item/storage/box/monkeycubes,
-/obj/structure/sign/alt/safety/maint{
-	pixel_x = -17
-	},
 /turf/open/floor/prison/whitepurple/full,
 /area/mainship/medical/medical_science)
 "eIu" = (
@@ -13008,18 +13002,6 @@
 /obj/effect/turf_decal/warning_stripes/thin,
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/shipboard/ex_firing_range)
-"hMf" = (
-/obj/structure/drop_pod_launcher,
-/obj/structure/droppod,
-/obj/machinery/light/mainship{
-	dir = 1
-	},
-/obj/structure/sign/alt/safety/maint{
-	pixel_x = 8;
-	pixel_y = 24
-	},
-/turf/open/floor/prison/cleanmarked,
-/area/mainship/hallways/hangar/droppod)
 "hMu" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -15930,6 +15912,15 @@
 	},
 /turf/open/floor/mainship/stripesquare,
 /area/mainship/squads/req)
+"jCe" = (
+/obj/effect/turf_decal/tile/metal/medical{
+	dir = 1
+	},
+/obj/machinery/camera/alt/autoname,
+/turf/open/floor/mainship/floor/metal/white{
+	color = "#E2E0DC"
+	},
+/area/mainship/medical/surgery_hallway)
 "jCB" = (
 /obj/effect/turf_decal/siding/metal,
 /turf/open/floor/mainship/floor/metal/full{
@@ -17506,6 +17497,9 @@
 /area/mainship/hallways/bow_hallway)
 "kyK" = (
 /obj/effect/decal/cleanable/liquid_fuel,
+/obj/structure/sign/alt/safety/maint{
+	pixel_x = 32
+	},
 /turf/open/floor/prison/yellow{
 	dir = 6
 	},
@@ -19855,6 +19849,19 @@
 	},
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
+"lHX" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced,
+/obj/structure/sign/alt/safety/maint{
+	pixel_x = 8;
+	pixel_y = 24
+	},
+/turf/open/floor/grass,
+/area/mainship/hallways/aft_hallway)
 "lIb" = (
 /obj/machinery/light/mainship{
 	dir = 4
@@ -19957,9 +19964,6 @@
 /turf/open/floor/prison/plate,
 /area/mainship/squads/req)
 "lKP" = (
-/obj/structure/sign/alt/safety/maint{
-	pixel_x = 32
-	},
 /obj/structure/bed/chair/sofa/corner{
 	dir = 8
 	},
@@ -20375,6 +20379,9 @@
 /obj/machinery/computer/camera_advanced/overwatch/alpha{
 	name = "CMO Overwatch Console"
 	},
+/obj/machinery/camera/alt/autoname{
+	dir = 8
+	},
 /turf/open/floor/wood,
 /area/mainship/medical/lower_medical)
 "lYP" = (
@@ -20626,7 +20633,6 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/siding/metal,
-/obj/effect/turf_decal/warning_stripes/firingrange,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/port_hallway)
 "mgc" = (
@@ -22123,10 +22129,10 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/squads/alpha)
 "mVU" = (
-/obj/structure/sign/alt/safety/fire_haz{
+/obj/structure/reagent_dispensers/fueltank,
+/obj/structure/sign/alt/safety/terminal{
 	pixel_x = -17
 	},
-/obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/prison/marked,
 /area/mainship/squads/req)
 "mVZ" = (
@@ -23217,10 +23223,6 @@
 /obj/effect/turf_decal/siding/metal{
 	dir = 1
 	},
-/obj/structure/sign/alt/safety/maint{
-	pixel_x = 8;
-	pixel_y = 24
-	},
 /turf/open/floor/mainship/floor/metal/lino,
 /area/mainship/hallways/aft_hallway)
 "nCz" = (
@@ -23578,8 +23580,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door_control/mainship/req{
 	dir = 4;
-	id = "qm_warehouse";
-	name = "RO Warehouse Shutters";
+	name = "RO Line Shutters";
 	pixel_x = -25
 	},
 /turf/open/floor/mainship/stripesquare,
@@ -24380,7 +24381,6 @@
 /obj/structure/paper_bin,
 /obj/item/tool/pen/blue,
 /obj/item/tool/stamp/cmo,
-/obj/machinery/camera/alt/autoname,
 /obj/structure/table/mainship,
 /turf/open/floor/wood,
 /area/mainship/medical/lower_medical)
@@ -24506,6 +24506,9 @@
 /obj/item/tool/extinguisher,
 /obj/machinery/camera/alt/autoname{
 	dir = 4
+	},
+/obj/structure/sign/alt/safety/fire_haz{
+	pixel_x = -17
 	},
 /turf/open/floor/prison/marked,
 /area/mainship/squads/req)
@@ -25010,7 +25013,6 @@
 /turf/open/floor/prison/plate,
 /area/mainship/squads/req)
 "oJE" = (
-/obj/machinery/camera/alt/autoname,
 /obj/structure/closet/toolcloset,
 /obj/effect/turf_decal/woodsiding{
 	dir = 1
@@ -25238,6 +25240,9 @@
 "oON" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/surgical_tray/alt,
+/obj/structure/sign/alt/safety/maint{
+	pixel_x = -17
+	},
 /turf/open/floor/prison/whitepurple/full,
 /area/mainship/medical/medical_science)
 "oOO" = (
@@ -29303,6 +29308,9 @@
 /obj/effect/turf_decal/woodsiding{
 	dir = 9
 	},
+/obj/machinery/camera/alt/autoname{
+	dir = 4
+	},
 /turf/open/floor/carpet,
 /area/mainship/squads/req)
 "riA" = (
@@ -30963,6 +30971,11 @@
 	color = "#E2E0DC"
 	},
 /area/mainship/medical/surgery_hallway)
+"slg" = (
+/obj/effect/turf_decal/siding/metal,
+/obj/effect/turf_decal/warning_stripes/firingrange,
+/turf/open/floor/mainship/floor/metal,
+/area/mainship/hallways/port_hallway)
 "sli" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
@@ -35176,9 +35189,6 @@
 /obj/machinery/light/mainship/small{
 	dir = 8
 	},
-/obj/structure/sign/alt/safety/terminal{
-	pixel_x = -17
-	},
 /turf/open/floor/prison/marked,
 /area/mainship/squads/req)
 "uUQ" = (
@@ -35230,6 +35240,9 @@
 /turf/open/floor/carpet,
 /area/mainship/living/commandbunks)
 "uVO" = (
+/obj/structure/sign/alt/safety/ladder{
+	pixel_x = 32
+	},
 /turf/open/floor/mainship/red/alt{
 	dir = 5
 	},
@@ -38806,8 +38819,7 @@
 /obj/structure/drop_pod_launcher,
 /obj/structure/droppod,
 /obj/structure/sign/alt/safety/maint{
-	pixel_x = 8;
-	pixel_y = 24
+	pixel_x = 32
 	},
 /turf/open/floor/prison/cleanmarked,
 /area/mainship/hallways/hangar/droppod)
@@ -39881,6 +39893,9 @@
 	icon_state = "plant-12"
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/alt,
+/obj/machinery/camera/alt/autoname{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/mainship/medical/surgery_hallway)
 "xRI" = (
@@ -39957,6 +39972,13 @@
 "xVg" = (
 /obj/structure/closet/toolcloset,
 /turf/open/floor/mainship/floor/metal/full,
+/area/mainship/hallways/port_hallway)
+"xVu" = (
+/obj/structure/sign/alt/safety/ladder{
+	pixel_x = 8;
+	pixel_y = -8
+	},
+/turf/closed/wall/mainship/alt,
 /area/mainship/hallways/port_hallway)
 "xVF" = (
 /turf/closed/wall/mainship/alt,
@@ -59597,7 +59619,7 @@ rnU
 lsK
 kjY
 lhv
-lud
+jCe
 lxK
 eEe
 oHY
@@ -61653,10 +61675,10 @@ sAW
 aYM
 vtu
 hDs
-lud
+jCe
 wwy
 eAC
-epc
+erN
 erN
 iht
 buA
@@ -61884,7 +61906,7 @@ uwt
 uwt
 cZa
 pdB
-dCf
+lHX
 bSK
 dqE
 nEO
@@ -63157,7 +63179,7 @@ dnv
 aRv
 cZa
 lMI
-uBZ
+aDg
 cGi
 dXx
 cGi
@@ -63671,7 +63693,7 @@ dnv
 aRv
 cZa
 lMI
-hMf
+gJq
 drV
 uBZ
 uBZ
@@ -76518,7 +76540,7 @@ dnv
 aRv
 cZa
 sHE
-kyB
+xVu
 cZe
 pYk
 ciM
@@ -80653,7 +80675,7 @@ pSA
 jPy
 uVm
 bhH
-wZI
+slg
 uFR
 vtb
 vtb
