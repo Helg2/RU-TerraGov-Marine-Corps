@@ -1709,6 +1709,12 @@
 	},
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/squads/bravo)
+"aQZ" = (
+/obj/machinery/light/mainship{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/mainship/hull/starboard_hull)
 "aRv" = (
 /turf/closed/wall/mainship/outer/alt,
 /area/mainship/hull/starboard_hull)
@@ -2490,8 +2496,6 @@
 	dir = 8
 	},
 /obj/machinery/door_control/mainship/req{
-	id = "qm_warehouse";
-	name = "RO Warehouse Shutters";
 	pixel_y = 25
 	},
 /obj/item/flashlight/lamp,
@@ -2735,6 +2739,9 @@
 /turf/open/floor/mainship/stripesquare,
 /area/mainship/living/basketball)
 "bze" = (
+/obj/machinery/camera/alt/autoname{
+	dir = 8
+	},
 /turf/open/floor/mainship/emerald/alt{
 	dir = 6
 	},
@@ -6198,6 +6205,9 @@
 /turf/open/floor/mainship/floor,
 /area/mainship/living/basketball)
 "duY" = (
+/obj/machinery/camera/alt/autoname{
+	dir = 4
+	},
 /turf/open/floor/mainship/blue/alt{
 	dir = 10
 	},
@@ -6343,6 +6353,7 @@
 "dzB" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk,
+/obj/machinery/camera/alt/autoname,
 /turf/open/floor/mainship/blue/alt{
 	dir = 5
 	},
@@ -11174,6 +11185,12 @@
 	icon_state = "dark"
 	},
 /area/mainship/shipboard/brig_cells)
+"gwZ" = (
+/obj/machinery/camera/alt/autoname{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/mainship/living/starboard_garden)
 "gxt" = (
 /obj/structure/bed/chair/wood/wings{
 	dir = 4
@@ -12033,6 +12050,9 @@
 /obj/item/tool/pickaxe/plasmacutter,
 /obj/item/cell/hyper,
 /obj/item/clothing/glasses/welding,
+/obj/machinery/light/mainship/small{
+	dir = 8
+	},
 /turf/open/floor/prison/yellow{
 	dir = 8
 	},
@@ -13960,6 +13980,7 @@
 /area/mainship/hallways/hangar/droppod)
 "iqD" = (
 /obj/structure/rock/basalt,
+/obj/machinery/camera/alt/autoname,
 /turf/open/floor/grass,
 /area/mainship/living/starboard_garden)
 "irn" = (
@@ -21663,6 +21684,9 @@
 /obj/effect/turf_decal/siding/metal{
 	dir = 1
 	},
+/obj/machinery/light/mainship/small{
+	dir = 1
+	},
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/starboard_hallway)
 "mHk" = (
@@ -24081,6 +24105,11 @@
 /obj/effect/spawner/random/engineering/toolbox,
 /turf/open/floor/plating,
 /area/mainship/hull/upper_hull)
+"nWG" = (
+/obj/effect/turf_decal/siding/metal,
+/obj/machinery/light/mainship/small,
+/turf/open/floor/mainship/floor/metal,
+/area/mainship/hallways/port_hallway)
 "nWW" = (
 /obj/structure/flora/pottedplant/ten,
 /obj/machinery/light/mainship{
@@ -37912,6 +37941,15 @@
 	dir = 4
 	},
 /area/mainship/squads/alpha)
+"wzu" = (
+/obj/effect/turf_decal/siding/metal{
+	dir = 4
+	},
+/obj/machinery/light/mainship{
+	dir = 4
+	},
+/turf/open/floor/mainship/floor/metal,
+/area/mainship/hallways/aft_hallway)
 "wzx" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
@@ -38846,6 +38884,15 @@
 /obj/structure/cable,
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/hallways/aft_hallway)
+"xcu" = (
+/obj/effect/turf_decal/siding/metal{
+	dir = 10
+	},
+/obj/machinery/camera/alt/autoname{
+	dir = 1
+	},
+/turf/open/floor/mainship/floor/metal,
+/area/mainship/hallways/bow_hallway)
 "xdb" = (
 /turf/open/floor/plating/alt,
 /area/mainship/hallways/bow_hallway)
@@ -69517,7 +69564,7 @@ fkO
 fkO
 vbj
 phD
-mwv
+xcu
 xVF
 kgK
 dIA
@@ -73533,7 +73580,7 @@ wfg
 vxU
 mLW
 tLw
-tLw
+wzu
 tLw
 tLw
 tLw
@@ -77517,7 +77564,7 @@ pJF
 xMw
 lDs
 lDs
-xfQ
+gwZ
 vis
 lrS
 sjN
@@ -82769,7 +82816,7 @@ jPy
 jPy
 epe
 dzO
-wZI
+nWG
 vJB
 wbQ
 vFl
@@ -88678,7 +88725,7 @@ opF
 opF
 mZD
 mZD
-uwt
+aQZ
 cZa
 uwt
 mZD
