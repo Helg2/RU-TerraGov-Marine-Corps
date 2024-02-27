@@ -96,7 +96,7 @@
 	new /obj/item/radio/headset/mainship/marine/charlie(src)
 	new /obj/item/clothing/head/soft/marine/charlie(src)
 	new /obj/item/clothing/head/tgmcberet/squad/charlie(src)
-	new /obj/item/clothing/head/tgmcberet/squad/charlie/charlie(src)
+	new /obj/item/clothing/head/tgmcberet/squad/charlie/black(src)
 	new /obj/item/clothing/mask/bandanna/charlie(src)
 	new /obj/item/clothing/head/squad_headband/charlie(src)
 
