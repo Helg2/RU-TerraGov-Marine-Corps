@@ -4,7 +4,7 @@
 /obj/structure/window/framed/mainship/alt
 	icon = 'modular_RUtgmc/icons/turf/windows.dmi'
 	icon_state = "alm_rwindow0"
-	basestate = "alm_rwindow"
+	base_icon_state = "alm_rwindow"
 	smoothing_behavior = NO_SMOOTHING
 
 /obj/structure/window/framed/mainship/gray
@@ -13,7 +13,7 @@
 /obj/structure/window/framed/mainship/gray/toughened/hull/alt
 	icon = 'modular_RUtgmc/icons/turf/windows.dmi'
 	icon_state = "alm_rwindow0"
-	basestate = "alm_rwindow"
+	base_icon_state = "alm_rwindow"
 
 /obj/structure/window/framed/colony
 	icon = 'modular_RUtgmc/icons/obj/smooth_objects/col_window.dmi'
