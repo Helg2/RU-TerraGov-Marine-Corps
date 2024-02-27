@@ -21505,7 +21505,7 @@
 /obj/structure/sign/prop1{
 	dir = 1
 	},
-/obj/effect/landmark/start/latejoin_cryo,
+/obj/effect/landmark/start/latejoin,
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/living/cryo_cells)
 "mGG" = (
@@ -23821,7 +23821,7 @@
 /area/mainship/squads/req)
 "nTH" = (
 /obj/effect/turf_decal/warning_stripes/rus/square,
-/obj/effect/landmark/start/latejoin_cryo,
+/obj/effect/landmark/start/latejoin,
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/living/cryo_cells)
 "nTO" = (
