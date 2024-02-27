@@ -10315,6 +10315,13 @@
 /obj/effect/turf_decal/warning_stripes/rus/square,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
+"fPk" = (
+/obj/structure/sign/alt/safety/maint{
+	pixel_x = 8;
+	pixel_y = 24
+	},
+/turf/open/floor/plating/plating_catwalk/alt,
+/area/mainship/hallways/hangar)
 "fPJ" = (
 /obj/machinery/computer/camera_advanced/remote_fob,
 /obj/machinery/light/mainship{
@@ -24935,10 +24942,6 @@
 	dir = 4
 	},
 /obj/machinery/camera/alt/autoname,
-/obj/structure/sign/alt/safety/maint{
-	pixel_x = 8;
-	pixel_y = 24
-	},
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/hallways/hangar)
 "oHY" = (
@@ -69780,7 +69783,7 @@ pWm
 uwt
 cZa
 iwc
-hXx
+fPk
 pBF
 hXx
 bwX
