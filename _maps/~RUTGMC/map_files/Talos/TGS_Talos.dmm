@@ -1064,7 +1064,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/warning_stripes/rus/fulltile,
-/turf/open/space/basic,
+/turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/engineering/engine_core)
 "ayE" = (
 /turf/closed/wall/mainship/outer/alt,
@@ -4484,7 +4484,7 @@
 /area/mainship/squads/alpha)
 "cxg" = (
 /obj/machinery/loadout_vendor,
-/turf/open/space/basic,
+/turf/open/floor/wood,
 /area/mainship/squads/alpha)
 "cxs" = (
 /obj/structure/table/fancywoodentable,
@@ -9287,7 +9287,7 @@
 /area/mainship/command/cic)
 "feY" = (
 /obj/machinery/vending/weapon,
-/turf/open/space/basic,
+/turf/open/floor/wood,
 /area/mainship/squads/alpha)
 "ffh" = (
 /obj/structure/cable,
@@ -14700,7 +14700,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/warning_stripes/rus/fulltile,
-/turf/open/space/basic,
+/turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/engineering/engine_core)
 "iPz" = (
 /obj/item/tool/mop,
@@ -27120,7 +27120,7 @@
 /area/mainship/hallways/hangar)
 "pSA" = (
 /obj/machinery/vending/weapon,
-/turf/open/space/basic,
+/turf/open/floor/wood,
 /area/mainship/squads/bravo)
 "pSN" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
@@ -29023,7 +29023,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/warning_stripes/rus/fulltile,
-/turf/open/space/basic,
+/turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/engineering/engine_core)
 "qZa" = (
 /obj/machinery/light/small{
@@ -29094,7 +29094,7 @@
 /area/mainship/hallways/bow_hallway)
 "rdp" = (
 /obj/machinery/marine_selector/gear/leader,
-/turf/open/space/basic,
+/turf/open/floor/wood,
 /area/mainship/squads/alpha)
 "rdw" = (
 /obj/structure/closet/secure_closet/marine/charlie,
@@ -29228,7 +29228,7 @@
 /area/mainship/living/basketball)
 "rgY" = (
 /obj/machinery/marine_selector/clothes/leader,
-/turf/open/space/basic,
+/turf/open/floor/wood,
 /area/mainship/squads/alpha)
 "rhh" = (
 /obj/structure/closet/secure_closet/marine/charlie,
