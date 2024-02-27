@@ -1354,6 +1354,7 @@
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/squads/delta)
 "aDA" = (
+/obj/item/toy/plush/gnome,
 /turf/open/floor/plating,
 /area/mainship/engineering/ce_room)
 "aDL" = (
@@ -2496,6 +2497,8 @@
 	dir = 8
 	},
 /obj/machinery/door_control/mainship/req{
+	id = "qm_warehouse";
+	name = "RO Warehouse Shutters";
 	pixel_y = 25
 	},
 /obj/item/flashlight/lamp,
@@ -25699,16 +25702,6 @@
 	},
 /turf/open/floor/plating,
 /area/mainship/hull/upper_hull)
-"oZp" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer1,
-/obj/structure/cable,
-/obj/machinery/door/firedoor,
-/turf/open/floor/mainship/stripesquare,
-/area/mainship/squads/req)
 "oZG" = (
 /turf/open/floor/mainship/alt/orange{
 	dir = 1
@@ -69733,7 +69726,7 @@ efF
 lma
 oHq
 dmu
-oZp
+xWG
 xWG
 kqv
 xzh
