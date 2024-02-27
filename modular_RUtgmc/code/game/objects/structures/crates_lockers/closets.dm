@@ -47,12 +47,11 @@
 /obj/structure/closet/secure_closet/marine/Initialize()
 	. = ..()
 	if(closet_squad)
-		icon_state = "squad_[closet_squad]_locked"
-		icon_closed = "squad_[closet_squad]_unlocked"
-		icon_locked = "squad_[closet_squad]_locked"
-		icon_opened = "squad_[closet_squad]_open"
-		icon_broken = "squad_[closet_squad]_emmaged"
-		icon_off = "squad_[closet_squad]_off"
+		icon_state = "[closet_squad]_locked"
+		icon_closed = "[closet_squad]_unlocked"
+		icon_locked = "[closet_squad]_locked"
+		icon_broken = "[closet_squad]_emmaged"
+		icon_off = "[closet_squad]_off"
 
 /obj/structure/closet/secure_closet/marine/PopulateContents()
 	if(SSmapping.configs[GROUND_MAP].environment_traits[MAP_COLD])
