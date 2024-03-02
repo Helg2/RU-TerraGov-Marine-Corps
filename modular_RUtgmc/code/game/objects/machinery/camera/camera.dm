@@ -13,11 +13,13 @@
 
 /obj/machinery/camera/alt/Initialize(mapload, newDir)
 	. = ..()
-	switch(dir)
+	switch(dir) //NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST
 		if(NORTH)
 			pixel_y = 0
+			pixel_x = -10
 		if(SOUTH)
 			pixel_y = 18
+			pixel_x = 10
 		if(EAST)
 			pixel_x = -9
 			pixel_y = -5
