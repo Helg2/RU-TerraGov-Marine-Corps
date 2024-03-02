@@ -5,7 +5,6 @@
 	icon = 'modular_RUtgmc/icons/obj/smooth_objects/alt_ship_window.dmi'
 	icon_state = "alt_ship_window"
 	base_icon_state = "alt_ship_window"
-	smoothing_behavior = NO_SMOOTHING
 
 /obj/structure/window/framed/mainship/gray
 	icon = 'modular_RUtgmc/icons/obj/smooth_objects/ship_gray_window.dmi'
