@@ -12,6 +12,6 @@
 
 /obj/structure/window_frame/mainship/alt
 	window_type = /obj/structure/window/framed/mainship/alt
-	icon = 'modular_RUtgmc/icons/turf/window_frames.dmi'
-	icon_state = "alm_window0_frame"
-	basestate = "alm_window0"
+	icon = 'modular_RUtgmc/icons/obj/smooth_objects/alt_ship_window_frame.dmi'
+	icon_state = "alt_ship_window_frame-0"
+	basestate = "alt_ship_window_frame"
