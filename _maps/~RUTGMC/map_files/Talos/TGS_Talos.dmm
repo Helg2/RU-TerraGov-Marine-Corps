@@ -9758,7 +9758,9 @@
 /area/mainship/living/grunt_rnr)
 "frq" = (
 /obj/effect/ai_node,
-/obj/machinery/computer/sleep_console/alt,
+/obj/machinery/computer/sleep_console/alt{
+	dir = 1
+	},
 /turf/open/floor/mainship/floor/metal/white{
 	color = "#E2E0DC"
 	},
@@ -15162,9 +15164,7 @@
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/engineering/engine_core)
 "jau" = (
-/obj/machinery/computer/body_scanconsole/alt{
-	dir = 8
-	},
+/obj/machinery/computer/body_scanconsole/alt,
 /turf/open/floor/mainship/floor/metal/rubber,
 /area/mainship/medical/lounge)
 "jaW" = (
@@ -24177,6 +24177,14 @@
 /obj/machinery/cell_charger,
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/engineering/engineering_workshop)
+"nZg" = (
+/obj/machinery/computer/sleep_console/alt{
+	dir = 1
+	},
+/turf/open/floor/mainship/floor/metal/white{
+	color = "#E2E0DC"
+	},
+/area/mainship/medical/lounge)
 "nZo" = (
 /obj/structure/window{
 	dir = 8
@@ -26085,14 +26093,6 @@
 /obj/machinery/atmospherics/pipe/manifold4w/cyan/hidden/layer1,
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/squads/bravo)
-"piC" = (
-/obj/machinery/computer/sleep_console/alt{
-	dir = 8
-	},
-/turf/open/floor/mainship/floor/metal/white{
-	color = "#E2E0DC"
-	},
-/area/mainship/medical/lounge)
 "pja" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -31232,9 +31232,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer1,
 /obj/structure/cable,
-/obj/machinery/computer/body_scanconsole/alt{
-	dir = 8
-	},
+/obj/machinery/computer/body_scanconsole/alt,
 /turf/open/floor/plating/plating_catwalk/alt/white,
 /area/mainship/medical/surgery_hallway)
 "slS" = (
@@ -64308,13 +64306,13 @@ hxt
 uFv
 iFu
 tuo
-piC
+jpN
 gZd
 vUp
 kmC
 tuo
 gUS
-piC
+jpN
 tuo
 lif
 uFv
@@ -64572,7 +64570,7 @@ vRS
 pvw
 sBF
 cTS
-jpN
+nZg
 lir
 uFv
 qjV
