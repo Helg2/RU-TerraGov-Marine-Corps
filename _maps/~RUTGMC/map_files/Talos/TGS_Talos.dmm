@@ -14617,7 +14617,7 @@
 /turf/open/floor/plating,
 /area/mainship/hull/upper_hull)
 "iLO" = (
-/obj/machinery/atmospherics/components/unary/cryo_cell/alt,
+/obj/machinery/atmospherics/components/unary/cryo_cell,
 /obj/effect/turf_decal/tile/metal/medical{
 	dir = 1
 	},
