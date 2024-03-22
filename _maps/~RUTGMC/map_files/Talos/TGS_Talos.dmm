@@ -3367,8 +3367,7 @@
 "bSB" = (
 /obj/machinery/door/poddoor/mainship/open{
 	id = "cic_lockdown";
-	name = "\improper Combat Information Center Blast Door";
-	
+	name = "\improper Combat Information Center Blast Door"
 	},
 /obj/structure/window/framed/mainship/alt,
 /turf/open/floor/plating,
@@ -16730,7 +16729,7 @@
 /area/mainship/medical/lounge)
 "kjn" = (
 /obj/structure/window/framed/mainship/gray/toughened/hull/alt,
-/turf/open/floor/plating,
+/turf/open/floor/plating/platebotc,
 /area/mainship/hull/starboard_hull)
 "kjK" = (
 /obj/effect/turf_decal/tile/metal/corner/medical,
