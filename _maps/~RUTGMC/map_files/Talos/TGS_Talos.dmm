@@ -4241,16 +4241,6 @@
 /obj/machinery/portable_atmospherics/scrubber,
 /turf/open/floor/plating,
 /area/mainship/hull/upper_hull)
-"crz" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
-	id_tag = "oxyvent";
-	on = 0
-	},
-/turf/open/floor/plating/alt,
-/area/mainship/engineering/port_atmos)
 "csc" = (
 /obj/structure/table/fancywoodentable,
 /obj/structure/paper_bin{
@@ -10580,7 +10570,6 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
-	id_tag = "nit_out";
 	on = 0
 	},
 /turf/open/floor/plating/alt,
@@ -22382,8 +22371,6 @@
 "npR" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
 	dir = 8;
-	id_tag = "waste_out";
-	name = "Waste Air Vent";
 	on = 0
 	},
 /turf/open/floor/plating/alt,
@@ -90368,7 +90355,7 @@ ooO
 aRv
 iiD
 opF
-crz
+gkr
 xEW
 eSg
 dpE
