@@ -24692,9 +24692,7 @@
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/hallways/starboard_hallway)
 "oLr" = (
-/obj/structure/prop/mainship/name_stencil{
-	icon_state = "TGMC2"
-	},
+/obj/structure/prop/mainship/name_stencil/G,
 /turf/open/floor/mainship_hull,
 /area/space)
 "oLy" = (
@@ -28112,9 +28110,7 @@
 /turf/open/floor/carpet,
 /area/mainship/hull/upper_hull)
 "qIV" = (
-/turf/open/shuttle/escapepod{
-	icon_state = "floor8"
-	},
+/turf/open/shuttle/escapepod/eight,
 /area/mainship/command/self_destruct)
 "qJF" = (
 /obj/structure/disposalpipe/segment,
@@ -36324,9 +36320,7 @@
 /area/mainship/engineering/engineering_workshop)
 "vWV" = (
 /obj/effect/ai_node,
-/turf/open/shuttle/escapepod{
-	icon_state = "floor8"
-	},
+/turf/open/shuttle/escapepod/eight,
 /area/mainship/command/self_destruct)
 "vWY" = (
 /obj/structure/closet/crate,
