@@ -73,12 +73,6 @@
 "abW" = (
 /turf/closed/wall/mainship/alt,
 /area/mainship/shipboard/firing_range)
-"abX" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow2"
-	},
-/turf/open/floor/mainship/floor/metal,
-/area/mainship/squads/delta)
 "acd" = (
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
@@ -468,9 +462,7 @@
 /turf/open/floor/plating,
 /area/mainship/hull/port_hull)
 "amH" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow1"
-	},
+/obj/structure/window/framed/mainship/alt,
 /obj/machinery/door/poddoor/mainship{
 	density = 0;
 	icon_state = "pdoor0";
@@ -838,9 +830,8 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/starboard_hallway)
 "ata" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow8"
-	},
+/obj/structure/window/framed/mainship/alt,
+,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/squads/delta)
 "atw" = (
@@ -976,9 +967,7 @@
 /turf/open/floor/plating,
 /area/mainship/hull/starboard_hull)
 "awz" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow4"
-	},
+/obj/structure/window/framed/mainship/alt,
 /obj/machinery/door/poddoor/shutters/mainship/selfdestruct{
 	dir = 1
 	},
@@ -1058,12 +1047,6 @@
 	},
 /turf/open/floor/plating,
 /area/mainship/hull/upper_hull)
-"ayW" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow2"
-	},
-/turf/open/floor/plating,
-/area/mainship/shipboard/firing_range)
 "azd" = (
 /obj/machinery/light/mainship{
 	dir = 1
@@ -1186,9 +1169,7 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
 "aAU" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow1"
-	},
+/obj/structure/window/framed/mainship/alt,
 /obj/machinery/door/poddoor/shutters/opened/wy{
 	dir = 8
 	},
@@ -1826,9 +1807,7 @@
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/living/grunt_rnr)
 "aXM" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow4"
-	},
+/obj/structure/window/framed/mainship/alt,
 /turf/open/floor/plating,
 /area/mainship/living/grunt_rnr)
 "aYh" = (
@@ -2262,9 +2241,7 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/shipboard/brig)
 "bmI" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow4"
-	},
+/obj/structure/window/framed/mainship/alt,
 /turf/open/floor/plating,
 /area/mainship/command/telecomms)
 "bmT" = (
@@ -2454,12 +2431,6 @@
 	dir = 1
 	},
 /area/mainship/squads/alpha)
-"bta" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow12"
-	},
-/turf/open/floor/plating,
-/area/mainship/engineering/engine_core)
 "btd" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1/alt{
 	dir = 1
@@ -2952,12 +2923,6 @@
 	},
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/living/grunt_rnr)
-"bHz" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow2"
-	},
-/turf/open/floor/plating,
-/area/mainship/engineering/engine_core)
 "bHF" = (
 /obj/item/clothing/head/warning_cone,
 /obj/effect/turf_decal/warning_stripes/thin{
@@ -3299,9 +3264,7 @@
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/shipboard/ex_firing_range)
 "bQz" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow4"
-	},
+/obj/structure/window/framed/mainship/alt,
 /obj/machinery/door/poddoor/mainship{
 	density = 0;
 	dir = 2;
@@ -3361,12 +3324,6 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer1,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/squads/bravo)
-"bRf" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow1"
-	},
-/turf/open/floor/plating,
-/area/mainship/engineering/engine_core)
 "bRp" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 1
@@ -3426,9 +3383,7 @@
 	name = "\improper Combat Information Center Blast Door";
 	opacity = 0
 	},
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow3"
-	},
+/obj/structure/window/framed/mainship/alt,
 /turf/open/floor/plating,
 /area/mainship/command/cic)
 "bSK" = (
@@ -4879,9 +4834,8 @@
 /turf/open/floor/mainship/tcomms,
 /area/mainship/command/telecomms)
 "cJq" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow8"
-	},
+/obj/structure/window/framed/mainship/alt,
+,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/squads/alpha)
 "cJt" = (
@@ -5534,12 +5488,6 @@
 	},
 /turf/open/floor/grass,
 /area/mainship/shipboard/firing_range)
-"dcS" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow2"
-	},
-/turf/open/floor/plating,
-/area/mainship/living/commandbunks)
 "ddo" = (
 /obj/item/folder/black_random,
 /obj/structure/table/reinforced,
@@ -6508,9 +6456,7 @@
 	},
 /area/mainship/squads/req)
 "dGz" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow4"
-	},
+/obj/structure/window/framed/mainship/alt,
 /turf/open/floor/plating,
 /area/mainship/squads/charlie)
 "dGD" = (
@@ -6962,9 +6908,8 @@
 	},
 /area/mainship/medical/medical_science)
 "dVs" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow8"
-	},
+/obj/structure/window/framed/mainship/alt,
+,
 /turf/open/floor/plating,
 /area/mainship/command/telecomms)
 "dVw" = (
@@ -7271,19 +7216,6 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer1,
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/squads/delta)
-"efU" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow2"
-	},
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "Brig Lockdown";
-	name = "\improper Brig Lockdown Podlocks";
-	opacity = 0
-	},
-/turf/open/floor/plating,
-/area/mainship/shipboard/brig)
 "egl" = (
 /turf/open/floor/mainship/terragov/north,
 /area/space)
@@ -7436,9 +7368,7 @@
 /turf/open/floor/plating,
 /area/mainship/medical/medical_science)
 "eiT" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow4"
-	},
+/obj/structure/window/framed/mainship/alt,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/squads/alpha)
 "ejj" = (
@@ -7821,9 +7751,8 @@
 /turf/open/floor/plating/alt,
 /area/mainship/hallways/hangar)
 "etO" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow8"
-	},
+/obj/structure/window/framed/mainship/alt,
+,
 /turf/open/floor/plating,
 /area/mainship/squads/charlie)
 "etX" = (
@@ -8241,9 +8170,7 @@
 	},
 /area/mainship/hallways/bow_hallway)
 "eGE" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow1"
-	},
+/obj/structure/window/framed/mainship/alt,
 /turf/open/floor/plating,
 /area/mainship/living/cafeteria)
 "eGF" = (
@@ -8506,19 +8433,6 @@
 	dir = 1
 	},
 /area/mainship/hallways/hangar)
-"eNB" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow2"
-	},
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "cic_lockdown";
-	name = "\improper Combat Information Center Blast Door";
-	opacity = 0
-	},
-/turf/open/floor/plating,
-/area/mainship/command/cic)
 "eNC" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
@@ -8705,9 +8619,8 @@
 /area/mainship/hull/port_hull)
 "eSg" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible,
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow8"
-	},
+/obj/structure/window/framed/mainship/alt,
+,
 /turf/open/floor/plating/platebotc,
 /area/mainship/engineering/port_atmos)
 "eSU" = (
@@ -9186,9 +9099,7 @@
 /turf/open/floor/mainship/floor/metal/lino,
 /area/mainship/living/commandbunks)
 "fdo" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow3"
-	},
+/obj/structure/window/framed/mainship/alt,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -9540,15 +9451,6 @@
 	},
 /turf/open/floor/carpet,
 /area/mainship/living/numbertwobunks)
-"fpA" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow2"
-	},
-/obj/machinery/door/poddoor/shutters/opened/wy{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/mainship/command/corporateliaison)
 "fpE" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer1{
 	dir = 4
@@ -11436,12 +11338,6 @@
 /obj/effect/turf_decal/tile/transparent/dark_blue/diagonal_centre,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/squads/delta)
-"gJJ" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow1"
-	},
-/turf/open/floor/plating,
-/area/mainship/living/commandbunks)
 "gJR" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer1,
@@ -11585,9 +11481,7 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/command/cic)
 "gNU" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow4"
-	},
+/obj/structure/window/framed/mainship/alt,
 /turf/open/floor/plating,
 /area/mainship/engineering/engine_core)
 "gOb" = (
@@ -12460,9 +12354,7 @@
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/squads/alpha)
 "hwv" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow3"
-	},
+/obj/structure/window/framed/mainship/alt,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -12544,9 +12436,7 @@
 /turf/open/floor/plating,
 /area/mainship/hull/port_hull)
 "hxS" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow1"
-	},
+/obj/structure/window/framed/mainship/alt,
 /obj/machinery/door/poddoor/mainship{
 	density = 0;
 	icon_state = "pdoor0";
@@ -12774,12 +12664,6 @@
 /obj/structure/ship_ammo/cas/rocket/keeper,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
-"hFv" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow3"
-	},
-/turf/open/floor/plating,
-/area/mainship/living/cafeteria)
 "hFG" = (
 /obj/machinery/light/mainship,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1/alt{
@@ -13037,9 +12921,8 @@
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/squads/charlie)
 "hPQ" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow8"
-	},
+/obj/structure/window/framed/mainship/alt,
+,
 /turf/open/floor/plating,
 /area/mainship/engineering/engineering_workshop)
 "hPY" = (
@@ -14010,12 +13893,6 @@
 /obj/effect/turf_decal/warning_stripes/rus/fulltile,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
-"iyG" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow12"
-	},
-/turf/open/floor/mainship/floor/metal,
-/area/mainship/squads/charlie)
 "iyM" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer1{
@@ -14339,9 +14216,8 @@
 /turf/open/floor/mainship/floor/metal/lino,
 /area/mainship/living/cafeteria)
 "iIz" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow8"
-	},
+/obj/structure/window/framed/mainship/alt,
+,
 /turf/open/floor/plating,
 /area/mainship/engineering/ce_room)
 "iIB" = (
@@ -14874,9 +14750,7 @@
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/hallways/aft_hallway)
 "iXo" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow3"
-	},
+/obj/structure/window/framed/mainship/alt,
 /obj/machinery/door/poddoor/shutters/mainship/selfdestruct,
 /turf/open/floor/plating,
 /area/mainship/command/self_destruct)
@@ -15126,9 +15000,7 @@
 	id = "CIC Checkpoint Shutters";
 	name = "\improper CIC Checkpoint Shutters"
 	},
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow1"
-	},
+/obj/structure/window/framed/mainship/alt,
 /obj/machinery/door/poddoor/mainship{
 	density = 0;
 	icon_state = "pdoor0";
@@ -15616,9 +15488,8 @@
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/shipboard/firing_range)
 "juK" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow8"
-	},
+/obj/structure/window/framed/mainship/alt,
+,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/squads/charlie)
 "juR" = (
@@ -15950,9 +15821,8 @@
 /area/mainship/medical/lounge)
 "jGV" = (
 /obj/structure/cable,
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow8"
-	},
+/obj/structure/window/framed/mainship/alt,
+,
 /turf/open/floor/plating/platebotc,
 /area/mainship/engineering/port_atmos)
 "jHh" = (
@@ -16645,9 +16515,7 @@
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/squads/bravo)
 "kcb" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow1"
-	},
+/obj/structure/window/framed/mainship/alt,
 /turf/open/floor/plating,
 /area/mainship/living/starboard_garden)
 "kce" = (
@@ -16664,9 +16532,7 @@
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/hallways/aft_hallway)
 "kcy" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow4"
-	},
+/obj/structure/window/framed/mainship/alt,
 /turf/open/floor/plating,
 /area/mainship/engineering/ce_room)
 "kcG" = (
@@ -16968,9 +16834,7 @@
 /turf/open/floor/grass,
 /area/mainship/living/starboard_garden)
 "kly" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow1"
-	},
+/obj/structure/window/framed/mainship/alt,
 /turf/open/floor/plating,
 /area/mainship/shipboard/firing_range)
 "klB" = (
@@ -17143,13 +17007,6 @@
 	color = "#53876F"
 	},
 /area/mainship/medical/lounge)
-"kpy" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow1"
-	},
-/obj/machinery/door/poddoor/shutters/mainship/selfdestruct,
-/turf/open/floor/plating,
-/area/mainship/command/self_destruct)
 "kpR" = (
 /obj/machinery/cic_maptable,
 /turf/open/floor/mainship/floor/metal/white{
@@ -18490,12 +18347,6 @@
 	color = "#53876F"
 	},
 /area/mainship/medical/surgery_hallway)
-"lca" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow12"
-	},
-/turf/open/floor/mainship/floor/metal,
-/area/mainship/squads/alpha)
 "lci" = (
 /obj/structure/window/reinforced/toughened{
 	dir = 8
@@ -19819,12 +19670,8 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/bow_hallway)
 "lJO" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow3"
-	},
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow2"
-	},
+/obj/structure/window/framed/mainship/alt,
+/obj/structure/window/framed/mainship/alt,
 /turf/open/floor/plating,
 /area/mainship/command/cic)
 "lKc" = (
@@ -19908,22 +19755,6 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer1,
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/hallways/bow_hallway)
-"lLB" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow3"
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer1{
-	dir = 4
-	},
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/mainship/hallways/starboard_hallway)
 "lLD" = (
 /turf/open/floor/mainship/blue/alt,
 /area/mainship/hallways/hangar)
@@ -22463,9 +22294,8 @@
 /turf/open/floor/plating,
 /area/mainship/hull/upper_hull)
 "nld" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow8"
-	},
+/obj/structure/window/framed/mainship/alt,
+,
 /obj/machinery/door/poddoor/mainship{
 	density = 0;
 	dir = 2;
@@ -24167,12 +23997,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/squads/alpha)
-"ojh" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow4"
-	},
-/turf/open/floor/mainship/floor/metal,
-/area/mainship/squads/delta)
 "ojo" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -24470,9 +24294,7 @@
 /turf/open/floor/mainship/tcomms,
 /area/mainship/living/numbertwobunks)
 "ots" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow3"
-	},
+/obj/structure/window/framed/mainship/alt,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -25075,9 +24897,7 @@
 /turf/open/floor/mainship/emerald/alt,
 /area/mainship/hallways/hangar)
 "oMC" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow4"
-	},
+/obj/structure/window/framed/mainship/alt,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/squads/charlie)
 "oMF" = (
@@ -26013,9 +25833,7 @@
 /turf/open/floor/plating,
 /area/mainship/hull/starboard_hull)
 "ppL" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow4"
-	},
+/obj/structure/window/framed/mainship/alt,
 /turf/open/floor/plating,
 /area/mainship/engineering/engineering_workshop)
 "ppP" = (
@@ -26168,9 +25986,8 @@
 /turf/closed/wall/mainship/alt,
 /area/mainship/living/cafeteria)
 "pua" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow8"
-	},
+/obj/structure/window/framed/mainship/alt,
+,
 /obj/machinery/door/poddoor/shutters/mainship/selfdestruct{
 	dir = 1
 	},
@@ -27568,9 +27385,7 @@
 /turf/open/floor/plating,
 /area/mainship/hull/port_hull)
 "qhe" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow3"
-	},
+/obj/structure/window/framed/mainship/alt,
 /obj/machinery/door/poddoor/mainship{
 	density = 0;
 	icon_state = "pdoor0";
@@ -27578,9 +27393,7 @@
 	name = "\improper Brig Lockdown Podlocks";
 	opacity = 0
 	},
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow2"
-	},
+/obj/structure/window/framed/mainship/alt,
 /turf/open/floor/plating,
 /area/mainship/shipboard/brig)
 "qho" = (
@@ -28081,9 +27894,7 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/squads/bravo)
 "qug" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow4"
-	},
+/obj/structure/window/framed/mainship/alt,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/squads/bravo)
 "quv" = (
@@ -29492,9 +29303,7 @@
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 4
 	},
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow2"
-	},
+/obj/structure/window/framed/mainship/alt,
 /turf/open/floor/plating/platebotc,
 /area/mainship/engineering/port_atmos)
 "ruc" = (
@@ -30412,12 +30221,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/squads/charlie)
-"rZc" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow12"
-	},
-/turf/open/floor/plating,
-/area/mainship/command/telecomms)
 "rZq" = (
 /obj/structure/cable,
 /obj/machinery/floor_warn_light/self_destruct,
@@ -32044,13 +31847,6 @@
 /obj/item/clothing/mask/cigarette,
 /turf/open/floor/carpet,
 /area/mainship/squads/bravo)
-"sXJ" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow2"
-	},
-/obj/machinery/door/poddoor/shutters/mainship/selfdestruct,
-/turf/open/floor/plating,
-/area/mainship/command/self_destruct)
 "sXV" = (
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/squads/bravo)
@@ -33096,12 +32892,6 @@
 /obj/structure/largecrate/supply/explosives,
 /turf/open/floor/plating,
 /area/mainship/hull/port_hull)
-"tJV" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow1"
-	},
-/turf/open/floor/mainship/floor/metal,
-/area/mainship/squads/bravo)
 "tKn" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 1
@@ -34638,9 +34428,8 @@
 /turf/open/floor/prison/plate,
 /area/mainship/squads/req)
 "uIb" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow8"
-	},
+/obj/structure/window/framed/mainship/alt,
+,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/squads/bravo)
 "uIm" = (
@@ -34756,9 +34545,8 @@
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/shipboard/brig_cells)
 "uLg" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow8"
-	},
+/obj/structure/window/framed/mainship/alt,
+,
 /turf/open/floor/plating,
 /area/mainship/engineering/engine_core)
 "uLn" = (
@@ -34802,9 +34590,8 @@
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/living/commandbunks)
 "uNr" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow8"
-	},
+/obj/structure/window/framed/mainship/alt,
+,
 /turf/open/floor/plating,
 /area/mainship/living/grunt_rnr)
 "uNB" = (
@@ -35057,12 +34844,6 @@
 	},
 /turf/open/floor/prison/marked,
 /area/mainship/squads/req)
-"uUQ" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow4"
-	},
-/turf/open/floor/plating/platebotc,
-/area/mainship/engineering/port_atmos)
 "uUX" = (
 /obj/machinery/light/mainship,
 /turf/open/floor/mainship/alt/orange,
@@ -36093,12 +35874,6 @@
 	},
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/aft_hallway)
-"vEZ" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow2"
-	},
-/turf/open/floor/mainship/floor/metal,
-/area/mainship/squads/bravo)
 "vFj" = (
 /obj/structure/sink/bathroom{
 	dir = 1
@@ -37424,9 +37199,7 @@
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/engineering/port_atmos)
 "wvP" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow1"
-	},
+/obj/structure/window/framed/mainship/alt,
 /turf/open/floor/plating/platebotc,
 /area/mainship/engineering/port_atmos)
 "wvU" = (
@@ -37759,18 +37532,6 @@
 /obj/structure/largecrate/random/barrel/yellow,
 /turf/open/floor/plating,
 /area/mainship/hull/starboard_hull)
-"wJl" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow3"
-	},
-/turf/open/floor/plating,
-/area/mainship/living/starboard_garden)
-"wJu" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow2"
-	},
-/turf/open/floor/plating,
-/area/mainship/living/starboard_garden)
 "wJC" = (
 /obj/effect/turf_decal/woodsiding{
 	dir = 4
@@ -38012,12 +37773,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/squads/delta)
-"wQM" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow2"
-	},
-/turf/open/floor/plating,
-/area/mainship/living/cafeteria)
 "wQQ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/alt{
 	dir = 8
@@ -38532,12 +38287,6 @@
 /obj/structure/rack,
 /turf/open/floor/prison/marked,
 /area/mainship/shipboard/weapon_room)
-"xgP" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow3"
-	},
-/turf/open/floor/plating,
-/area/mainship/living/commandbunks)
 "xhd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/disposal,
@@ -38763,12 +38512,6 @@
 	},
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/living/cafeteria)
-"xoj" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow12"
-	},
-/turf/open/floor/plating,
-/area/mainship/living/grunt_rnr)
 "xot" = (
 /turf/closed/wall/mainship/alt,
 /area/mainship/living/pilotbunks)
@@ -38803,9 +38546,7 @@
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/hallways/port_hallway)
 "xpB" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow1"
-	},
+/obj/structure/window/framed/mainship/alt,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/squads/delta)
 "xpE" = (
@@ -38824,19 +38565,6 @@
 /obj/machinery/door/poddoor/shutters/mainship/selfdestruct,
 /turf/open/floor/mainship/stripesquare,
 /area/mainship/command/self_destruct)
-"xqB" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow3"
-	},
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "Brig Lockdown";
-	name = "\improper Brig Lockdown Podlocks";
-	opacity = 0
-	},
-/turf/open/floor/plating,
-/area/mainship/shipboard/brig)
 "xqG" = (
 /obj/machinery/light/mainship{
 	dir = 1
@@ -40140,12 +39868,6 @@
 	},
 /turf/open/floor/mainship/tcomms,
 /area/mainship/command/self_destruct)
-"ycG" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow3"
-	},
-/turf/open/floor/plating,
-/area/mainship/shipboard/firing_range)
 "ycL" = (
 /obj/structure/table/mainship,
 /obj/item/tool/crowbar,
@@ -40153,9 +39875,7 @@
 /turf/open/floor/plating,
 /area/mainship/hull/upper_hull)
 "yde" = (
-/obj/structure/window/framed/mainship/alt{
-	icon_state = "alm_rwindow1"
-	},
+/obj/structure/window/framed/mainship/alt,
 /turf/open/floor/plating,
 /area/mainship/command/cic)
 "ydm" = (
@@ -62462,9 +62182,9 @@ nfn
 snt
 vis
 igt
-sXJ
 iXo
-kpy
+iXo
+iXo
 igt
 uqu
 qIV
@@ -66024,7 +65744,7 @@ dnv
 dnv
 dnv
 abt
-eNB
+hxS
 bWf
 dMR
 hxS
@@ -66036,8 +65756,8 @@ qGy
 lre
 xAG
 qeu
-efU
-xqB
+amH
+amH
 amH
 qeu
 qeu
@@ -69887,7 +69607,7 @@ paQ
 hgS
 dMM
 yjt
-fpA
+aAU
 eLG
 aAU
 xVF
@@ -70424,9 +70144,9 @@ uNE
 ndQ
 uNE
 uNE
-dcS
-xgP
-gJJ
+wDe
+wDe
+wDe
 uNE
 uNE
 uNE
@@ -71722,7 +71442,7 @@ dDn
 xGL
 shs
 xzH
-rZc
+bmI
 eUA
 hay
 mze
@@ -75171,23 +74891,23 @@ qPS
 fje
 jdk
 jdk
-wQM
-hFv
+eGE
+eGE
 eGE
 jdk
 jdk
-wQM
+eGE
 eGE
 ptW
 wqt
 wqt
 ptW
-wQM
+eGE
 eGE
 jdk
 jdk
-wQM
-hFv
+eGE
+eGE
 eGE
 jdk
 jdk
@@ -76067,7 +75787,7 @@ qqK
 qqK
 xSj
 qqI
-xoj
+aXM
 xGL
 sjm
 rDQ
@@ -76175,20 +75895,20 @@ yaW
 uwt
 mZD
 cgt
-ayW
-ycG
+kly
+kly
 kly
 cgt
-ayW
-ycG
+kly
+kly
 kly
 cgt
-ayW
-ycG
+kly
+kly
 kly
 abW
-ayW
-ycG
+kly
+kly
 kly
 abW
 abW
@@ -76324,7 +76044,7 @@ qqI
 qqI
 xSj
 ojw
-xoj
+aXM
 ufb
 uEE
 uEE
@@ -76581,29 +76301,29 @@ xSj
 xSj
 xSj
 xSj
-xoj
+aXM
 oKl
-wJu
+kcb
 kcb
 dSi
 kSZ
-wJu
-wJl
-wJl
-wJl
-wJl
-wJl
-wJl
-wJl
-wJl
-wJl
-wJl
+kcb
+kcb
+kcb
+kcb
+kcb
+kcb
+kcb
+kcb
+kcb
+kcb
+kcb
 kcb
 dSi
 hPY
-wJu
-wJl
-wJl
+kcb
+kcb
+kcb
 kcb
 xUv
 gAj
@@ -80852,7 +80572,7 @@ eWU
 oRP
 erm
 jSc
-ojh
+xpB
 tUw
 aDy
 ccE
@@ -81824,13 +81544,13 @@ xhq
 kUp
 dgC
 psl
-lca
+eiT
 nCV
 cxe
 mUY
 loU
 bXX
-lca
+eiT
 cxe
 lAO
 vgH
@@ -82081,13 +81801,13 @@ xhq
 kUp
 jRk
 chQ
-lca
+eiT
 nCV
 cxe
 erg
 loU
 bXX
-lca
+eiT
 kZn
 eRb
 qjZ
@@ -82156,7 +81876,7 @@ jdV
 jdV
 dyK
 rdw
-iyG
+oMC
 fxC
 rxV
 iSG
@@ -82413,7 +82133,7 @@ afM
 toH
 dyK
 rdw
-iyG
+oMC
 bhE
 acm
 iSG
@@ -82867,10 +82587,10 @@ xhq
 jPy
 jPy
 jPy
-vEZ
+qug
 rCz
 xHc
-tJV
+qug
 jPy
 upJ
 oEV
@@ -82896,7 +82616,7 @@ xHf
 oDO
 vJB
 ceC
-lLB
+pKy
 rpv
 eWU
 whB
@@ -82909,7 +82629,7 @@ jUp
 xHb
 gdw
 eWU
-abX
+xpB
 rIW
 iAX
 xpB
@@ -83366,7 +83086,7 @@ xhq
 kUp
 vbW
 nnX
-lca
+eiT
 iYe
 ghb
 nzv
@@ -83399,7 +83119,7 @@ jPy
 fsP
 bhH
 wZI
-bta
+gNU
 rzP
 jiG
 iyM
@@ -83408,7 +83128,7 @@ xHf
 vtP
 jiG
 rzP
-bta
+gNU
 mHc
 nzx
 nmQ
@@ -83623,7 +83343,7 @@ xhq
 kUp
 xaF
 nnX
-lca
+eiT
 vOJ
 iws
 uWL
@@ -83656,7 +83376,7 @@ jPy
 kqX
 wmC
 wZI
-bta
+gNU
 jEZ
 vFN
 ktU
@@ -83665,7 +83385,7 @@ rQB
 xhi
 vFN
 jEZ
-bta
+gNU
 mHc
 uJp
 vta
@@ -83698,7 +83418,7 @@ fve
 jdV
 sKR
 uud
-iyG
+oMC
 aoA
 luD
 aoA
@@ -83955,7 +83675,7 @@ cNw
 pFo
 wlN
 nRu
-iyG
+oMC
 aoA
 neZ
 aoA
@@ -84407,10 +84127,10 @@ jPy
 jPy
 jPy
 jPy
-vEZ
+qug
 tOQ
 xlb
-tJV
+qug
 jPy
 jPy
 tgk
@@ -84684,7 +84404,7 @@ dDk
 gPF
 bhH
 wZI
-bta
+gNU
 kLe
 tqW
 waN
@@ -84693,7 +84413,7 @@ lNV
 bGw
 tqW
 kLe
-bta
+gNU
 mHc
 nzx
 aSb
@@ -84941,7 +84661,7 @@ uCK
 epe
 bhH
 wZI
-bta
+gNU
 ncZ
 jan
 pcf
@@ -84950,7 +84670,7 @@ dEe
 wPs
 jan
 lGr
-bta
+gNU
 mHc
 nzx
 nmQ
@@ -85969,7 +85689,7 @@ tVj
 epe
 bhH
 wZI
-bta
+gNU
 oOb
 iwI
 oOb
@@ -85978,7 +85698,7 @@ lNV
 oOb
 iwI
 oOb
-bta
+gNU
 mHc
 nzx
 nmQ
@@ -86494,7 +86214,7 @@ nvn
 rfx
 vJB
 ceC
-lLB
+pKy
 kWO
 iEM
 iEM
@@ -87256,12 +86976,12 @@ bhH
 dCu
 vJB
 vJB
-bHz
-bRf
+gNU
+gNU
 vJB
 vJB
-bHz
-bRf
+gNU
+gNU
 vJB
 vJB
 mGo
@@ -89039,7 +88759,7 @@ iiD
 opF
 qZa
 vjm
-uUQ
+wvP
 gwJ
 opF
 nRB
@@ -89810,7 +89530,7 @@ pqW
 opF
 hZM
 vjm
-uUQ
+wvP
 aTk
 xYL
 mMn
@@ -90581,7 +90301,7 @@ iiD
 opF
 sOQ
 vjm
-uUQ
+wvP
 dpE
 vTV
 mMn
