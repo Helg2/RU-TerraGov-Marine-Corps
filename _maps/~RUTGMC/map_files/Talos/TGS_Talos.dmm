@@ -826,11 +826,6 @@
 	},
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/starboard_hallway)
-"ata" = (
-/obj/structure/window/framed/mainship/alt,
-,
-/turf/open/floor/mainship/floor/metal,
-/area/mainship/squads/delta)
 "atw" = (
 /obj/item/clothing/mask/rebreather/scarf,
 /obj/structure/closet/secure_closet/pilot_officer,
@@ -4822,11 +4817,6 @@
 	},
 /turf/open/floor/mainship/tcomms,
 /area/mainship/command/telecomms)
-"cJq" = (
-/obj/structure/window/framed/mainship/alt,
-,
-/turf/open/floor/mainship/floor/metal,
-/area/mainship/squads/alpha)
 "cJt" = (
 /obj/effect/turf_decal/warning_stripes/box/empty,
 /obj/effect/turf_decal/warning_stripes/box/arrow{
@@ -6890,11 +6880,6 @@
 	dir = 5
 	},
 /area/mainship/medical/medical_science)
-"dVs" = (
-/obj/structure/window/framed/mainship/alt,
-,
-/turf/open/floor/plating,
-/area/mainship/command/telecomms)
 "dVw" = (
 /turf/open/floor/mainship/alt/orange,
 /area/mainship/squads/bravo)
@@ -7733,11 +7718,6 @@
 	},
 /turf/open/floor/plating/alt,
 /area/mainship/hallways/hangar)
-"etO" = (
-/obj/structure/window/framed/mainship/alt,
-,
-/turf/open/floor/plating,
-/area/mainship/squads/charlie)
 "etX" = (
 /obj/effect/turf_decal/warning_stripes/thin{
 	dir = 8
@@ -8603,7 +8583,6 @@
 "eSg" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible,
 /obj/structure/window/framed/mainship/alt,
-,
 /turf/open/floor/plating/platebotc,
 /area/mainship/engineering/port_atmos)
 "eSU" = (
@@ -12900,11 +12879,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/squads/charlie)
-"hPQ" = (
-/obj/structure/window/framed/mainship/alt,
-,
-/turf/open/floor/plating,
-/area/mainship/engineering/engineering_workshop)
 "hPY" = (
 /obj/machinery/door/airlock/multi_tile/mainship/generic/garden{
 	dir = 2
@@ -14192,11 +14166,6 @@
 	},
 /turf/open/floor/mainship/floor/metal/lino,
 /area/mainship/living/cafeteria)
-"iIz" = (
-/obj/structure/window/framed/mainship/alt,
-,
-/turf/open/floor/plating,
-/area/mainship/engineering/ce_room)
 "iIB" = (
 /obj/item/reagent_containers/glass/beaker/cryoxadone,
 /obj/structure/table/mainship,
@@ -15461,11 +15430,6 @@
 /obj/machinery/marine_selector/clothes,
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/shipboard/firing_range)
-"juK" = (
-/obj/structure/window/framed/mainship/alt,
-,
-/turf/open/floor/mainship/floor/metal,
-/area/mainship/squads/charlie)
 "juR" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -15796,7 +15760,6 @@
 "jGV" = (
 /obj/structure/cable,
 /obj/structure/window/framed/mainship/alt,
-,
 /turf/open/floor/plating/platebotc,
 /area/mainship/engineering/port_atmos)
 "jHh" = (
@@ -22251,15 +22214,6 @@
 /obj/structure/janitorialcart,
 /turf/open/floor/plating,
 /area/mainship/hull/upper_hull)
-"nld" = (
-/obj/structure/window/framed/mainship/alt,
-,
-/obj/machinery/door/poddoor/mainship/open{
-	id = "Brig Lockdown";
-	name = "\improper Brig Lockdown Podlocks"
-	},
-/turf/open/floor/plating,
-/area/mainship/shipboard/brig)
 "nle" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
@@ -25928,14 +25882,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/mainship/alt,
 /area/mainship/living/cafeteria)
-"pua" = (
-/obj/structure/window/framed/mainship/alt,
-,
-/obj/machinery/door/poddoor/shutters/mainship/selfdestruct{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/mainship/command/self_destruct)
 "pue" = (
 /obj/effect/turf_decal/woodsiding{
 	dir = 5
@@ -34360,11 +34306,6 @@
 	},
 /turf/open/floor/prison/plate,
 /area/mainship/squads/req)
-"uIb" = (
-/obj/structure/window/framed/mainship/alt,
-,
-/turf/open/floor/mainship/floor/metal,
-/area/mainship/squads/bravo)
 "uIm" = (
 /obj/effect/turf_decal/siding/metal/corner,
 /turf/open/floor/mainship/floor/metal,
@@ -34477,11 +34418,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/shipboard/brig_cells)
-"uLg" = (
-/obj/structure/window/framed/mainship/alt,
-,
-/turf/open/floor/plating,
-/area/mainship/engineering/engine_core)
 "uLn" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/alt{
 	dir = 8
@@ -34522,11 +34458,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/living/commandbunks)
-"uNr" = (
-/obj/structure/window/framed/mainship/alt,
-,
-/turf/open/floor/plating,
-/area/mainship/living/grunt_rnr)
 "uNB" = (
 /turf/open/floor/plating,
 /area/mainship/living/numbertwobunks)
@@ -60566,7 +60497,7 @@ xVX
 wao
 jRh
 tJA
-pua
+awz
 fSe
 qIV
 evq
@@ -60578,7 +60509,7 @@ evq
 evq
 wAd
 uqu
-pua
+awz
 sjN
 snt
 moG
@@ -61594,7 +61525,7 @@ xVX
 lqi
 snt
 tJA
-pua
+awz
 fSe
 xjI
 uqu
@@ -62634,7 +62565,7 @@ cho
 uqu
 xjI
 uqu
-pua
+awz
 nHx
 sjN
 sjN
@@ -64654,7 +64585,7 @@ reU
 eac
 maR
 aaO
-nld
+amH
 owu
 iLZ
 vfO
@@ -70598,7 +70529,7 @@ psE
 rDQ
 eer
 esY
-dVs
+bmI
 svo
 btQ
 rkY
@@ -71626,7 +71557,7 @@ dDn
 xGL
 yem
 xzH
-dVs
+bmI
 lxo
 cIX
 ehP
@@ -75444,7 +75375,7 @@ xGL
 wfA
 xzH
 pgj
-uNr
+aXM
 obX
 puN
 qic
@@ -76472,7 +76403,7 @@ fqI
 wfA
 xzH
 kMs
-uNr
+aXM
 ojw
 sVV
 rDn
@@ -76485,7 +76416,7 @@ ear
 maM
 rgE
 lcB
-uNr
+aXM
 bsq
 xfQ
 fAS
@@ -81233,7 +81164,7 @@ dnb
 iBJ
 sFX
 dVw
-uIb
+qug
 fzL
 jbK
 sCh
@@ -81270,7 +81201,7 @@ eWU
 jLo
 flK
 pnn
-ata
+xpB
 tUw
 aDy
 wlu
@@ -81540,7 +81471,7 @@ amK
 pJC
 khj
 aLD
-etO
+dGz
 pcC
 avw
 jdV
@@ -81985,13 +81916,13 @@ xhq
 glD
 anV
 rIX
-cJq
+eiT
 nCV
 cmY
 wop
 dHQ
 xap
-cJq
+eiT
 cxe
 mqq
 wAC
@@ -82317,7 +82248,7 @@ uEI
 uEI
 aPG
 rhh
-juK
+oMC
 arx
 tqj
 anQ
@@ -82568,7 +82499,7 @@ tkN
 yjl
 vgy
 bze
-etO
+dGz
 ifK
 bNx
 bNx
@@ -83527,7 +83458,7 @@ xhq
 aLe
 vYZ
 pAq
-cJq
+eiT
 nYl
 frB
 hAW
@@ -83560,7 +83491,7 @@ jPy
 epe
 bhH
 wZI
-uLg
+gNU
 oOb
 iwI
 guZ
@@ -83569,7 +83500,7 @@ lNV
 tqc
 iwI
 oOb
-uLg
+gNU
 mHc
 nzx
 nmQ
@@ -83859,7 +83790,7 @@ cfk
 nEa
 cfk
 vbD
-juK
+oMC
 cyW
 itS
 anQ
@@ -84845,7 +84776,7 @@ gjx
 bAF
 msE
 wZI
-uLg
+gNU
 kLe
 tqW
 waN
@@ -84854,7 +84785,7 @@ lNV
 kLe
 tqW
 kLe
-uLg
+gNU
 mHc
 nzx
 nmQ
@@ -85611,7 +85542,7 @@ roZ
 iIb
 iIb
 cXP
-hPQ
+ppL
 tVj
 epe
 bhH
@@ -85630,7 +85561,7 @@ mHc
 nzx
 nmQ
 tFV
-iIz
+kcy
 hXU
 lIZ
 woF
@@ -85873,7 +85804,7 @@ xaf
 epe
 bhH
 wZI
-uLg
+gNU
 cFX
 vKw
 vdz
@@ -85882,7 +85813,7 @@ tUJ
 vdz
 vKw
 vdz
-uLg
+gNU
 mHc
 nzx
 vta
