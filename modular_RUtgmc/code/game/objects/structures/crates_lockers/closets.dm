@@ -32,79 +32,77 @@
 	dump_contents()
 	return ..()
 
-/obj/structure/closet/secure_closet/marine
+/obj/structure/closet/marine
 	name = "marine's locker"
-	req_access = list(ACCESS_MARINE_PREP)
-	icon_state = "marine_locked"
-	icon_closed = "marine_unlocked"
-	icon_locked = "marine_locked"
-	icon_opened = "marine_open"
-	icon_broken = "marine_emmaged"
-	icon_off = "marine_off"
 	icon = 'modular_RUtgmc/icons/obj/structures/closet.dmi'
-	var/closet_squad //which squad this closet belong to
+	icon_state = "marine_closed"
+	icon_closed = "marine_closed"
+	icon_opened = "marine_open"
+	var/squad //which squad this closet belongs to
 
-/obj/structure/closet/secure_closet/marine/Initialize()
+/obj/structure/closet/marine/Initialize()
 	. = ..()
-	if(closet_squad)
-		icon_state = "[closet_squad]_locked"
-		icon_closed = "[closet_squad]_unlocked"
-		icon_locked = "[closet_squad]_locked"
-		icon_broken = "[closet_squad]_emmaged"
-		icon_off = "[closet_squad]_off"
+	if(squad)
+		icon_state = "[squad]_closed"
+		icon_closed = "[squad]_closed"
+		icon_opened = "[squad]_open"
 
-/obj/structure/closet/secure_closet/marine/PopulateContents()
+/obj/structure/closet/marine/PopulateContents()
 	if(SSmapping.configs[GROUND_MAP].environment_traits[MAP_COLD])
 		new /obj/item/clothing/mask/rebreather/scarf(src)
 
-/obj/structure/closet/secure_closet/marine/alpha
+/obj/structure/closet/marine/alpha
 	name = "alpha equipment locker"
-	req_access = list(ACCESS_MARINE_PREP, ACCESS_MARINE_ALPHA)
-	closet_squad = "alpha"
+	squad = "alpha"
 
-/obj/structure/closet/secure_closet/marine/alpha/PopulateContents()
+/obj/structure/closet/marine/alpha/PopulateContents()
 	. = ..()
 	new /obj/item/radio/headset/mainship/marine/alpha(src)
 	new /obj/item/clothing/head/tgmcberet/squad/alpha(src)
 	new /obj/item/clothing/head/tgmcberet/squad/alpha/black(src)
 	new /obj/item/clothing/mask/bandanna/alpha(src)
 	new /obj/item/clothing/head/squad_headband/alpha(src)
+	new /obj/item/clothing/under/marine/squad/neck/alpha(src)
+	new /obj/item/clothing/suit/ianshirt(src)
 
-/obj/structure/closet/secure_closet/marine/bravo
+/obj/structure/closet/marine/bravo
 	name = "bravo equipment locker"
-	req_access = list(ACCESS_MARINE_PREP, ACCESS_MARINE_BRAVO)
-	closet_squad = "bravo"
+	squad = "bravo"
 
-/obj/structure/closet/secure_closet/marine/bravo/PopulateContents()
+/obj/structure/closet/marine/bravo/PopulateContents()
 	. = ..()
 	new /obj/item/radio/headset/mainship/marine/bravo(src)
 	new /obj/item/clothing/head/tgmcberet/squad/bravo(src)
 	new /obj/item/clothing/head/tgmcberet/squad/bravo/black(src)
 	new /obj/item/clothing/mask/bandanna/bravo(src)
 	new /obj/item/clothing/head/squad_headband/bravo(src)
+	new /obj/item/clothing/under/marine/squad/neck/bravo(src)
+	new /obj/effect/spawner/random/misc/plushie(src)
 
-/obj/structure/closet/secure_closet/marine/charlie
+/obj/structure/closet/marine/charlie
 	name = "charlie equipment locker"
-	req_access = list(ACCESS_MARINE_PREP, ACCESS_MARINE_CHARLIE)
-	closet_squad = "charlie"
+	squad = "charlie"
 
-/obj/structure/closet/secure_closet/marine/charlie/PopulateContents()
+/obj/structure/closet/marine/charlie/PopulateContents()
 	. = ..()
 	new /obj/item/radio/headset/mainship/marine/charlie(src)
 	new /obj/item/clothing/head/tgmcberet/squad/charlie(src)
 	new /obj/item/clothing/head/tgmcberet/squad/charlie/black(src)
 	new /obj/item/clothing/mask/bandanna/charlie(src)
 	new /obj/item/clothing/head/squad_headband/charlie(src)
+	new /obj/item/clothing/under/marine/squad/neck/charile(src)
+	new /obj/effect/spawner/random/misc/soap/regularweighted(src)
 
-/obj/structure/closet/secure_closet/marine/delta
+/obj/structure/closet/marine/delta
 	name = "delta equipment locker"
-	req_access = list(ACCESS_MARINE_PREP, ACCESS_MARINE_DELTA)
-	closet_squad = "delta"
+	squad = "delta"
 
-/obj/structure/closet/secure_closet/marine/delta/PopulateContents()
+/obj/structure/closet/marine/delta/PopulateContents()
 	. = ..()
 	new /obj/item/radio/headset/mainship/marine/delta(src)
 	new /obj/item/clothing/head/tgmcberet/squad/delta(src)
 	new /obj/item/clothing/head/tgmcberet/squad/delta/black(src)
 	new /obj/item/clothing/mask/bandanna/delta(src)
 	new /obj/item/clothing/head/squad_headband/delta(src)
+	new /obj/item/clothing/under/marine/squad/neck/delta(src)
+	new /obj/item/storage/bible/koran(src)
