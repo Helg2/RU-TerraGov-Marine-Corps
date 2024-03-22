@@ -789,10 +789,7 @@
 /obj/machinery/light/mainship{
 	dir = 8
 	},
-/obj/structure/flora/pottedplant/twentyone{
-	icon_state = "plant-12"
-	},
-/turf/open/floor/mainship/red/alt/full,
+/obj/structure/flora/pottedplant/twelve/turf/open/floor/mainship/red/alt/full,
 /area/mainship/shipboard/brig)
 "asp" = (
 /obj/structure/cable,
@@ -1241,10 +1238,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/obj/structure/flora/pottedplant/twentyone{
-	icon_state = "plant-12"
-	},
-/obj/machinery/light/mainship{
+/obj/structure/flora/pottedplant/twelve/obj/machinery/light/mainship{
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/metal{
@@ -12636,10 +12630,7 @@
 /turf/open/floor/mainship/alt/orange,
 /area/mainship/squads/bravo)
 "hGq" = (
-/obj/structure/flora/pottedplant/twentyone{
-	icon_state = "plant-12"
-	},
-/obj/effect/turf_decal/siding/metal{
+/obj/structure/flora/pottedplant/twelve/obj/effect/turf_decal/siding/metal{
 	dir = 8
 	},
 /turf/open/floor/mainship/floor/metal,
@@ -19925,10 +19916,7 @@
 /turf/open/floor/wood,
 /area/mainship/medical/lower_medical)
 "lTo" = (
-/obj/structure/flora/pottedplant/twentyone{
-	icon_state = "plant-12"
-	},
-/turf/open/floor/mainship/floor/metal/lino,
+/obj/structure/flora/pottedplant/twelve/turf/open/floor/mainship/floor/metal/lino,
 /area/mainship/living/cafeteria)
 "lTv" = (
 /obj/structure/table/mainship,
@@ -20482,10 +20470,7 @@
 /area/mainship/living/cafeteria)
 "mnL" = (
 /obj/structure/window/reinforced,
-/obj/structure/flora/pottedplant/twentyone{
-	icon_state = "plant-12"
-	},
-/obj/machinery/light/mainship{
+/obj/structure/flora/pottedplant/twelve/obj/machinery/light/mainship{
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/metal,
@@ -22008,10 +21993,7 @@
 /turf/open/space/basic,
 /area/space)
 "nez" = (
-/obj/structure/flora/pottedplant/twentyone{
-	icon_state = "plant-12"
-	},
-/obj/machinery/air_alarm,
+/obj/structure/flora/pottedplant/twelve/obj/machinery/air_alarm,
 /turf/open/floor/mainship/floor/metal/white{
 	color = "#53876F"
 	},
@@ -24799,10 +24781,7 @@
 	dir = 8;
 	pixel_y = -18
 	},
-/obj/structure/flora/pottedplant/twentyone{
-	icon_state = "plant-12"
-	},
-/obj/structure/sign/alt/safety/intercom{
+/obj/structure/flora/pottedplant/twelve/obj/structure/sign/alt/safety/intercom{
 	pixel_y = 7;
 	pixel_x = 32
 	},
@@ -39379,10 +39358,7 @@
 /turf/open/floor/plating,
 /area/mainship/hull/upper_hull)
 "xRG" = (
-/obj/structure/flora/pottedplant/twentyone{
-	icon_state = "plant-12"
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/alt,
+/obj/structure/flora/pottedplant/twelve/obj/machinery/atmospherics/components/unary/vent_scrubber/on/alt,
 /obj/machinery/camera/alt/autoname{
 	dir = 4
 	},
