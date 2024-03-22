@@ -179,6 +179,7 @@
 	desc = "A large leather scabbard used to carry a H17 tomahawk. It can be strapped to the back, waist or armor."
 	icon = 'modular_RUtgmc/icons/obj/items/storage/storage.dmi'
 	icon_state = "tomahawk_classic_holster"
+	item_state = "tomahawk_classic_holster"
 
 /obj/item/storage/holster/blade/tomahawk/classic/full/Initialize(mapload)
 	. = ..()
