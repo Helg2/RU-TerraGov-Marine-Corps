@@ -38,7 +38,7 @@
 	icon_state = "marine_closed"
 	icon_closed = "marine_closed"
 	icon_opened = "marine_open"
-	var/squad //which squad this closet belongs to
+	var/squad // to which squad this closet belongs to
 
 /obj/structure/closet/marine/Initialize()
 	. = ..()
