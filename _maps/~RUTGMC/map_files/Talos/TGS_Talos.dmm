@@ -463,12 +463,9 @@
 /area/mainship/hull/port_hull)
 "amH" = (
 /obj/structure/window/framed/mainship/alt,
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "Brig Lockdown";
-	name = "\improper Brig Lockdown Podlocks";
-	opacity = 0
+	name = "\improper Brig Lockdown Podlocks"
 	},
 /turf/open/floor/plating,
 /area/mainship/shipboard/brig)
@@ -3265,13 +3262,10 @@
 /area/mainship/shipboard/ex_firing_range)
 "bQz" = (
 /obj/structure/window/framed/mainship/alt,
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
+/obj/machinery/door/poddoor/mainship/open{
 	dir = 2;
-	icon_state = "pdoor0";
 	id = "Brig Lockdown";
-	name = "\improper Brig Lockdown Podlocks";
-	opacity = 0
+	name = "\improper Brig Lockdown Podlocks"
 	},
 /turf/open/floor/plating,
 /area/mainship/shipboard/brig)
@@ -3376,12 +3370,10 @@
 /turf/open/floor/plating,
 /area/mainship/hull/upper_hull)
 "bSB" = (
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "cic_lockdown";
 	name = "\improper Combat Information Center Blast Door";
-	opacity = 0
+	
 	},
 /obj/structure/window/framed/mainship/alt,
 /turf/open/floor/plating,
@@ -3502,12 +3494,9 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/warning_stripes/rus/fulltile,
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "cic_lockdown";
-	name = "\improper Combat Information Center Blast Door";
-	opacity = 0
+	name = "\improper Combat Information Center Blast Door"
 	},
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/command/cic)
@@ -5495,12 +5484,9 @@
 /obj/machinery/door/window{
 	dir = 8
 	},
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "Brig Lockdown";
-	name = "\improper Brig Lockdown Podlocks";
-	opacity = 0
+	name = "\improper Brig Lockdown Podlocks"
 	},
 /turf/open/floor/mainship/floor,
 /area/mainship/shipboard/brig)
@@ -6642,12 +6628,9 @@
 	dir = 2
 	},
 /obj/effect/turf_decal/warning_stripes/rus/fulltile,
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "cic_lockdown";
-	name = "\improper Combat Information Center Blast Door";
-	opacity = 0
+	name = "\improper Combat Information Center Blast Door"
 	},
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/command/cic)
@@ -12437,12 +12420,9 @@
 /area/mainship/hull/port_hull)
 "hxS" = (
 /obj/structure/window/framed/mainship/alt,
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "cic_lockdown";
-	name = "\improper Combat Information Center Blast Door";
-	opacity = 0
+	name = "\improper Combat Information Center Blast Door"
 	},
 /turf/open/floor/plating,
 /area/mainship/command/cic)
@@ -13911,12 +13891,9 @@
 "izq" = (
 /obj/structure/cable,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "cic_lockdown";
-	name = "\improper Combat Information Center Blast Door";
-	opacity = 0
+	name = "\improper Combat Information Center Blast Door"
 	},
 /obj/effect/turf_decal/warning_stripes/rus/fulltile,
 /turf/open/floor/mainship/floor/metal,
@@ -15001,12 +14978,9 @@
 	name = "\improper CIC Checkpoint Shutters"
 	},
 /obj/structure/window/framed/mainship/alt,
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "cic_lockdown";
-	name = "\improper Combat Information Center Blast Door";
-	opacity = 0
+	name = "\improper Combat Information Center Blast Door"
 	},
 /turf/open/floor/plating,
 /area/mainship/command/cic)
@@ -16177,12 +16151,9 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "cic_lockdown";
-	name = "\improper Combat Information Center Blast Door";
-	opacity = 0
+	name = "\improper Combat Information Center Blast Door"
 	},
 /obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
 	dir = 2;
@@ -16873,12 +16844,9 @@
 /turf/open/floor/plating/alt,
 /area/mainship/powered)
 "kme" = (
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "CIC Lockdown";
-	name = "\improper Combat Information Center Blast Door";
-	opacity = 0
+	name = "\improper Combat Information Center Blast Door"
 	},
 /obj/item/folder/black_random,
 /obj/machinery/door/poddoor/shutters/mainship/open{
@@ -16890,12 +16858,9 @@
 	dir = 8
 	},
 /obj/machinery/door/window,
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "cic_lockdown";
-	name = "\improper Combat Information Center Blast Door";
-	opacity = 0
+	name = "\improper Combat Information Center Blast Door"
 	},
 /turf/open/floor/mainship/black/full,
 /area/mainship/command/cic)
@@ -20706,13 +20671,9 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/command/cic)
 "msx" = (
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	dir = 2;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "Brig Lockdown";
-	name = "\improper Brig Lockdown Podlocks";
-	opacity = 0
+	name = "\improper Brig Lockdown Podlocks"
 	},
 /obj/machinery/door/airlock/mainship/security/glass/office{
 	dir = 2
@@ -21347,12 +21308,9 @@
 /turf/open/floor/prison/yellow,
 /area/mainship/squads/req)
 "mJR" = (
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "cic_lockdown";
-	name = "\improper Combat Information Center Blast Door";
-	opacity = 0
+	name = "\improper Combat Information Center Blast Door"
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
@@ -22296,13 +22254,9 @@
 "nld" = (
 /obj/structure/window/framed/mainship/alt,
 ,
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	dir = 2;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "Brig Lockdown";
-	name = "\improper Brig Lockdown Podlocks";
-	opacity = 0
+	name = "\improper Brig Lockdown Podlocks"
 	},
 /turf/open/floor/plating,
 /area/mainship/shipboard/brig)
@@ -22725,23 +22679,15 @@
 /obj/machinery/door/airlock/mainship/maint{
 	dir = 2
 	},
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	dir = 2;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "Brig Lockdown";
-	name = "\improper Brig Lockdown Podlocks";
-	opacity = 0
+	name = "\improper Brig Lockdown Podlocks"
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	dir = 2;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "Brig Lockdown";
-	name = "\improper Brig Lockdown Podlocks";
-	opacity = 0
+	name = "\improper Brig Lockdown Podlocks"
 	},
 /turf/open/floor/mainship/stripesquare,
 /area/mainship/shipboard/brig)
@@ -25100,12 +25046,9 @@
 /area/mainship/medical/upper_medical)
 "oTo" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "cic_lockdown";
-	name = "\improper Combat Information Center Blast Door";
-	opacity = 0
+	name = "\improper Combat Information Center Blast Door"
 	},
 /obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
 	dir = 2;
@@ -26224,12 +26167,9 @@
 /area/mainship/hallways/aft_hallway)
 "pzQ" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "cic_lockdown";
-	name = "\improper Combat Information Center Blast Door";
-	opacity = 0
+	name = "\improper Combat Information Center Blast Door"
 	},
 /obj/effect/turf_decal/warning_stripes/rus/fulltile,
 /turf/open/floor/mainship/floor/metal,
@@ -27386,12 +27326,9 @@
 /area/mainship/hull/port_hull)
 "qhe" = (
 /obj/structure/window/framed/mainship/alt,
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "Brig Lockdown";
-	name = "\improper Brig Lockdown Podlocks";
-	opacity = 0
+	name = "\improper Brig Lockdown Podlocks"
 	},
 /obj/structure/window/framed/mainship/alt,
 /turf/open/floor/plating,
@@ -30749,13 +30686,9 @@
 	dir = 2
 	},
 /obj/structure/cable,
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "cic_lockdown";
-	name = "\improper Combat Information Center Blast Door";
-	opacity = 0;
-	dir = 1
+	name = "\improper Combat Information Center Blast Door"
 	},
 /turf/open/floor/plating,
 /area/mainship/command/cic)
@@ -38773,12 +38706,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "cic_lockdown";
-	name = "\improper Combat Information Center Blast Door";
-	opacity = 0
+	name = "\improper Combat Information Center Blast Door"
 	},
 /obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
 	dir = 2;
@@ -39053,12 +38983,9 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer1{
 	dir = 4
 	},
-/obj/machinery/door/poddoor/mainship{
-	density = 0;
-	icon_state = "pdoor0";
+/obj/machinery/door/poddoor/mainship/open{
 	id = "cic_lockdown";
-	name = "\improper Combat Information Center Blast Door";
-	opacity = 0
+	name = "\improper Combat Information Center Blast Door"
 	},
 /obj/effect/turf_decal/warning_stripes/rus/fulltile,
 /turf/open/floor/mainship/floor/metal,
