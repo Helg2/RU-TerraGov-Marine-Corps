@@ -60,6 +60,7 @@
 #include "code\game\objects\items\cards_ids.dm"
 #include "code\game\objects\items\defibrillator.dm"
 #include "code\game\objects\items\items.dm"
+#include "code\game\objects\items\flashlight.dm"
 #include "code\game\objects\items\misc.dm"
 #include "code\game\objects\items\scanners.dm"
 #include "code\game\objects\items\explosives\bombvest.dm"

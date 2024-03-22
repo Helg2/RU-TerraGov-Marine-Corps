@@ -789,7 +789,8 @@
 /obj/machinery/light/mainship{
 	dir = 8
 	},
-/obj/structure/flora/pottedplant/twelve/turf/open/floor/mainship/red/alt/full,
+/obj/structure/flora/pottedplant/twelve,
+/turf/open/floor/mainship/red/alt/full,
 /area/mainship/shipboard/brig)
 "asp" = (
 /obj/structure/cable,
@@ -1238,7 +1239,8 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/obj/structure/flora/pottedplant/twelve/obj/machinery/light/mainship{
+/obj/structure/flora/pottedplant/twelve,
+/obj/machinery/light/mainship{
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/metal{
@@ -3399,10 +3401,7 @@
 /area/mainship/shipboard/brig)
 "bTX" = (
 /obj/structure/flora/ausbushes/fullgrass,
-/obj/item/flashlight/lantern{
-	icon_state = "lantern-on";
-	light_on = 1
-	},
+/obj/item/flashlight/lantern/turned_on,
 /turf/open/floor/grass,
 /area/mainship/living/starboard_garden)
 "bUd" = (
@@ -4541,10 +4540,7 @@
 /turf/open/floor/prison/marked,
 /area/mainship/squads/req)
 "cBK" = (
-/obj/item/flashlight/lantern{
-	icon_state = "lantern-on";
-	light_on = 1
-	},
+/obj/item/flashlight/lantern/turned_on,
 /turf/open/floor/grass,
 /area/mainship/living/starboard_garden)
 "cBM" = (
@@ -9852,10 +9848,7 @@
 "fEa" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/cable,
-/obj/item/flashlight/lantern{
-	icon_state = "lantern-on";
-	light_on = 1
-	},
+/obj/item/flashlight/lantern/turned_on,
 /turf/open/floor/grass,
 /area/mainship/living/starboard_garden)
 "fEc" = (
@@ -12630,7 +12623,8 @@
 /turf/open/floor/mainship/alt/orange,
 /area/mainship/squads/bravo)
 "hGq" = (
-/obj/structure/flora/pottedplant/twelve/obj/effect/turf_decal/siding/metal{
+/obj/structure/flora/pottedplant/twelve,
+/obj/effect/turf_decal/siding/metal{
 	dir = 8
 	},
 /turf/open/floor/mainship/floor/metal,
@@ -19916,7 +19910,8 @@
 /turf/open/floor/wood,
 /area/mainship/medical/lower_medical)
 "lTo" = (
-/obj/structure/flora/pottedplant/twelve/turf/open/floor/mainship/floor/metal/lino,
+/obj/structure/flora/pottedplant/twelve,
+/turf/open/floor/mainship/floor/metal/lino,
 /area/mainship/living/cafeteria)
 "lTv" = (
 /obj/structure/table/mainship,
@@ -20470,7 +20465,8 @@
 /area/mainship/living/cafeteria)
 "mnL" = (
 /obj/structure/window/reinforced,
-/obj/structure/flora/pottedplant/twelve/obj/machinery/light/mainship{
+/obj/structure/flora/pottedplant/twelve,
+/obj/machinery/light/mainship{
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/metal,
@@ -21993,7 +21989,8 @@
 /turf/open/space/basic,
 /area/space)
 "nez" = (
-/obj/structure/flora/pottedplant/twelve/obj/machinery/air_alarm,
+/obj/structure/flora/pottedplant/twelve,
+/obj/machinery/air_alarm,
 /turf/open/floor/mainship/floor/metal/white{
 	color = "#53876F"
 	},
@@ -24781,7 +24778,8 @@
 	dir = 8;
 	pixel_y = -18
 	},
-/obj/structure/flora/pottedplant/twelve/obj/structure/sign/alt/safety/intercom{
+/obj/structure/flora/pottedplant/twelve,
+/obj/structure/sign/alt/safety/intercom{
 	pixel_y = 7;
 	pixel_x = 32
 	},
@@ -28366,10 +28364,7 @@
 /turf/open/floor/prison/plate,
 /area/mainship/squads/req)
 "qSd" = (
-/obj/item/flashlight/lantern{
-	icon_state = "lantern-on";
-	light_on = 1
-	},
+/obj/item/flashlight/lantern/turned_on,
 /obj/effect/ai_node,
 /turf/open/floor/grass,
 /area/mainship/living/starboard_garden)
@@ -31261,9 +31256,7 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/engineering/ce_room)
 "sIX" = (
-/obj/structure/flora/pottedplant{
-	icon_state = "plant-18"
-	},
+/obj/structure/flora/pottedplant/eighteen,
 /obj/machinery/firealarm,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/alt{
 	dir = 4
@@ -39358,7 +39351,8 @@
 /turf/open/floor/plating,
 /area/mainship/hull/upper_hull)
 "xRG" = (
-/obj/structure/flora/pottedplant/twelve/obj/machinery/atmospherics/components/unary/vent_scrubber/on/alt,
+/obj/structure/flora/pottedplant/twelve,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/alt,
 /obj/machinery/camera/alt/autoname{
 	dir = 4
 	},
