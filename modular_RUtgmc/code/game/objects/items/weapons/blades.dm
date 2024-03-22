@@ -120,3 +120,10 @@
 /obj/item/weapon/claymore/tomahawk/dropped(mob/user)
 	. = ..()
 	toggle_item_bump_attack(user, FALSE)
+
+/obj/item/weapon/claymore/tomahawk/classic
+	name = "Tomahawk H17"
+	desc = "A specialist tactical weapon, very ancient and beloved by many. Issued to Delta by CAU."
+	icon = 'modular_RUtgmc/icons/obj/items/weapons.dmi'
+	icon_state = "tomahawk_classic"
+	item_state = "tomahawk_classic"
