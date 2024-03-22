@@ -18986,6 +18986,24 @@
 	},
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/engineering/engine_core)
+"lvY" = (
+/obj/structure/bed,
+/obj/structure/bed{
+	pixel_y = 13;
+	layer = 3.5;
+	max_buckled_mobs = 13
+	},
+/obj/item/bedsheet/blue{
+	layer = 3.2
+	},
+/obj/item/bedsheet/blue{
+	pixel_y = 13
+	},
+/obj/machinery/light/mainship/small,
+/obj/effect/landmark/start/squad/squadmarine/delta,
+/obj/item/clothing/under/rank/prisoner,
+/turf/open/floor/mainship/floor/metal,
+/area/mainship/squads/delta)
 "lwi" = (
 /obj/machinery/atmospherics/pipe/simple/general/hidden{
 	dir = 4
@@ -37059,6 +37077,12 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer1,
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/living/port_emb)
+"wwV" = (
+/obj/structure/table/mainship,
+/obj/effect/turf_decal/tile/transparent/dark_blue/diagonal_centre,
+/obj/item/storage/pill_bottle/hypervene,
+/turf/open/floor/mainship/floor/metal,
+/area/mainship/squads/delta)
 "wyo" = (
 /obj/machinery/light/mainship,
 /obj/structure/table/fancywoodentable,
@@ -83448,7 +83472,7 @@ nmQ
 eWU
 wDV
 thq
-cnV
+wwV
 cnV
 cnV
 jJV
@@ -86288,7 +86312,7 @@ eWU
 pRM
 bqD
 tRM
-cdc
+lvY
 eWU
 qiE
 lxw

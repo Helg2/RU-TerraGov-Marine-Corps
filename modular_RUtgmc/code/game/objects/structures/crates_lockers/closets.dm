@@ -63,7 +63,7 @@
 	new /obj/item/clothing/mask/bandanna/alpha(src)
 	new /obj/item/clothing/head/squad_headband/alpha(src)
 	new /obj/item/clothing/under/marine/squad/neck/alpha(src)
-	new /obj/item/clothing/suit/ianshirt(src)
+	new /obj/effect/spawner/random/misc/doggies(src)
 
 /obj/structure/closet/marine/bravo
 	name = "bravo equipment locker"
@@ -77,7 +77,7 @@
 	new /obj/item/clothing/mask/bandanna/bravo(src)
 	new /obj/item/clothing/head/squad_headband/bravo(src)
 	new /obj/item/clothing/under/marine/squad/neck/bravo(src)
-	new /obj/effect/spawner/random/misc/plushie(src)
+	new /obj/effect/spawner/random/misc/plushie/fiftyfifty(src)
 
 /obj/structure/closet/marine/charlie
 	name = "charlie equipment locker"
@@ -105,4 +105,4 @@
 	new /obj/item/clothing/mask/bandanna/delta(src)
 	new /obj/item/clothing/head/squad_headband/delta(src)
 	new /obj/item/clothing/under/marine/squad/neck/delta(src)
-	new /obj/item/storage/bible/koran(src)
+	new /obj/effect/spawner/random/misc/koran(src)
