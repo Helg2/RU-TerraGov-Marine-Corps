@@ -5333,10 +5333,6 @@
 	},
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/port_hallway)
-"cZi" = (
-/obj/effect/attach_point/weapon/dropship2,
-/turf/open/floor/plating/alt,
-/area/mainship/hallways/hangar)
 "cZB" = (
 /obj/structure/platform,
 /obj/item/target/alien{
@@ -70066,7 +70062,7 @@ xpo
 xpo
 jGj
 xpo
-cZi
+xpo
 xpo
 xpo
 xpo
@@ -72636,7 +72632,7 @@ xpo
 xpo
 xpo
 xpo
-cZi
+xpo
 xpo
 xpo
 xpo
