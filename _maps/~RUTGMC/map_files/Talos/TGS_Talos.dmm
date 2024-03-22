@@ -19205,14 +19205,13 @@
 "lzz" = (
 /obj/structure/window/framed/mainship/hull/canterbury{
 	name = "empty space";
-	icon = null;
-	icon_state = null;
+	invisibility = 100;
 	hit_sound = null
 	},
 /obj/effect/turf_decal/siding/metal{
 	dir = 8
 	},
-/turf/open/floor/mainship/mono,
+/turf/open/floor/mainship/floor/metal/full,
 /area/mainship/hull/port_hull)
 "lzB" = (
 /obj/machinery/camera/alt/autoname{
@@ -19747,8 +19746,7 @@
 "lNm" = (
 /obj/structure/window/framed/mainship/hull/canterbury{
 	name = "empty space";
-	icon = null;
-	icon_state = null;
+	invisibility = 100;
 	hit_sound = null
 	},
 /turf/open/floor/stairs/alt/right,
@@ -22099,8 +22097,7 @@
 "ngt" = (
 /obj/structure/window/framed/mainship/hull/canterbury{
 	name = "empty space";
-	icon = null;
-	icon_state = null;
+	invisibility = 100;
 	hit_sound = null
 	},
 /obj/effect/turf_decal/siding/metal{
@@ -23501,8 +23498,7 @@
 "nUR" = (
 /obj/structure/window/framed/mainship/hull/canterbury{
 	name = "empty space";
-	icon = null;
-	icon_state = null;
+	invisibility = 100;
 	hit_sound = null
 	},
 /turf/open/floor/stairs/alt/left,
@@ -23794,8 +23790,7 @@
 "oex" = (
 /obj/structure/window/framed/mainship/hull/canterbury{
 	name = "empty space";
-	icon = null;
-	icon_state = null;
+	invisibility = 100;
 	hit_sound = null
 	},
 /obj/machinery/camera/alt/autoname{
@@ -25441,8 +25436,7 @@
 "phy" = (
 /obj/structure/window/framed/mainship/hull/canterbury{
 	name = "empty space";
-	icon = null;
-	icon_state = null;
+	invisibility = 100;
 	hit_sound = null
 	},
 /obj/machinery/camera/alt/autoname{
@@ -31462,8 +31456,7 @@
 "sOW" = (
 /obj/structure/window/framed/mainship/hull/canterbury{
 	name = "empty space";
-	icon = null;
-	icon_state = null;
+	invisibility = 100;
 	hit_sound = null
 	},
 /obj/machinery/light/mainship{
@@ -32765,8 +32758,7 @@
 "tJx" = (
 /obj/structure/window/framed/mainship/hull/canterbury{
 	name = "empty space";
-	icon = null;
-	icon_state = null;
+	invisibility = 100;
 	hit_sound = null
 	},
 /turf/open/floor/stairs/alt/left{
@@ -32783,8 +32775,7 @@
 "tJG" = (
 /obj/structure/window/framed/mainship/hull/canterbury{
 	name = "empty space";
-	icon = null;
-	icon_state = null;
+	invisibility = 100;
 	hit_sound = null
 	},
 /obj/machinery/light/mainship{
@@ -37546,8 +37537,7 @@
 /obj/effect/ai_node,
 /obj/structure/window/framed/mainship/hull/canterbury{
 	name = "empty space";
-	icon = null;
-	icon_state = null;
+	invisibility = 100;
 	hit_sound = null
 	},
 /obj/effect/turf_decal/siding/metal{
@@ -39503,8 +39493,7 @@
 "xWl" = (
 /obj/structure/window/framed/mainship/hull/canterbury{
 	name = "empty space";
-	icon = null;
-	icon_state = null;
+	invisibility = 100;
 	hit_sound = null
 	},
 /turf/open/floor/stairs/alt/right{
@@ -39681,14 +39670,13 @@
 /obj/effect/ai_node,
 /obj/structure/window/framed/mainship/hull/canterbury{
 	name = "empty space";
-	icon = null;
-	icon_state = null;
+	invisibility = 100;
 	hit_sound = null
 	},
 /obj/effect/turf_decal/siding/metal{
 	dir = 10
 	},
-/turf/open/floor/mainship/mono,
+/turf/open/floor/mainship/floor/metal/full,
 /area/mainship/hull/port_hull)
 "ybF" = (
 /obj/machinery/door/poddoor/shutters/mainship{
