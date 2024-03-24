@@ -11,7 +11,7 @@
 		/obj/item/toy/plush/pig,
 	)
 
-/obj/effect/spawner/random/misc/koran
+/obj/effect/spawner/random/misc/delta
 	name = "Random koran spawner"
 	icon = 'modular_RUtgmc/icons/effects/random/misc.dmi'
 	icon_state = "random_koran"

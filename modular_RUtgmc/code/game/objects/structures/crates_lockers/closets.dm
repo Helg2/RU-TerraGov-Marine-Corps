@@ -91,7 +91,6 @@
 	new /obj/item/clothing/mask/bandanna/charlie(src)
 	new /obj/item/clothing/head/squad_headband/charlie(src)
 	new /obj/item/clothing/under/marine/squad/neck/charile(src)
-	new /obj/effect/spawner/random/misc/soap/regularweighted(src)
 
 /obj/structure/closet/marine/delta
 	name = "delta equipment locker"
@@ -105,4 +104,4 @@
 	new /obj/item/clothing/mask/bandanna/delta(src)
 	new /obj/item/clothing/head/squad_headband/delta(src)
 	new /obj/item/clothing/under/marine/squad/neck/delta(src)
-	new /obj/effect/spawner/random/misc/koran(src)
+	new /obj/effect/spawner/random/misc/delta(src)
