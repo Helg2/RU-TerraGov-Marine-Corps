@@ -6632,7 +6632,7 @@
 /area/mainship/living/basketball)
 "dNS" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1/alt,
-/obj/machinery/firealarm,
+/obj/structure/sign/sanford/year,
 /turf/open/floor/wood,
 /area/mainship/command/corporateliaison)
 "dNU" = (
@@ -29454,6 +29454,10 @@
 /obj/machinery/atm{
 	pixel_y = 32
 	},
+/obj/item/radio/intercom/general{
+	dir = 8;
+	pixel_y = -18
+	},
 /turf/open/floor/wood,
 /area/mainship/command/corporateliaison)
 "rFz" = (
@@ -32512,6 +32516,9 @@
 "tBg" = (
 /obj/structure/table/fancywoodentable,
 /obj/machinery/chem_dispenser/beer{
+	dir = 8
+	},
+/obj/machinery/firealarm{
 	dir = 8
 	},
 /turf/open/floor/wood,
@@ -38639,10 +38646,6 @@
 	},
 /obj/structure/table/fancywoodentable,
 /obj/machinery/computer/security/marinemainship,
-/obj/item/radio/intercom/general{
-	pixel_y = -20;
-	pixel_x = -24
-	},
 /obj/structure/sign/alt/safety/intercom{
 	pixel_y = 24;
 	pixel_x = 15

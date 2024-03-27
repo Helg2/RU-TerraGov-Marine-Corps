@@ -1,3 +1,18 @@
+/obj/structure/sign/sanford
+	name = "Employee of the Month Award"
+	desc = "This certificate is awarded to <b>Sanford Stephano</b>. For your outstanding service to NT and injecting random individuals with roulettium at will."
+	icon = 'modular_RUtgmc/icons/obj/structures/sanford.dmi'
+	icon_state = "month"
+	dir = NORTH
+
+/obj/structure/sign/sanford/year
+	name = "Employee of the Year Award"
+	icon_state = "year"
+
+/obj/structure/sign/sanford/Initialize(mapload)
+	. = ..()
+	icon = 'modular_RUtgmc/icons/obj/structures/sanford.dmi'
+
 /obj/structure/sign/prop1/Initialize(mapload)
 	. = ..()
 	icon = 'modular_RUtgmc/icons/obj/decals.dmi'
