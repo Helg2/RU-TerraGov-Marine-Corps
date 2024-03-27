@@ -1160,9 +1160,7 @@
 /area/mainship/hallways/hangar)
 "aAU" = (
 /obj/structure/window/framed/mainship/alt,
-/obj/machinery/door/poddoor/shutters/opened/wy{
-	dir = 8
-	},
+/obj/machinery/door/poddoor/shutters/opened/corporate,
 /turf/open/floor/plating,
 /area/mainship/command/corporateliaison)
 "aBa" = (
@@ -4857,10 +4855,8 @@
 /obj/machinery/door/airlock/mainship/maint{
 	req_one_access = list(2,8,40)
 	},
-/obj/machinery/door/poddoor/shutters/opened/wy{
-	dir = 8
-	},
 /obj/structure/cable,
+/obj/machinery/door/poddoor/shutters/opened/corporate,
 /turf/open/floor/plating,
 /area/mainship/command/corporateliaison)
 "cMn" = (
@@ -6632,7 +6628,6 @@
 /area/mainship/living/basketball)
 "dNS" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1/alt,
-/obj/structure/sign/sanford/year,
 /turf/open/floor/wood,
 /area/mainship/command/corporateliaison)
 "dNU" = (
@@ -6745,12 +6740,7 @@
 	dir = 1
 	},
 /obj/structure/bed/chair/comfy,
-/obj/machinery/door_control/mainship/corporate{
-	id = "wyoffice";
-	name = "Window Shutters";
-	pixel_x = -7;
-	pixel_y = 25
-	},
+/obj/structure/sign/sanford/year,
 /turf/open/floor/carpet,
 /area/mainship/command/corporateliaison)
 "dSi" = (
@@ -8295,9 +8285,7 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer1{
 	dir = 4
 	},
-/obj/machinery/door/poddoor/shutters/opened/wy{
-	dir = 8
-	},
+/obj/machinery/door/poddoor/shutters/opened/corporate,
 /turf/open/floor/mainship/stripesquare,
 /area/mainship/command/corporateliaison)
 "eLL" = (
@@ -28207,10 +28195,7 @@
 /area/mainship/medical/medical_science)
 "qNL" = (
 /obj/machinery/computer/crew,
-/obj/machinery/door_control/mainship/corporate{
-	pixel_x = -25;
-	pixel_y = -7
-	},
+/obj/machinery/door_control/mainship/corporate,
 /turf/open/floor/wood,
 /area/mainship/command/corporateliaison)
 "qOg" = (
@@ -32954,9 +32939,7 @@
 "tTi" = (
 /obj/machinery/door/airlock/mainship/generic/bathroom,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/poddoor/shutters/opened/wy{
-	dir = 8
-	},
+/obj/machinery/door/poddoor/shutters/opened/corporate,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/command/corporateliaison)
 "tTn" = (
@@ -38646,10 +38629,7 @@
 	},
 /obj/structure/table/fancywoodentable,
 /obj/machinery/computer/security/marinemainship,
-/obj/structure/sign/alt/safety/intercom{
-	pixel_y = 24;
-	pixel_x = 15
-	},
+/obj/structure/sign/sanford,
 /turf/open/floor/carpet,
 /area/mainship/command/corporateliaison)
 "xyt" = (
