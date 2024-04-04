@@ -1,7 +1,7 @@
 /obj/item/clothing/suit/ru
 	name = "ru suit"
 	desc = "ru suit."
-	icon = 'modular_RUtgmc/icons/obj/clothing/uniform.dmi'
+	icon = 'modular_RUtgmc/icons/obj/clothing/uniforms/marine_uniforms.dmi' // uniforms?
 	item_icons = list(
 		slot_wear_suit_str = 'modular_RUtgmc/icons/mob/clothing/uniforms/marine_uniforms.dmi')
 

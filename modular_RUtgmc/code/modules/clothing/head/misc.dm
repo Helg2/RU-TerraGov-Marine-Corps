@@ -1,3 +1,12 @@
+/obj/item/clothing/head/maid
+	name = "maid headwear"
+	desc = "A little ruffle with lace, to wear on the head. It gives you super cleaning powers*!<br><small>*Does not actually bestow any powers.</small>"
+	icon_state = "maid"
+	icon = 'modular_RUtgmc/icons/obj/clothing/headwear/hats.dmi'
+	item_icons = list(
+		slot_head_str = 'modular_RUtgmc/icons/mob/clothing/headwear/head_0.dmi')
+	species_exception = list(/datum/species/robot)
+
 /obj/item/clothing/head/centhat
 	species_exception = list(/datum/species/robot)
 
