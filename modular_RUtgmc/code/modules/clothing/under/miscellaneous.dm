@@ -5,3 +5,4 @@
 	icon_state = "maid"
 	item_icons = list(
 		slot_w_uniform_str = 'modular_RUtgmc/icons/mob/clothing/uniforms/uniform_0.dmi')
+	species_exception = list(/datum/species/robot)
