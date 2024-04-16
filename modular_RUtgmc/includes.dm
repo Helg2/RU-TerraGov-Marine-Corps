@@ -149,7 +149,6 @@
 #include "code\modules\clothing\shoes\marine_shoes.dm"
 #include "code\modules\clothing\suits\suits.dm"
 #include "code\modules\clothing\under\marine_uniform.dm"
-#include "code\modules\clothing\under\miscellaneous.dm"
 #include "code\modules\mob\living\living_defense.dm"
 #include "code\modules\mob\living\living_verbs.dm"
 #include "code\modules\mob\living\say.dm"
