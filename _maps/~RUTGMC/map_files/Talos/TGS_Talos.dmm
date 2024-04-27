@@ -38684,6 +38684,7 @@
 /obj/item/tool/kitchen/rollingpin,
 /obj/item/tool/kitchen/knife/butcher,
 /obj/item/reagent_containers/food/drinks/shaker,
+/obj/item/clothing/suit/ru/fartumasti,
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/living/grunt_rnr)
 "xzo" = (
