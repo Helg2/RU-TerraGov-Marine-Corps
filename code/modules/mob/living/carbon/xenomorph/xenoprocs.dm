@@ -1,3 +1,10 @@
+/mob/living/carbon/xenomorph/Bump(atom/A)
+	if(!(xeno_flags & XENO_LEAPING))
+		return ..()
+	if(!isliving(A))
+		return ..()
+	return SEND_SIGNAL(src, COMSIG_XENOMORPH_LEAP_BUMP, A)
+
 /mob/living/carbon/xenomorph/verb/hive_status()
 	set name = "Hive Status"
 	set desc = "Check the status of your current hive."
@@ -115,7 +122,7 @@
 		. += "Upgrade Progress: (FINISHED)"
 	*/
 
-	. += "Health: [overheal ? "[overheal] + ": ""][health]/[maxHealth]" //Changes with balance scalar, can't just use the caste
+	. += "Health: [health]/[maxHealth][overheal ? " + [overheal]": ""]" //Changes with balance scalar, can't just use the caste
 
 	if(xeno_caste.plasma_max > 0)
 		. += "Plasma: [plasma_stored]/[xeno_caste.plasma_max]"
@@ -252,7 +259,7 @@
 /mob/living/carbon/xenomorph/throw_impact(atom/hit_atom, speed)
 	set waitfor = FALSE
 
-	if(stat || !usedPounce)
+	if(stat || !(xeno_flags & XENO_LEAPING))
 		return ..()
 
 	if(isobj(hit_atom)) //Deal with smacking into dense objects. This overwrites normal throw code.
@@ -297,7 +304,7 @@
 	update_sight()
 
 
-/mob/living/carbon/xenomorph/proc/zoom_in(tileoffset = 5, viewsize = 12)
+/mob/living/carbon/xenomorph/proc/zoom_in(tileoffset = 5, viewsize = 4.5) //RU TGMC EDIT
 	if(stat || resting)
 		if(is_zoomed)
 			is_zoomed = 0
@@ -310,7 +317,7 @@
 		return
 	zoom_turf = get_turf(src)
 	is_zoomed = 1
-	client.view_size.set_view_radius_to(viewsize/2-2) //convert diameter to radius
+	client.view_size.set_view_radius_to(viewsize) //convert diameter to radius
 	var/viewoffset = 32 * tileoffset
 	switch(dir)
 		if(NORTH)

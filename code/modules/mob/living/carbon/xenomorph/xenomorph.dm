@@ -13,7 +13,6 @@
 	light_pixel_y -= pixel_y
 	. = ..()
 	set_datum()
-	time_of_birth = world.time
 	add_inherent_verbs()
 	var/datum/action/minimap/xeno/mini = new
 	mini.give_action(src)
@@ -58,6 +57,7 @@
 
 	hud_set_plasma()
 	med_hud_set_health()
+	hud_update_primo()
 
 	toggle_xeno_mobhud() //This is a verb, but fuck it, it just werks
 
