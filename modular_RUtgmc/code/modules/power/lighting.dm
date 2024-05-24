@@ -1,6 +1,12 @@
 /obj/machinery/landinglight/alamo
 	id = SHUTTLE_NORMANDY
 
+/obj/machinery/light/ex_act(severity)
+	if(severity >= EXPLODE_HEAVY)
+		qdel(src)
+	else if(prob(severity / 2))
+		broken()
+
 /obj/machinery/light/mainship/floor
 	name = "floor light fixture"
 	desc = "A small lighting fixture."
