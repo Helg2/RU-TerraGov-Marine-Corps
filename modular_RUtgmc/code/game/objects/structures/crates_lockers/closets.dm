@@ -69,7 +69,7 @@
 	new /obj/item/clothing/mask/bandanna/alpha(src)
 	new /obj/item/clothing/head/squad_headband/alpha(src)
 	new /obj/item/clothing/under/marine/squad/neck/alpha(src)
-	new /obj/effect/spawner/random/misc/plushit/fiftyfifty(src)
+	new /obj/effect/spawner/random/misc/plushie/fiftyfifty(src)
 
 /obj/structure/closet/marine/bravo
 	name = "bravo equipment locker"
