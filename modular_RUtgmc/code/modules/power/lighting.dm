@@ -16,3 +16,8 @@
 	layer = 2.5
 	brightness = 6
 	plane = FLOOR_PLANE
+
+/obj/machinery/light/mainship/floor/LateInitialize()
+	. = ..()
+	pixel_x = 0
+	pixel_y = 0 // i hate how this is made and that it ignored map edits entirelly
