@@ -4920,7 +4920,7 @@
 /turf/open/floor/grass,
 /area/mainship/living/starboard_garden)
 "cOG" = (
-/obj/machinery/deployable/floodlight,
+/obj/machinery/floodlight,
 /turf/open/floor/mainship/tcomms,
 /area/mainship/command/self_destruct)
 "cOR" = (
@@ -10781,7 +10781,7 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
 "grG" = (
-/obj/machinery/deployable/floodlight,
+/obj/machinery/floodlight,
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/hallways/hangar)
 "grR" = (
@@ -16768,7 +16768,7 @@
 /area/mainship/engineering/ce_room)
 "kkU" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/deployable/floodlight,
+/obj/machinery/floodlight,
 /obj/effect/turf_decal/warning_stripes/rus/square,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
@@ -17912,7 +17912,7 @@
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/medical/chemistry)
 "kQC" = (
-/obj/machinery/deployable/floodlight,
+/obj/machinery/floodlight,
 /obj/effect/turf_decal/warning_stripes/rus/square,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/hangar)
@@ -29607,7 +29607,7 @@
 /obj/effect/turf_decal/siding/metal{
 	dir = 10
 	},
-/obj/machinery/deployable/floodlight,
+/obj/machinery/floodlight,
 /turf/open/floor/mainship/floor/metal,
 /area/mainship/hallways/bow_hallway)
 "rGm" = (
@@ -33738,7 +33738,7 @@
 /area/mainship/hull/port_hull)
 "umH" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/deployable/floodlight,
+/obj/machinery/floodlight,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
