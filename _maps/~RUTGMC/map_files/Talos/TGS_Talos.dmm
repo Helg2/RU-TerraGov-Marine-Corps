@@ -6793,6 +6793,7 @@
 /area/mainship/hull/starboard_hull)
 "dTA" = (
 /obj/machinery/light/mainship,
+/obj/effect/ai_node,
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/shipboard/brig_cells)
 "dTV" = (
@@ -34832,6 +34833,10 @@
 "vbF" = (
 /turf/open/floor/prison/whitepurple/corner,
 /area/mainship/medical/medical_science)
+"vbM" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/floor/metal,
+/area/mainship/shipboard/brig)
 "vbV" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
@@ -37705,6 +37710,7 @@
 	dir = 1
 	},
 /obj/machinery/firealarm,
+/obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk/alt,
 /area/mainship/living/starboard_emb)
 "wUA" = (
@@ -63251,7 +63257,7 @@ wRE
 wMd
 srx
 bRU
-amp
+vbM
 oTu
 qeu
 udl
