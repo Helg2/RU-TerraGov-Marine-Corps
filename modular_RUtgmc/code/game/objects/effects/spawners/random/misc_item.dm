@@ -23,19 +23,3 @@
 		/obj/item/toy/plush/pig,
 		/obj/item/reagent_containers/hypospray/autoinjector/hypervene,
 	) // feel free to write something in here, just not the OB bomb vest
-
-/obj/effect/spawner/random/misc/dogs
-	name = "Random dogs spawner"
-	icon = 'modular_RUtgmc/icons/effects/random/misc.dmi'
-	icon_state = "random_dogs"
-	loot_subtype_path = /mob/living/simple_animal/corgi
-
-/obj/effect/spawner/random/misc/doggies
-	name = "Random doggies spawner"
-	icon = 'modular_RUtgmc/icons/effects/random/misc.dmi'
-	icon_state = "random_doggies"
-	spawn_loot_chance = 75
-	loot = list(
-		/obj/item/clothing/suit/ianshirt,
-		/obj/effect/spawner/random/misc/dogs,
-	)
