@@ -14,4 +14,5 @@
 	playsound(loc, 'sound/weapons/bladeslice.ogg', 100, 1)
 
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/alt
+	piping_layer = 3
 	icon = 'modular_RUtgmc/icons/obj/atmospherics/components/unary_devices.dmi'
