@@ -21,8 +21,7 @@
 /area/mainship/command/cic)
 "abd" = (
 /obj/structure/bed/bunkbed,
-/obj/effect/landmark/start/job/mechpilot,
-/obj/effect/landmark/start/job/mechpilot,
+/obj/effect/landmark/start/job/pilotofficer,
 /turf/open/floor/wood,
 /area/mainship/living/pilotbunks)
 "abe" = (
@@ -744,12 +743,6 @@
 	dir = 1
 	},
 /area/mainship/squads/alpha)
-"arp" = (
-/obj/structure/bed/bunkbed,
-/obj/effect/landmark/start/job/pilotofficer,
-/obj/effect/landmark/start/job/pilotofficer,
-/turf/open/floor/wood,
-/area/mainship/living/pilotbunks)
 "arx" = (
 /obj/structure/bed,
 /obj/structure/bed{
@@ -31105,6 +31098,7 @@
 	},
 /obj/effect/turf_decal/warning_stripes/thin,
 /obj/effect/ai_node,
+/obj/effect/landmark/start/job/mechpilot,
 /turf/open/floor/mainship/floor/metal/full,
 /area/mainship/hallways/hangar)
 "sFk" = (
@@ -66963,7 +66957,7 @@ aRv
 msZ
 cZa
 xot
-arp
+abd
 bcq
 xot
 bcq
