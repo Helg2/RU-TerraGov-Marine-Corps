@@ -54,10 +54,11 @@
 		deltimer(motion_timer)
 		motion_timer = null
 
+
 //вкл-выкл модуль
 /obj/item/armor_module/module/motion_detector/activate(mob/living/user)
 	active = !active
-	to_chat(user, span_notice("You toggle \the [src] [active ? "enabling" : "disabling"] it."))
+	to_chat(user, span_notice("You toggle \the [src]. [active ? "enabling" : "disabling"] it."))
 	if(active)
 		operator = user
 		if(!motion_timer)
@@ -65,24 +66,26 @@
 	else
 		stop_and_clean()
 
+
 /obj/item/armor_module/module/motion_detector/proc/do_scan()
 	if(!operator?.client || operator?.stat != CONSCIOUS)
 		stop_and_clean()
 		return
 	var/hostile_detected = FALSE
-	for(var/mob/living/carbon/human/nearby_human AS in cheap_get_humans_near(operator, range))
+	for (var/mob/living/carbon/human/nearby_human AS in cheap_get_humans_near(operator, range))
 		if(nearby_human == operator)
 			continue
 		if(!hostile_detected && (!operator.wear_id || !nearby_human.wear_id || nearby_human.wear_id.iff_signal != operator.wear_id.iff_signal))
 			hostile_detected = TRUE
 		prepare_blip(nearby_human, nearby_human.wear_id?.iff_signal & operator.wear_id?.iff_signal ? MOTION_DETECTOR_FRIENDLY : MOTION_DETECTOR_HOSTILE)
-	for(var/mob/living/carbon/xenomorph/nearby_xeno AS in cheap_get_xenos_near(operator, range))
+	for (var/mob/living/carbon/xenomorph/nearby_xeno AS in cheap_get_xenos_near(operator, range))
 		if(!hostile_detected)
 			hostile_detected = TRUE
 		prepare_blip(nearby_xeno, MOTION_DETECTOR_HOSTILE)
 	if(hostile_detected)
 		playsound(loc, 'sound/items/tick.ogg', 100, 0, 1)
 	addtimer(CALLBACK(src, PROC_REF(clean_blips)), scan_time / 2)
+
 
 ///Clean all blips from operator screen
 /obj/item/armor_module/module/motion_detector/proc/clean_blips()
@@ -94,7 +97,7 @@
 
 ///Prepare the blip to be print on the operator screen
 /obj/item/armor_module/module/motion_detector/proc/prepare_blip(mob/target, status)
-	if(!operator || !operator.client)
+	if(!operator.client)
 		return
 	if(!target)
 		return
@@ -123,13 +126,38 @@
 		return
 	blips_list += new /obj/effect/blip/close_blip(get_turf(target), status, operator)
 
+/obj/item/armor_module/module/fire_proof/som
+	icon = 'modular_RUtgmc/icons/mob/modular/modular_armor_modules.dmi'
+
+/obj/item/armor_module/module/tyr_extra_armor/som
+	icon = 'modular_RUtgmc/icons/mob/modular/modular_armor_modules.dmi'
+	soft_armor = list(MELEE = 20, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 0, ACID = 0)
+	slowdown = 0.1
+
+/obj/item/armor_module/module/mimir_environment_protection/som
+	icon = 'modular_RUtgmc/icons/mob/modular/modular_armor_modules.dmi'
+	soft_armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 40, FIRE = 0, ACID = 30)
+
+/obj/item/armor_module/module/valkyrie_autodoc/som
+	icon = 'modular_RUtgmc/icons/mob/modular/modular_armor_modules.dmi'
+
+/obj/item/armor_module/module/welding/som
+	icon = 'modular_RUtgmc/icons/mob/modular/modular_armor_modules.dmi'
+
+/obj/item/armor_module/storage/engineering/som
+	icon = 'modular_RUtgmc/icons/mob/modular/modular_armor_modules.dmi'
+
+/obj/item/armor_module/storage/general/som
+	icon = 'modular_RUtgmc/icons/mob/modular/modular_armor_modules.dmi'
+
+/obj/item/armor_module/storage/medical/som
+	icon = 'modular_RUtgmc/icons/mob/modular/modular_armor_modules.dmi'
+
 /obj/item/armor_module/module/fire_proof
 	soft_armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 100, ACID = 0)
 	hard_armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 100, ACID = 0)
 
 /obj/item/armor_module/module/fire_proof_helmet
-	icon = 'modular_RUtgmc/icons/mob/modular/modular_armor_modules.dmi'
-	variants_by_parent_type = list(/obj/item/clothing/head/modular/m10x = "mod_fire_head_xn")
 	soft_armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 100, ACID = 0)
 	hard_armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 100, ACID = 0)
 
@@ -144,8 +172,6 @@
 */
 /obj/item/armor_module/module/mimir_environment_protection/mimir_helmet //gas protection
 	desc = "Designed for mounting on a modular helmet. Provides great resistance to xeno gas clouds"
-	icon = 'modular_RUtgmc/icons/mob/modular/modular_armor_modules.dmi'
-	variants_by_parent_type = list(/obj/item/clothing/head/modular/m10x = "mimir_head_xn")
 	soft_armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 15, FIRE = 0, ACID = 0)
 	slowdown = 0
 
@@ -158,25 +184,63 @@
  * Extra armor module
 */
 /obj/item/armor_module/module/tyr_extra_armor
-	soft_armor = list(MELEE = 15, BULLET = 15, LASER = 15, ENERGY = 15, BOMB = 5, BIO = 10, FIRE = 15, ACID = 10)
-	slowdown = 0
+	name = "\improper Mark 2 Tyr Melee Reinforcement"
+	desc = "Designed for mounting on modular armor. A substantial amount of additional armor plating designed to grant the user advanced protection against xeno slashes and slightly better mobility."
+	soft_armor = list(MELEE = 20, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 0, ACID = 0)
+	slowdown = 0.1
+
+/obj/item/armor_module/module/tyr_extra_armor/mark1
+	name = "\improper Mark 1 Tyr Melee Reinforcement"
+	desc = "Designed for mounting on modular armor. A substantial amount of additional armor plating designed to grant the user extra protection against xeno slashes."
+	soft_armor = list(MELEE = 15, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 0, ACID = 0)
+	slowdown = 0.2
 
 /obj/item/armor_module/module/tyr_head
-	icon = 'modular_RUtgmc/icons/mob/modular/modular_armor_modules.dmi'
-	variants_by_parent_type = list(/obj/item/clothing/head/modular/m10x = "tyr_head_xn")
+	soft_armor = list(MELEE = 15, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 0, ACID = 0)
+
+/obj/item/armor_module/module/sigyn_acid_armor
+	name = "\improper Mark 2 Sigyn Acid Protection"
+	desc = "Designed for mounting on modular armor. A substantial amount of additional armor plating designed to grant the user advanced protection against acid spits and slightly better mobility."
+	icon = 'icons/mob/modular/modular_armor_modules.dmi'
+	icon_state = "mod_biohazard"
+	item_state = "mod_biohazard_a"
+	soft_armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 0, ACID = 20)
+	slowdown = 0.1
+	slot = ATTACHMENT_SLOT_MODULE
+	variants_by_parent_type = list(/obj/item/clothing/suit/modular/xenonauten = "mod_biohazard_xn")
+
+/obj/item/armor_module/module/sigyn_acid_armor/mark1
+	name = "\improper Mark 1 Sigyn Acid Protection"
+	desc = "Designed for mounting on modular armor. A substantial amount of additional armor plating designed to grant the user extra protection against acid spits."
+	soft_armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 0, ACID = 15)
+	slowdown = 0.2
+
+/obj/item/armor_module/module/sigyn_head
+	name = "Sigyn Helmet System"
+	desc = "Designed for mounting on a modular helmet. When attached, this system provides substantial resistance to acid spits."
+	icon = 'icons/mob/modular/modular_armor_modules.dmi'
+	icon_state = "mimir_head"
+	item_state = "mimir_head_a"
+	soft_armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 0, ACID = 15)
+	slot = ATTACHMENT_SLOT_HEAD_MODULE
+	variants_by_parent_type = list(/obj/item/clothing/head/modular/m10x = "mimir_head_xn")
+
+/obj/item/armor_module/module/vidar
+	name = "\improper Vidar Armor Reinforcement"
+	desc = "Designed for mounting on modular armor. A substantial amount of additional armor plating designed to grant the user extra protection against threats, ranging from xeno slashes to friendly fire incidents."
+	icon = 'icons/mob/modular/modular_armor_modules.dmi'
+	icon_state = "mod_armor"
+	item_state = "mod_armor_a"
+	soft_armor = list(MELEE = 15, BULLET = 15, LASER = 15, ENERGY = 15, BOMB = 5, BIO = 10, FIRE = 15, ACID = 10)
+	slowdown = 0.1
+	slot = ATTACHMENT_SLOT_MODULE
 
 /obj/item/armor_module/module/eshield
 	soft_armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 0, ACID = 0)
 	damaged_shield_cooldown = 15 SECONDS
 
-/obj/item/armor_module/module/artemis
-	icon = 'modular_RUtgmc/icons/mob/modular/modular_armor_modules.dmi'
-	variants_by_parent_type = list(/obj/item/clothing/head/modular/m10x = "artemis_head_xn")
-
 /obj/item/armor_module/module/binoculars/artemis_mark_two
 	var/eye_protection_mod = 1
-	icon = 'modular_RUtgmc/icons/mob/modular/modular_armor_modules.dmi'
-	variants_by_parent_type = list(/obj/item/clothing/head/modular/m10x = "artemis_head_mk2_xn")
 
 /obj/item/armor_module/module/binoculars/artemis_mark_two/on_attach(obj/item/attaching_to, mob/user)
 	. = ..()
@@ -188,36 +252,3 @@
 	var/datum/component/blur_protection/blur_p = parent?.GetComponent(/datum/component/blur_protection)
 	blur_p?.RemoveComponent()
 	return ..()
-
-/obj/item/armor_module/module/fire_proof/som
-	icon = 'modular_RUtgmc/icons/mob/modular/som_armor_modules.dmi'
-
-/obj/item/armor_module/module/tyr_extra_armor/som
-	icon = 'modular_RUtgmc/icons/mob/modular/som_armor_modules.dmi'
-
-/obj/item/armor_module/module/mimir_environment_protection/som
-	icon = 'modular_RUtgmc/icons/mob/modular/som_armor_modules.dmi'
-
-/obj/item/armor_module/module/valkyrie_autodoc/som
-	icon = 'modular_RUtgmc/icons/mob/modular/som_armor_modules.dmi'
-
-/obj/item/armor_module/module/welding/som
-	icon = 'modular_RUtgmc/icons/mob/modular/som_armor_modules.dmi'
-
-/obj/item/armor_module/storage/engineering/som
-	icon = 'modular_RUtgmc/icons/mob/modular/som_armor_modules.dmi'
-
-/obj/item/armor_module/storage/general/som
-	icon = 'modular_RUtgmc/icons/mob/modular/som_armor_modules.dmi'
-
-/obj/item/armor_module/storage/medical/som
-	icon = 'modular_RUtgmc/icons/mob/modular/som_armor_modules.dmi'
-  
-/obj/item/armor_module/module/antenna/activate(mob/living/user)
-	. = ..()
-	addtimer(CALLBACK(src, PROC_REF(update_beacon_location)), 5 SECONDS)
-
-/obj/item/armor_module/module/antenna/proc/update_beacon_location()
-	if(beacon_datum)
-		beacon_datum.drop_location = get_turf(src)
-		addtimer(CALLBACK(src, PROC_REF(update_beacon_location), beacon_datum), 5 SECONDS)

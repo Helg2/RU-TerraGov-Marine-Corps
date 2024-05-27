@@ -21,6 +21,7 @@
 		/obj/item/armor_module/module/artemis,
 		/obj/item/armor_module/module/antenna,
 		/obj/item/armor_module/module/night_vision,
+		/obj/item/armor_module/module/motion_detector,
 		/obj/item/armor_module/storage/helmet,
 		/obj/item/armor_module/armor/badge,
 		/obj/item/armor_module/armor/visor/marine/old,
@@ -31,9 +32,6 @@
 		/obj/item/armor_module/armor/visor/marine/old/eod,
 		/obj/item/armor_module/armor/visor/marine/old/assault,
 		/obj/item/armor_module/module/fire_proof_helmet,
-		//RUTGMC EDIT ADDITION  BEGIN - MOTION_DETECTOR
-		/obj/item/armor_module/module/motion_detector,
-		//RUTGMC EDIT ADDITION  END
 	)
 
 	greyscale_config = /datum/greyscale_config/armor_mk1/infantry

@@ -155,9 +155,6 @@
 		/obj/item/armor_module/armor/visor/marine/foureyevisor,
 		/obj/item/armor_module/armor/visor/marine/markonevisor,
 		/obj/item/armor_module/armor/secondary_color/helm,
-		//RUTGMC EDIT ADDITION  BEGIN - MOTION_DETECTOR
-		/obj/item/armor_module/module/motion_detector,
-		//RUTGMC EDIT ADDITION  END
 	)
 
 	starting_attachments = list(/obj/item/armor_module/armor/visor/marine, /obj/item/armor_module/storage/helmet)

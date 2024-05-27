@@ -212,11 +212,20 @@ ARMOR
 	cost = 50
 
 /datum/supply_packs/armor/modular/attachments/tyr_extra_armor
-	name = "Tyr armor module"
+	name = "Tyr Mark 2 Melee Reinforcement module"
+	cost = 120
+
+/datum/supply_packs/armor/modular/attachments/sigyn_extra_armor
+	name = "Sigyn Mark 2 Acid Protection module"
+	contains = list(/obj/item/armor_module/module/sigyn_acid_armor)
+
+/datum/supply_packs/armor/modular/attachments/vidar
+	name = "Vidar Armor Reiforcement module"
+	contains = list(/obj/item/armor_module/module/vidar)
 	cost = 200
 
 /datum/supply_packs/armor/modular/attachments/valkyrie_autodoc
-	cost = 150
+	cost = 120
 
 /datum/supply_packs/armor/robot/advanced/physical
 	name = "Cingulata physical protection armor set"
@@ -253,6 +262,18 @@ ARMOR
 	)
 	cost = 600
 	available_against_xeno_only = TRUE
+
+/datum/supply_packs/armor/modular/attachments/mixed
+	contains = list(
+		/obj/item/armor_module/module/valkyrie_autodoc,
+		/obj/item/armor_module/module/fire_proof,
+		/obj/item/armor_module/module/fire_proof_helmet,
+		/obj/item/armor_module/module/tyr_extra_armor,
+		/obj/item/armor_module/module/sigyn_acid_armor,
+		/obj/item/armor_module/module/hlin_explosive_armor,
+		/obj/item/armor_module/module/binoculars/artemis_mark_two,
+	)
+	cost = 500
 
 /*******************************************************************************
 CLOTHING
