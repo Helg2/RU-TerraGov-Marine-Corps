@@ -22,6 +22,20 @@
 		/obj/item/armor_module/module/tyr_extra_armor,
 	)
 
+/obj/effect/vendor_bundle/sigyn
+	desc = "A set of specialized gear for improved acid resistance."
+	gear_to_spawn = list(
+		/obj/item/armor_module/module/sigyn_head,
+		/obj/item/armor_module/module/sigyn_acid_armor/mark1,
+	)
+
+/obj/effect/vendor_bundle/sigyn/two
+	desc = "A set of advanced gear for improved acid resistance."
+	gear_to_spawn = list(
+		/obj/item/armor_module/module/sigyn_head,
+		/obj/item/armor_module/module/sigyn_acid_armor,
+	)
+
 /obj/effect/vendor_bundle/veteran_uniform
 	name = "Full set of TGMC veteran uniform"
 	desc = "TerraGov Marine Corps Veteran Uniform Set. Modified mostly by hand, but still quite stylish."
