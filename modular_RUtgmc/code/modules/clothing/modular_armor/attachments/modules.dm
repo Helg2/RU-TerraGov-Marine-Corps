@@ -169,9 +169,9 @@
 /obj/item/armor_module/module/sigyn_acid_armor
 	name = "\improper Mark 2 Sigyn Acid Protection"
 	desc = "Designed for mounting on modular armor. A substantial amount of additional armor plating designed to grant the user advanced protection against acid spits and slightly better mobility."
-	icon = 'icons/mob/modular/modular_armor_modules.dmi'
-	icon_state = "mod_biohazard"
-	item_state = "mod_biohazard_a"
+	icon = 'modular_RUtgmc/icons/mob/modular/modular_armor_modules.dmi'
+	icon_state = "mod_sigyn"
+	item_state = "mod_sigyn_a"
 	soft_armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 0, ACID = 20)
 	slowdown = 0.1
 	slot = ATTACHMENT_SLOT_MODULE
@@ -186,8 +186,8 @@
 	name = "Sigyn Helmet System"
 	desc = "Designed for mounting on a modular helmet. When attached, this system provides substantial resistance to acid spits."
 	icon = 'modular_RUtgmc/icons/mob/modular/modular_armor_modules.dmi'
-	icon_state = "mimir_head"
-	item_state = "mimir_head_xn_a"
+	icon_state = "sigyn_head"
+	item_state = "sigyn_head_a"
 	soft_armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 0, ACID = 15)
 	slot = ATTACHMENT_SLOT_HEAD_MODULE
 
