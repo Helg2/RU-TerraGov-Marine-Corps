@@ -1311,7 +1311,6 @@
 			/obj/item/armor_module/module/tyr_head = -1,
 			/obj/item/armor_module/module/sigyn_acid_armor = -1,
 			/obj/item/armor_module/module/sigyn_head = -1,
-			/obj/item/armor_module/module/vidar = -1,
 			/obj/item/attachable/shoulder_mount = -1,
 			/obj/item/armor_module/module/mimir_environment_protection = -1,
 			/obj/item/armor_module/module/mimir_environment_protection/mimir_helmet = -1,

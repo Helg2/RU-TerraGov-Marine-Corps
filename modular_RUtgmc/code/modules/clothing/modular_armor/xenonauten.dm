@@ -18,7 +18,6 @@
 		/obj/item/armor_module/module/eshield,
 		/obj/item/armor_module/module/sigyn_acid_armor,
 		/obj/item/armor_module/module/sigyn_acid_armor/mark1,
-		/obj/item/armor_module/module/vidar,
 
 		/obj/item/armor_module/storage/general,
 		/obj/item/armor_module/storage/ammo_mag,
@@ -118,7 +117,6 @@
 		/obj/item/armor_module/module/tyr_extra_armor/mark1,
 		/obj/item/armor_module/module/sigyn_acid_armor,
 		/obj/item/armor_module/module/sigyn_acid_armor/mark1,
-		/obj/item/armor_module/module/vidar,
 		/obj/item/armor_module/module/mimir_environment_protection,
 		/obj/item/armor_module/module/mimir_environment_protection/mark1,
 		/obj/item/armor_module/module/hlin_explosive_armor,

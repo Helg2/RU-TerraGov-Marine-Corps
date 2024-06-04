@@ -225,16 +225,6 @@
 	slot = ATTACHMENT_SLOT_HEAD_MODULE
 	variants_by_parent_type = list(/obj/item/clothing/head/modular/m10x = "mimir_head_xn")
 
-/obj/item/armor_module/module/vidar
-	name = "\improper Vidar Armor Reinforcement"
-	desc = "Designed for mounting on modular armor. A substantial amount of additional armor plating designed to grant the user extra protection against threats, ranging from xeno slashes to friendly fire incidents."
-	icon = 'icons/mob/modular/modular_armor_modules.dmi'
-	icon_state = "mod_armor"
-	item_state = "mod_armor_a"
-	soft_armor = list(MELEE = 15, BULLET = 15, LASER = 15, ENERGY = 15, BOMB = 5, BIO = 10, FIRE = 15, ACID = 10)
-	slowdown = 0.1
-	slot = ATTACHMENT_SLOT_MODULE
-
 /obj/item/armor_module/module/eshield
 	soft_armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 0, ACID = 0)
 	damaged_shield_cooldown = 15 SECONDS

@@ -213,16 +213,11 @@ ARMOR
 
 /datum/supply_packs/armor/modular/attachments/tyr_extra_armor
 	name = "Tyr Mark 2 Melee Reinforcement module"
-	cost = 120
 
 /datum/supply_packs/armor/modular/attachments/sigyn_extra_armor
 	name = "Sigyn Mark 2 Acid Protection module"
 	contains = list(/obj/item/armor_module/module/sigyn_acid_armor)
-
-/datum/supply_packs/armor/modular/attachments/vidar
-	name = "Vidar Armor Reiforcement module"
-	contains = list(/obj/item/armor_module/module/vidar)
-	cost = 200
+	cost = 120
 
 /datum/supply_packs/armor/modular/attachments/valkyrie_autodoc
 	cost = 120
