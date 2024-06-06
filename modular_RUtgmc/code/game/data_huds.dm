@@ -260,7 +260,7 @@
 /mob/living/carbon/human/med_hud_set_health()
 	var/image/holder = hud_list[HEALTH_HUD]
 	if(stat == DEAD)
-		holder.icon_state = "hudhealth-100"
+		holder.icon_state = "hudhealth100"
 		return
 
 	var/percentage = round(health * 100 / maxHealth)
@@ -321,8 +321,6 @@
 			holder.icon_state = "hudhealth-95"
 		if(-99 to -95)
 			holder.icon_state = "hudhealth-99"
-		else
-			holder.icon_state = "hudhealth-100"
 
 /mob/living/carbon/human/med_pain_set_perceived_health()
 	if(species?.species_flags & IS_SYNTHETIC)
@@ -330,7 +328,7 @@
 
 	var/image/holder = hud_list[PAIN_HUD]
 	if(stat == DEAD)
-		holder.icon_state = "hudhealth-100"
+		holder.icon_state = "hudhealth100"
 		return TRUE
 
 	var/perceived_health = round(health * 100 / maxHealth)
