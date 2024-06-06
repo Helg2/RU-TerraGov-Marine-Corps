@@ -263,7 +263,7 @@
 		holder.icon_state = "hudhealth98"
 		return
 
-	var/percentage = round(health * 100 / maxHealth, 7) // 7 because there are 14 pixel lines in the health hud
+	var/percentage = round(health * 100 / maxHealth, 7) // rounding to 7 because there are 14 pixel lines in the health hud
 	holder.icon_state = "hudhealth[percentage]"
 
 /mob/living/carbon/human/med_pain_set_perceived_health()
@@ -281,4 +281,4 @@
 	if(!(species.species_flags & NO_STAMINA) && staminaloss > 0)
 		perceived_health -= STAMINA_RATIO_PAIN_HUD * staminaloss
 
-	holder.icon_state = "hudhealth[clamp(round(perceived_health, 7), -98, 98)]" // 7 because there are 14 pixel lines in the health hud
+	holder.icon_state = "hudhealth[clamp(round(perceived_health, 7), -98, 98)]" // rounding to 7 because there are 14 pixel lines in the health hud
