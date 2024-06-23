@@ -182,10 +182,6 @@
 	if(M.status_flags & INCORPOREAL || user.status_flags & INCORPOREAL)
 		return FALSE
 
-	if(issynth(user) && isxeno(M)) // RUTGMC ADDITION START
-		to_chat(user, span_warning("Your program prohibits you from doing this!"))
-		return FALSE // RUTGMC ADDITION END
-
 	if(M.can_be_operated_on() && do_surgery(M, user, src)) //Checks if mob is lying down on table for surgery
 		return TRUE
 
