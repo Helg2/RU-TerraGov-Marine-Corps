@@ -56,8 +56,7 @@
 	RegisterSignal(owner, COMSIG_MOVABLE_MOVED, PROC_REF(handle_stealth))
 	RegisterSignal(owner, COMSIG_XENOMORPH_POUNCE_END, PROC_REF(sneak_attack_pounce))
 	RegisterSignal(owner, COMSIG_XENO_LIVING_THROW_HIT, PROC_REF(mob_hit))
-	RegisterSignal(owner, COMSIG_XENOMORPH_ATTACK_LIVING, PROC_REF(sneak_attack_slash))
-	RegisterSignal(owner, COMSIG_XENOMORPH_DISARM_HUMAN, PROC_REF(sneak_attack_slash))
+	RegisterSignals(owner, list(COMSIG_XENOMORPH_ATTACK_LIVING, COMSIG_XENOMORPH_DISARM_HUMAN), PROC_REF(sneak_attack_slash))
 	RegisterSignal(owner, COMSIG_XENOMORPH_ZONE_SELECT, PROC_REF(sneak_attack_zone))
 	RegisterSignal(owner, COMSIG_XENOMORPH_PLASMA_REGEN, PROC_REF(plasma_regen))
 
@@ -189,7 +188,7 @@
 	target.adjust_stagger(2 SECONDS)
 	target.add_slowdown(1)
 	target.ParalyzeNoChain(1 SECONDS)
-	target.apply_damage(damage, BRUTE, xeno.zone_selected, MELEE) // additional damage
+	target.apply_damage(damage, BRUTE, xeno.zone_selected, penetration = 100) // additional damage
 
 	cancel_stealth()
 
@@ -274,11 +273,12 @@
 		return
 
 	var/mob/living/carbon/xenomorph/xeno = owner
+	damage = xeno.xeno_caste.melee_damage * xeno.xeno_melee_damage_modifier
 
 	owner.visible_message(span_danger("\The [owner] strikes [target] with deadly precision!"), \
 	span_danger("We strike [target] with deadly precision!"))
 	target.ParalyzeNoChain(1 SECONDS)
-	target.apply_damage(20, BRUTE, xeno.zone_selected) // additional damage
+	target.apply_damage(damage, BRUTE, xeno.zone_selected, penetration = 100) // additional damage
 
 	cancel_stealth()
 
