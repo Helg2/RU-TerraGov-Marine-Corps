@@ -60,7 +60,7 @@
 	if(!I || HAS_TRAIT(I, TRAIT_NODROP))
 		return
 
-	if(issynth(usr) && I.throwforce >= 15)
+	if(issynth(usr) && I.throwforce > 15)
 		to_chat(usr, span_warning("Your program prohibits you from doing this!"))
 		return
 
