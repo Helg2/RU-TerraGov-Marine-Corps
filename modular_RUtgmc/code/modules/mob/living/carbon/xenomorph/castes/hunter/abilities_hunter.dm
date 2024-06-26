@@ -166,16 +166,16 @@
 	cancel_stealth()
 
 /// Callback for when a mob gets hit as part of a pounce
-/datum/action/ability/xeno_action/stealth/proc/mob_hit(datum/source, mob/living/M)
+/datum/action/ability/xeno_action/stealth/proc/mob_hit(datum/source, mob/living/living_target)
 	SIGNAL_HANDLER
-	if(M.stat || isxeno(M))
+	if(living_target.stat || isxeno(living_target))
 		return
 	if(can_sneak_attack)
-		M.adjust_stagger(3 SECONDS)
-		M.add_slowdown(1)
+		living_target.adjust_stagger(3 SECONDS)
+		living_target.add_slowdown(1)
 
 		var/mob/living/carbon/xenomorph/xeno = owner
-		M.attack_alien_harm(xeno, xeno.xeno_caste.melee_damage * xeno.xeno_melee_damage_modifier)
+		living_target.attack_alien_harm(xeno, xeno.xeno_caste.melee_damage * xeno.xeno_melee_damage_modifier)
 		to_chat(owner, span_xenodanger("Pouncing from the shadows, we strike our victim, staggering them."))
 
 /datum/action/ability/xeno_action/stealth/proc/sneak_attack_slash(datum/source, mob/living/target, damage, list/damage_mod, list/armor_mod)
