@@ -55,7 +55,7 @@
 
 	RegisterSignal(owner, COMSIG_MOVABLE_MOVED, PROC_REF(handle_stealth))
 	RegisterSignal(owner, COMSIG_XENOMORPH_POUNCE_END, PROC_REF(sneak_attack_pounce))
-	RegisterSignal(owner, COMSIG_XENO_LIVING_THROW_HIT, PROC_REF(mob_hit))
+	RegisterSignal(owner, COMSIG_XENOMORPH_LEAP_BUMP, PROC_REF(mob_hit))
 	RegisterSignals(owner, list(COMSIG_XENOMORPH_ATTACK_LIVING, COMSIG_XENOMORPH_DISARM_HUMAN), PROC_REF(sneak_attack_slash))
 	RegisterSignal(owner, COMSIG_XENOMORPH_ZONE_SELECT, PROC_REF(sneak_attack_zone))
 	RegisterSignal(owner, COMSIG_XENOMORPH_PLASMA_REGEN, PROC_REF(plasma_regen))
@@ -175,7 +175,7 @@
 		M.add_slowdown(1)
 
 		var/mob/living/carbon/xenomorph/xeno = owner
-		M.apply_damage(xeno.xeno_caste.melee_damage * xeno.xeno_melee_damage_modifier, BRUTE, xeno.zone_selected, MELEE)
+		M.attack_alien_harm(xeno, xeno.xeno_caste.melee_damage * xeno.xeno_melee_damage_modifier)
 		to_chat(owner, span_xenodanger("Pouncing from the shadows, we strike our victim, staggering them."))
 
 /datum/action/ability/xeno_action/stealth/proc/sneak_attack_slash(datum/source, mob/living/target, damage, list/damage_mod, list/armor_mod)
