@@ -48,6 +48,7 @@
 		return INITIALIZE_HINT_QDEL
 	src.original_mob = original_mob
 	appearance = original_mob.appearance
+	setDir(original_mob.dir) // RUTGMC ADDITION
 	desc = original_mob.desc
 	name = original_mob.name
 	RegisterSignals(original_mob, list(COMSIG_QDELETING, COMSIG_MOB_DEATH), PROC_REF(destroy_illusion))
