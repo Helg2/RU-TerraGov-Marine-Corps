@@ -51,11 +51,13 @@
 	desc = original_mob.desc
 	name = original_mob.name
 	RegisterSignals(original_mob, list(COMSIG_QDELETING, COMSIG_MOB_DEATH), PROC_REF(destroy_illusion))
+	GLOB.mob_illusions_list += src // RUTGMC ADDITION
 	QDEL_IN(src, life_time)
 
 ///Delete this illusion when the original xeno is ded
 /mob/illusion/proc/destroy_illusion()
 	SIGNAL_HANDLER
+	GLOB.mob_illusions_list -= src  // RUTGMC ADDITION
 	qdel(src)
 
 /// Remove the filter effect added when it was hit
