@@ -6,5 +6,5 @@
 	. = ..()
 	if(.)
 		return INITIALIZE_HINT_QDEL
-	add_movespeed_modifier(MOVESPEED_ID_XENO_CASTE_SPEED, TRUE, 0, NONE, FALSE, original_mob.xeno_caste.speed * rand(0.9, 1, 1.1, 1.2, 1.3))
+	add_movespeed_modifier(MOVESPEED_ID_XENO_CASTE_SPEED, TRUE, 0, NONE, FALSE, original_mob.xeno_caste.speed * pick(0.9, 1, 1.1, 1.2, 1.3))
 	AddComponent(/datum/component/ai_controller, /datum/ai_behavior/xeno/illusion, escorted_atom)
