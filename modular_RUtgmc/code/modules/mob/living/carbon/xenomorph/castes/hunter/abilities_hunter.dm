@@ -175,7 +175,7 @@
 		M.add_slowdown(1)
 
 		var/mob/living/carbon/xenomorph/xeno = owner
-		M.apply_damage(xeno.xeno_caste.melee_damage * xeno.xeno_melee_damage_modifier, BRUTE, xeno.zone_selected, penetration = 75)
+		M.apply_damage(xeno.xeno_caste.melee_damage * xeno.xeno_melee_damage_modifier, BRUTE, xeno.zone_selected, MELEE)
 		to_chat(owner, span_xenodanger("Pouncing from the shadows, we strike our victim, staggering them."))
 
 /datum/action/ability/xeno_action/stealth/proc/sneak_attack_slash(datum/source, mob/living/target, damage, list/damage_mod, list/armor_mod)
@@ -191,7 +191,7 @@
 	target.adjust_stagger(2 SECONDS)
 	target.add_slowdown(1)
 	target.ParalyzeNoChain(1 SECONDS)
-	target.apply_damage(damage, BRUTE, xeno.zone_selected, penetration = 50) // additional damage
+	target.apply_damage(damage, BRUTE, xeno.zone_selected, MELEE) // additional damage
 
 	cancel_stealth()
 
@@ -281,7 +281,7 @@
 	owner.visible_message(span_danger("\The [owner] strikes [target] with deadly precision!"), \
 	span_danger("We strike [target] with deadly precision!"))
 	target.ParalyzeNoChain(1 SECONDS)
-	target.apply_damage(damage, BRUTE, xeno.zone_selected, penetration = 100) // additional damage
+	target.apply_damage(damage, BRUTE, xeno.zone_selected, MELEE) // additional damage
 
 	cancel_stealth()
 
