@@ -137,16 +137,16 @@
 		if(nearby_human.last_move_time + move_sensitivity < world.time)
 			continue
 		RU TGMC EDIT */
-//RU TGMC EDIT
-		if(HAS_TRAIT(nearby_human, TRAIT_LIGHT_STEP))
-			continue
-//RUTGMC EDIT ADDITION END
+		if(HAS_TRAIT(nearby_human, TRAIT_LIGHT_STEP)) // RUTGMC ADDITION START
+			continue // RUTGMC ADDITION END
 		prepare_blip(nearby_human, nearby_human.wear_id?.iff_signal & operator.wear_id.iff_signal ? MOTION_DETECTOR_FRIENDLY : MOTION_DETECTOR_HOSTILE)
 	for (var/mob/living/carbon/xenomorph/nearby_xeno AS in cheap_get_xenos_near(operator, range))
 		/* RU TGMC EDIT
 		if(nearby_xeno.last_move_time + move_sensitivity < world.time )
 			continue
 		RU TGMC EDIT */
+		if(HAS_TRAIT(nearby_xeno, TRAIT_TURRET_HIDDEN)) // RUTGMC ADDITION START
+			continue // RUTGMC ADDITION END
 		prepare_blip(nearby_xeno, MOTION_DETECTOR_HOSTILE)
 	if(hostile_detected)
 		playsound(loc, 'sound/items/tick.ogg', 100, 0, 7, 2)
