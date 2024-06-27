@@ -192,7 +192,7 @@
 	target.adjust_stagger(2 SECONDS)
 	target.add_slowdown(1)
 	target.ParalyzeNoChain(1 SECONDS)
-	target.apply_damage(damage, BRUTE, xeno.zone_selected, MELEE) // additional damage
+	target.apply_damage(damage, BRUTE, xeno.zone_selected, MELEE, penetration = 15) // additional damage
 
 	cancel_stealth()
 
@@ -282,7 +282,7 @@
 	owner.visible_message(span_danger("\The [owner] strikes [target] with deadly precision!"), \
 	span_danger("We strike [target] with deadly precision!"))
 	target.ParalyzeNoChain(1 SECONDS)
-	target.apply_damage(damage, BRUTE, xeno.zone_selected, MELEE) // additional damage
+	target.apply_damage(damage, BRUTE, xeno.zone_selected, MELEE, penetration = 25) // additional damage
 
 	cancel_stealth()
 
