@@ -83,6 +83,8 @@
 		if(!hostile_detected)
 			hostile_detected = TRUE
 		prepare_blip(nearby_xeno, MOTION_DETECTOR_HOSTILE)
+	for(var/mob/illusion/nearby_illusion AS in cheap_get_illusions_near(operator, range))
+		prepare_blip(nearby_illusion, MOTION_DETECTOR_HOSTILE)
 	if(hostile_detected)
 		playsound(loc, 'sound/items/tick.ogg', 100, 0, 1)
 	addtimer(CALLBACK(src, PROC_REF(clean_blips)), scan_time / 2)

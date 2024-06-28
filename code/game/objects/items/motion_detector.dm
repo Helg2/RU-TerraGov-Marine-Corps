@@ -148,6 +148,8 @@
 		if(HAS_TRAIT(nearby_xeno, TRAIT_TURRET_HIDDEN)) // RUTGMC ADDITION START
 			continue // RUTGMC ADDITION END
 		prepare_blip(nearby_xeno, MOTION_DETECTOR_HOSTILE)
+	for(var/mob/illusion/nearby_illusion AS in cheap_get_illusions_near(operator, range)) // RUTGMC ADDITION START
+		prepare_blip(nearby_illusion, MOTION_DETECTOR_HOSTILE)  // RUTGMC ADDITION END
 	if(hostile_detected)
 		playsound(loc, 'sound/items/tick.ogg', 100, 0, 7, 2)
 	addtimer(CALLBACK(src, PROC_REF(clean_blips)), 1 SECONDS)
