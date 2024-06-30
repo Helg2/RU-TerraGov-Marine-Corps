@@ -162,4 +162,3 @@
 	icon = 'modular_RUtgmc/icons/obj/items/weapons.dmi'
 	icon_state = "tomahawk_classic"
 	item_state = "tomahawk_classic"
-  
