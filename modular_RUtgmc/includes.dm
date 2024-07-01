@@ -172,6 +172,7 @@
 #include "code\game\turfs\floor.dm"
 #include "code\game\turfs\liquid_turfs.dm"
 #include "code\game\turfs\snow.dm"
+#include "code\game\turfs\transit.dm"
 #include "code\game\turfs\turf.dm"
 #include "code\game\turfs\walls\resin.dm"
 #include "code\game\turfs\walls\wall_types.dm"
