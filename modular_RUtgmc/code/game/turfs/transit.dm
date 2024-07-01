@@ -9,7 +9,7 @@
 
 	if(!isspaceturf(old_loc))
 		var/turf/projected = get_ranged_target_turf(crosser.loc, dir, 10)
-		crosser.throw_at(projected, 50, 3, null, TRUE, targetted_throw = TRUE)
+		INVOKE_ASYNC(crosser, TYPE_PROC_REF(/atom/movable, throw_at), projected, 50, 3, null, TRUE, targetted_throw = TRUE)
 		addtimer(CALLBACK(src, PROC_REF(handle_crosser), crosser), 0.5 SECONDS)
 
 /turf/open/space/transit/proc/handle_crosser(atom/movable/crosser)
@@ -91,3 +91,10 @@
 	take_overall_damage(300, BRUTE, BOMB, updating_health = TRUE)
 	take_overall_damage(300, BRUTE, MELEE, updating_health = TRUE)
 	visible_message(span_warning("[src] falls out of the sky."), span_highdanger("As you fall out of the sky, you plummet towards the ground."))
+
+
+/mob/living/carbon/human/handle_airdrop(turf/target_turf)
+	..()
+	if(istype(wear_suit, /obj/item/clothing/suit/storage/marine/boomvest))
+		var/obj/item/clothing/suit/storage/marine/boomvest/vest = wear_suit
+		vest.boom(usr)
