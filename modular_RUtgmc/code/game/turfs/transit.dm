@@ -9,7 +9,7 @@
 
 	if(!isspaceturf(old_loc))
 		var/turf/projected = get_ranged_target_turf(crosser.loc, dir, 10)
-		INVOKE_ASYNC(crosser, TYPE_PROC_REF(/atom/movable, throw_at), projected, 50, 3, null, TRUE, targetted_throw = TRUE)
+		INVOKE_ASYNC(crosser, TYPE_PROC_REF(/atom/movable, throw_at), projected, 50, 2, null, TRUE, targetted_throw = TRUE)
 		addtimer(CALLBACK(src, PROC_REF(handle_crosser), crosser), 0.5 SECONDS)
 
 /turf/open/space/transit/proc/handle_crosser(atom/movable/crosser)
