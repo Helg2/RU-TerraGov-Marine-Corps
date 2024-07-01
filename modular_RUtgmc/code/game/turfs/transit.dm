@@ -48,8 +48,9 @@
 /atom/movable/proc/handle_airdrop(turf/target_turf)
 	pixel_z = 360
 	forceMove(target_turf)
-	animate(src, time = 6, pixel_z = 0, flags = ANIMATION_PARALLEL)
+	animate(src, 0.6 SECONDS, pixel_z = 0, flags = ANIMATION_PARALLEL)
 	target_turf.ceiling_debris(2 SECONDS)
+	sleep(0.6 SECONDS) // so we do the actions below only after the animation ends
 
 /obj/handle_airdrop(turf/target)
 	..()
