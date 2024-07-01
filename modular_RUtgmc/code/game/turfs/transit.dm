@@ -82,7 +82,7 @@
 	..()
 	remove_status_effect(/datum/status_effect/spacefreeze)
 	Paralyze(30 SECONDS)
-	playsound(target_turf, "punch", 100, TRUE)
+	playsound(target_turf, 'sound/effects/bang.ogg', 100, TRUE)
 	playsound(target_turf, "bone_break", 100, TRUE)
 
 	Knockdown(10 SECONDS)
@@ -92,9 +92,13 @@
 	take_overall_damage(300, BRUTE, MELEE, updating_health = TRUE)
 	visible_message(span_warning("[src] falls out of the sky."), span_highdanger("As you fall out of the sky, you plummet towards the ground."))
 
-
 /mob/living/carbon/human/handle_airdrop(turf/target_turf)
 	..()
+	spawn_gibs()
 	if(istype(wear_suit, /obj/item/clothing/suit/storage/marine/boomvest))
 		var/obj/item/clothing/suit/storage/marine/boomvest/vest = wear_suit
 		vest.boom(usr)
+
+/mob/living/carbon/xenomorph/handle_airdrop(turf/target_turf)
+	..()
+	spawn_gibs()
